@@ -106,7 +106,7 @@ include('controlador.php');
         </div>
 
         <div style="margin-top: 15px;">
-            <iframe name="visor_consola" id="visor_consola" style="width: 100%; height: 400px; border-radius: 4px; background-color: #1e1e1e; border: 1px solid #999;"></iframe>
+            <iframe name="visor_consola" id="visor_consola" onload="finalizarProcesamiento()" style="width: 100%; height: 400px; border-radius: 4px; background-color: #1e1e1e; border: 1px solid #999;"></iframe>
         </div>
         <div style="text-align: right; margin-top: 5px;">
             <button type="button" class="rxn-btn rxn-btn-secondary" onclick="window.location.reload();">Actualizar listado de archivos post-proceso</button>
@@ -133,6 +133,8 @@ include('controlador.php');
   </script>
 
   <script>
+    let procesoIniciado = false;
+
     function mostrarProcesando() {
       const btn = document.getElementById("btn-procesar");
       const estado = document.getElementById("estadoProceso");
@@ -141,9 +143,45 @@ include('controlador.php');
       btn.style.pointerEvents = "none";
       btn.style.opacity = "0.6";
       
+      estado.innerHTML = "<strong>Procesando comprobantes...</strong><br>No cerrar ni recargar esta pantalla.";
+      estado.style.borderLeftColor = "#ffc107"; // Amarillo
       estado.style.display = "block";
       
+      procesoIniciado = true;
       return true;
+    }
+
+    function finalizarProcesamiento() {
+      if (!procesoIniciado) return; // Ignorar carga inicial vacía del iframe
+      
+      const btn = document.getElementById("btn-procesar");
+      const estado = document.getElementById("estadoProceso");
+      const iframe = document.getElementById("visor_consola");
+      
+      // Restaurar Botón
+      btn.value = "Procesar";
+      btn.style.pointerEvents = "auto";
+      btn.style.opacity = "1";
+      
+      // Control de estado de éxito o error leyendo el contenido del iframe
+      try {
+        const iframeContent = iframe.contentWindow.document.body.innerText || "";
+        const contenidoMin = iframeContent.toLowerCase();
+        
+        if (contenidoMin.includes("error") || contenidoMin.includes("fatal") || contenidoMin.includes("exception")) {
+            estado.innerHTML = "<strong>Proceso finalizado con advertencias/errores</strong><br>Revise los resultados y mensajes en la consola inferior.";
+            estado.style.borderLeftColor = "#dc3545"; // Rojo
+        } else {
+            estado.innerHTML = "<strong>Comprobantes procesados correctamente</strong><br>El proceso finalizó con éxito. Puede revisar la consola.";
+            estado.style.borderLeftColor = "#4caf50"; // Verde
+        }
+      } catch (e) {
+        // Fallback seguro por si bloquea CORS o no hay body (no debería pasar siendo mismo server)
+        estado.innerHTML = "<strong>Comprobantes procesados</strong><br>El proceso remitió respuesta. Revise la consola inferior.";
+        estado.style.borderLeftColor = "#4caf50"; // Verde
+      }
+      
+      procesoIniciado = false;
     }
   </script>
 
