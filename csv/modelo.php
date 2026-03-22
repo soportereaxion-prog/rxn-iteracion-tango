@@ -932,14 +932,14 @@ class modelo extends vista
                         $stringConvertido = '';
                         /* Al existir ingreso mensaje en la tabla no ingreso para procesar siempre el mismo pedido  $stringConvertido */
                         $this->ingresoMensajesApi($pedi_enc['N_COMP'], 'PEDIDOS', 'EL Pedido ya existe', 1, $pedi_enc['COD_CLIENT'], $pedi_enc['NOMBRE_ARCHIVO'], 0, $stringConvertido, '', '');
-                        echo 'El pedido: ' . $pedi_enc['N_COMP'] . ' para el cliente: ' . $pedi_enc['COD_CLIENT'] . ' ya existe.<br>';
+                        echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[PID-{$pedi_enc['N_COMP']}] ⚠ El pedido ya existe para el cliente {$pedi_enc['COD_CLIENT']}.</div>";
                     }
                 }
             }
 
             $this->actualizaPedidos();
         } else {
-            echo "No hay archivos de pedidos para procesar";
+            echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>⚠ No hay archivos de pedidos para procesar.</div>";
             $this->ingresoMensajesApi('SIN', 'PEDIDOS', 'NO-HAY-ARCHIVOS-PARA-PROCESAR', 0, '', '', 0, '', '', '');
         }
         /* Los siguientes valores son para validar el total de facturas */
@@ -1070,7 +1070,7 @@ class modelo extends vista
         /* Correspondiente al cuerpo del pedido */
         $busco = $pedido;
         $contar = 0;
-        echo 'Pedido: ' . $pedido . ' Orden: ' . $orden_x . ' Nombre archivo: ' . $nombre_archivo . '<br>';
+        //echo 'Pedido: ' . $pedido . ' Orden: ' . $orden_x . ' Nombre archivo: ' . $nombre_archivo . '<br>';
         //print_r($this->resultados_array_gen);
         $this->tot_para_ped = 0;
         $articulos = [];
@@ -1138,7 +1138,7 @@ class modelo extends vista
                         $art_negativo = 1;
                     }
 
-                    echo '¿Entro al artículo?<br>';
+                    //echo '¿Entro al artículo?<br>';
 
                     /* Estructura de array solicitada para nueva API */
                     $id_sta11_recuperado = $this->devuelvoIdArticulo($articu_formato);
@@ -1501,10 +1501,10 @@ class modelo extends vista
 
                     if ($this->mensaje_api['succeeded'] == '') {
                         $grabo = 0;
-                        echo 'Existe un error: ' . $stringConvertido . '<br>';
+                        echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>✘ Existe un error: " . htmlspecialchars($stringConvertido) . "</div>";
                     } else {
                         $grabo = 1;
-                        echo 'Se grabó correctamente el cliente: ' . $cliente['RAZON_SOCI'] . ' en el archivo: ' . $cliente['NOMBRE_ARCHIVO'] . '<br>';
+                        echo "<div style='color: #4caf50; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>✔ Se grabó correctamente el cliente: " . htmlspecialchars($cliente['RAZON_SOCI']) . " en el archivo: " . htmlspecialchars($cliente['NOMBRE_ARCHIVO']) . "</div>";
                     }
 
                     $mensaje_api = 'ID_INTERNO: ' . $id . ' Mensaje: ' . $stringConvertido . ' ¿Grabó?: ' . $this->mensaje_api['succeeded'];
@@ -1512,7 +1512,7 @@ class modelo extends vista
                 } else {
                     //$stringConvertido = $this->convertirATexto($this->mensaje_api);
                     $this->busco_cliente($cliente['COD_CLIENT']);
-                    echo 'Se procesó el cliente con el DNI | CUIL : ' . $cuit_dni . ' Correo: ' . $cliente['E_MAIL'] . ' Tipo DOC:' . $cliente['TIP_DOC'] . ' Cliente Tango: ' . $cliente['COD_CLIENT'] . ' ya existe<br>';
+                    echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>⚠ El cliente con DNI/CUIL: {$cuit_dni} (Tango: {$cliente['COD_CLIENT']}) ya existe.</div>";
                     $this->ingresoMensajesApi($cuit_dni, 'CLIENTES', 'SE PROCESO PERO YA EXISTIA EN LA BASE ', 0, $cliente['COD_CLIENT'], $cliente['NOMBRE_ARCHIVO'], 0, '', '', '');
                     $this->actTipoDocCliente($this->tabla_cliente_cod_cliente['COD_CLIENT'], $cliente['TIP_DOC'], $cuit_dni, $cliente['E_MAIL'], $cliente['COD_CLIENT']);
                     //$this->ingresoClieAlic($this->tabla_cliente_cod_cliente['COD_CLIENT'], $cliente['CAT_IVA'], $cliente['ALIC_PERC']);
@@ -1522,7 +1522,7 @@ class modelo extends vista
             $this->actualizoArchivoClientesImpo();
             return;
         }
-        echo 'No hay archivos de clientes para procesar.<br>';
+        echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>⚠ No hay archivos de clientes para procesar.</div>";
         return;
     }
 
@@ -1696,8 +1696,8 @@ class modelo extends vista
             "RENGLON_DTO" => $articulo
         ];
 
-        echo 'Artículo en encabezado: <br>';
-        print_r($data_string);
+        //echo 'Artículo en encabezado: <br>';
+        //print_r($data_string);
 
         // Se convierte el array $pedido en una cadena JSON para enviarlo a la API
         $json_data = json_encode($data_string);
@@ -1716,7 +1716,7 @@ class modelo extends vista
             "Content-Type: application/json",
             "Content-Length: " . strlen($json_data)
         ]);
-        echo 'Llego hasta acá: <br>';
+        //echo 'Llego hasta acá: <br>';
         $response = curl_exec($ch);
 
         //obtengo el codigo de estado de la petición
@@ -1729,8 +1729,8 @@ class modelo extends vista
             return null;
         }
 
-        echo 'Detalle de la respuesta <br>';
-        print_r($response);
+        //echo 'Detalle de la respuesta <br>';
+        //print_r($response);
 
 
         if ($http_code < 200 || $http_code > 299) {
@@ -2005,7 +2005,7 @@ class modelo extends vista
                 $this->ctrlArtsBase($arts_csv['COD_ARTICU']);
 
                 if ($this->ctrl_articu['COD_ARTICU'] == $arts_csv['COD_ARTICU']) {
-                    echo "No hay artículos para ingresar, sin embargo el artículo ya existe en la base de datos: " . $arts_csv['COD_ARTICU'] . "<br>";
+                    echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>⚠ El artículo {$arts_csv['COD_ARTICU']} ya existe en la base de datos local.</div>";
                     $this->ingresoMensajesApi($arts_csv['COD_ARTICU'], 'ARTICULOS', 'NO-HAY-ARTICULOS-PARA-PROCESAR SIN EMBARGO SE VERIFICA LA EXISTENCIA DEL ARTICULO: ' . $arts_csv['COD_ARTICU'], 0, '', $arts_csv['NOMBRE_ARCHIVO'], 0, '', '', '');
                 } else {
                     // Array de reemplazo, donde las claves son los caracteres a reemplazar y los valores son los caracteres de reemplazo
@@ -2041,11 +2041,11 @@ class modelo extends vista
                     $stringConvertido = $this->convertirATexto($this->mensaje_api);
 
                     if ($this->mensaje_api['succeeded'] == '') {
-                        echo 'Existe un error: ' . $stringConvertido . '<br>';
+                        echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>✘ Existe un error de carga: " . htmlspecialchars($stringConvertido) . "</div>";
                         $grabo = 0;
                     } else {
                         $grabo = 1;
-                        echo 'Se grabó correctamente el artículo: ' . $arts_csv['COD_ARTICU'] . '<br>';
+                        echo "<div style='color: #4caf50; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>✔ Se grabó correctamente el artículo: " . htmlspecialchars($arts_csv['COD_ARTICU']) . "</div>";
                     }
 
                     $mensaje_api = 'ID_INTERNO: ' . $id . ' Mensaje: ' . $stringConvertido . ' ¿Grabó?: ' . $this->mensaje_api['succeeded'];
@@ -2089,7 +2089,7 @@ class modelo extends vista
                 fclose($archivo2);
             }
         } else {
-            echo "No hay artículos para procesar<br>";
+            echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>⚠ No hay archivos de artículos para procesar.</div>";
             $this->ingresoMensajesApi('SIN', 'ARTICULOS', 'NO-HAY-ARCHIVOS-PARA-PROCESAR', 0, '', '', 0, '', '', '');
         }
     }
@@ -3130,14 +3130,14 @@ class modelo extends vista
                         $stringConvertido = '';
                         /* Al existir ingreso mensaje en la tabla no ingreso para procesar siempre el mismo pedido  $stringConvertido */
                         $this->ingresoMensajesApi($pedi_enc['N_COMP'], 'PEDIDOS', 'EL Pedido ya existe', 1, $pedi_enc['COD_CLIENT'], $pedi_enc['NOMBRE_ARCHIVO'], 0, $stringConvertido, '', '');
-                        echo 'El pedido: ' . $pedi_enc['N_COMP'] . ' para el cliente: ' . $pedi_enc['COD_CLIENT'] . ' ya existe.<br>';
+                        echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[PID-{$pedi_enc['N_COMP']}] ⚠ El pedido ya existe para el cliente {$pedi_enc['COD_CLIENT']}.</div>";
                     }
                 }
             }
 
             //$this->actualizaPedidos();
         } else {
-            echo "No hay archivos de pedidos para procesar";
+            echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>⚠ No hay archivos de pedidos para procesar.</div>";
             $this->ingresoMensajesApi('SIN', 'PEDIDOS', 'NO-HAY-ARCHIVOS-PARA-PROCESAR', 0, '', '', 0, '', '', '');
         }
     }
