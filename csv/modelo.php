@@ -1434,10 +1434,21 @@ class modelo extends vista
 
     public function normalizaFecha($fecha)
     {
-        $anio = SUBSTR($fecha, 6, 4);
-        $mes = SUBSTR($fecha, 3, 2);
-        $dia = SUBSTR($fecha, 0, 2);
-        return $this->fechaNormalizada = $anio . '-' . $mes . '-' . $dia . ' 00:00:00.000';
+        $fecha = trim($fecha ?? '');
+
+        if (empty($fecha) || strlen($fecha) < 10) {
+            return $this->fechaNormalizada = date('Y-m-d') . ' 00:00:00.000';
+        }
+
+        $anio = substr($fecha, 6, 4);
+        $mes = substr($fecha, 3, 2);
+        $dia = substr($fecha, 0, 2);
+
+        if (is_numeric($anio) && is_numeric($mes) && is_numeric($dia)) {
+            return $this->fechaNormalizada = $anio . '-' . $mes . '-' . $dia . ' 00:00:00.000';
+        }
+
+        return $this->fechaNormalizada = date('Y-m-d') . ' 00:00:00.000';
     }
 
     public $mensaje_api;
