@@ -2,108 +2,111 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Ayuda ReAxion</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="icon" type="image/x-icon" href="../icon1.ico" />
-
+  <title>Ayuda ReAxion Operativa</title>
+  <link rel="icon" type="image/x-icon" href="../icon1.ico" />
+  <link href="../rxn-ui.css" rel="stylesheet" type="text/css" />
   <style>
     body {
       margin: 0;
       padding: 0;
-      overflow-x: hidden;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
     }
 
-    .sidebar {
-      position: fixed;
-      top: 0;
-      left: 0;
+    .rxn-help-sidebar {
       width: 250px;
-      height: 100vh;
-      background-color: #f8f9fa;
-      border-right: 1px solid #ddd;
-      padding: 10px;
-      overflow-y: auto;
-      z-index: 1000;
+      background-color: var(--rxn-card-header-bg);
+      border-right: 1px solid var(--rxn-border);
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      height: 100%;
     }
 
-    .content {
-      margin-left: 250px;
-      padding: 20px;
-      height: 100vh;
-      overflow-y: auto;
-      overflow-x: hidden;
+    .rxn-help-sidebar .sidebar-title {
+      padding: 15px;
+      color: var(--rxn-card-header-text);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 14px;
+      border-bottom: 1px solid var(--rxn-border);
+      text-align: center;
     }
 
-    .sidebar a {
+    .rxn-help-sidebar a {
+      color: var(--rxn-text-main);
+      padding: 12px 15px;
+      text-decoration: none;
+      display: block;
+      border-bottom: 1px solid var(--rxn-table-odd);
+      font-size: 14px;
       cursor: pointer;
     }
 
-    /* Clase que ajusta el contenido cargado */
-    .contenido-ajustado {
-      max-width: 100%;
-      width: 100%;
-      overflow-x: hidden;
+    .rxn-help-sidebar a:hover {
+      background-color: var(--rxn-table-hover);
+      color: var(--rxn-input-focus);
     }
 
-    .contenido-ajustado * {
-      max-width: 100% !important;
-      box-sizing: border-box;
+    .rxn-help-content {
+      flex-grow: 1;
+      overflow-y: auto;
+      background-color: var(--rxn-bg);
+      padding: 20px;
+    }
+    
+    .rxn-help-wrapper {
+        max-width: 900px;
+        margin: 0 auto;
     }
 
     .contenido-ajustado img {
-  max-width: 200px;
-  height: auto;
-  display: inline-block;
-  margin-right: 15px;
-  vertical-align: middle;
-}
-
-.contenido-ajustado h1, 
-.contenido-ajustado h2, 
-.contenido-ajustado h3 {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0;
-  padding-left: 10px;
-}
-.contenido-ajustado img {
-  max-width: 500px !important;
-  width: auto !important;
-}
-
-
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      border: 1px solid var(--rxn-border);
+      margin: 15px 0;
+    }
+    
+    .contenido-ajustado .rxn-card {
+        margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
 
-  <!-- Sidebar lateral -->
-  <div class="sidebar">
-    <h5 class="text-center">Ayudas del sistema</h5>
-    <div class="list-group">
-      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=ProcesarDatoss.html">Procesar Datos</a>
-      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=Reprocesar rechazados.html">Reprocesar rechazados</a>
-      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=LimpiarArchivos.html">Limpiar archivos pendientes</a>
-      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=RechazarPendientes.html">Rechazar pendientes</a>
-      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=CopiarFacturas.html">Copiar Facturas</a>
-      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=ConfiguracionDeDirectorio.html">Configuración de directorio</a>
-      <a class="list-group-item list-group-item-action" href="../index.php">Volver al menu pricipal</a>
-
-    </div>
+  <div class="rxn-help-sidebar">
+    <div class="sidebar-title">Doc. Operativa</div>
+    <a href="MenuPrincipal.html?ayuda=ProcesarDatoss.html">Procesar Lotes CSV</a>
+    <a href="MenuPrincipal.html?ayuda=Reprocesar rechazados.html">Reprocesar Rechazos</a>
+    <a href="MenuPrincipal.html?ayuda=LimpiarArchivos.html">Purgar Archivos</a>
+    <a href="MenuPrincipal.html?ayuda=RechazarPendientes.html">Descartar Pendientes</a>
+    <a href="MenuPrincipal.html?ayuda=CopiarFacturas.html">Copiar Facturas</a>
+    <a href="MenuPrincipal.html?ayuda=ConfiguracionDeDirectorio.html">Configuración Global</a>
+    <a href="../index.php" style="margin-top: auto; font-weight: bold; color: var(--rxn-btn-primary-bg);">← Volver a Operación</a>
   </div>
 
-  <!-- Contenido principal -->
-  <div class="content">
-    <div id="contenidoAyuda">
-      <h3>Bienvenido al sistema de ayuda</h3>
-      <p>Seleccioná una sección del menú para ver su contenido.</p>
+  <div class="rxn-help-content">
+    <div class="rxn-help-wrapper" id="contenidoAyuda">
+      <div class="rxn-card">
+          <div class="rxn-card-header">Centro de Trazabilidad Técnica</div>
+          <div class="rxn-card-body">
+              <p>Seleccione un módulo operativo del panel lateral para consultar su política de uso y comportamiento esperado.</p>
+              <br>
+              <span style="color: var(--rxn-text-muted); font-size: 13px;">RXN Lady API | Entorno de Documentación</span>
+          </div>
+      </div>
     </div>
   </div>
 
   <script>
     function cargarAyuda(archivo) {
+      document.getElementById('contenidoAyuda').innerHTML = '<span style="color: var(--rxn-text-muted);">Cargando módulo...</span>';
+      
       fetch(archivo)
         .then(respuesta => {
-          if (!respuesta.ok) throw new Error('No se pudo cargar el archivo');
+          if (!respuesta.ok) throw new Error('No se pudo ubicar el log de este módulo.');
           return respuesta.text();
         })
         .then(html => {
@@ -111,7 +114,6 @@
           const doc = parser.parseFromString(html, "text/html");
           const bodyContent = doc.body.innerHTML;
 
-          // Ajustamos el contenido cargado
           document.getElementById('contenidoAyuda').innerHTML = `
             <div class="contenido-ajustado">
               ${bodyContent}
@@ -119,12 +121,11 @@
           `;
         })
         .catch(error => {
-          document.getElementById('contenidoAyuda').innerHTML = '<p class="text-danger">Error al cargar el contenido.</p>';
+          document.getElementById('contenidoAyuda').innerHTML = `<div class="rxn-card" style="border-color: #dc3545;"><div class="rxn-card-header" style="background-color: #dc3545;">Error</div><div class="rxn-card-body">El archivo de documentación <b>${archivo}</b> no se encuentra disponible.</div></div>`;
           console.error(error);
         });
     }
 
-    // Cargar automáticamente la ayuda si viene en la URL
     const params = new URLSearchParams(window.location.search);
     const ayuda = params.get('ayuda');
     if (ayuda) {
