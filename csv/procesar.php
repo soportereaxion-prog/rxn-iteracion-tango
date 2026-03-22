@@ -36,6 +36,9 @@ set_error_handler(function($nivel, $mensaje, $archivo, $linea) {
 </head>
 <body>
 <?php
+/* Re-inicializo estado del directorio al procesar para soportar testing sin salir de la pantalla */
+$modelo->leo_ingreso_directorio_csv();
+
 /* Vacío los clientes */
 $modelo->vacioClientes();
 /* Proceso los archivos que sean de clientes pendientes */
