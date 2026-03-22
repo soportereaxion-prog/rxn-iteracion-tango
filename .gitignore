@@ -1,19 +1,11 @@
-# secretos y conexiones locales
 Conectar.php
 ConectarBase.php
 ConectarDinamico.php
 ConectarM.php
 .env
 .env.*
-*.code-workspace
-
-# temporales / IDE
 tmp/
 nbproject/
-.vscode/
-.idea/
-
-# logs y basura local
 *.log
 *.tmp
 Thumbs.db
