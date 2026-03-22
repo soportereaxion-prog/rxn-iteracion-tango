@@ -226,10 +226,12 @@ class modelo extends vista
         }
 
         if (isset($this->nombre_archivo)) {
-            return $this->nombre_archivo;
+            $resultado = $this->nombre_archivo;
+        } else {
+            $resultado = null;
         }
-
         $consulta->closeCursor();
+        return $resultado;
     }
 
     /* Leo el archivo de artículos */
@@ -245,10 +247,13 @@ class modelo extends vista
         }
         /* Controlo que haya un nombre de archivo que sea devuelto para pasar el array */
         if (isset($this->nombre_archivo_art)) {
-            return $this->nombre_archivo_art;
+            $resultado = $this->nombre_archivo_art;
+        } else {
+            $resultado = null;
         }
 
         $consulta->closeCursor();
+        return $resultado;
     }
 
     /* Leo el archivo de encabezados de pedidos */
@@ -256,7 +261,7 @@ class modelo extends vista
     public function leoArchivosBdEncPed()
     {
 
-        $consulta = $this->db_sql->query("SELECT NOMBRE_ARCHIVO FROM RXN_CSV WHERE NOMBRE_ARCHIVO NOT IN ('.','..') AND NOMBRE_ARCHIVO LIKE 'C20%' AND ESTADO = 'I' OR NOMBRE_ARCHIVO LIKE 'CABE20%' AND NOMBRE_ARCHIVO LIKE '%.csv' AND ESTADO = 'I'");
+        $consulta = $this->db_sql->query("SELECT NOMBRE_ARCHIVO FROM RXN_CSV WHERE NOMBRE_ARCHIVO NOT IN ('.','..') AND (NOMBRE_ARCHIVO LIKE 'C20%' OR NOMBRE_ARCHIVO LIKE 'CABE20%') AND NOMBRE_ARCHIVO LIKE '%.csv' AND ESTADO = 'I'");
 
         while ($filas = $consulta->fetch(PDO::FETCH_ASSOC)) {
 
@@ -264,10 +269,13 @@ class modelo extends vista
         }
 
         if (isset($this->nombre_archivo_enc_pedidos)) {
-            return $this->nombre_archivo_enc_pedidos;
+            $resultado = $this->nombre_archivo_enc_pedidos;
+        } else {
+            $resultado = null;
         }
 
         $consulta->closeCursor();
+        return $resultado;
     }
 
     public function leoArchivosBdNoProcesados()
@@ -912,7 +920,7 @@ class modelo extends vista
                         $ui_color = ($grabo == 1) ? '#4caf50' : '#dc3545';
                         $ui_icon  = ($grabo == 1) ? '✔' : '✘';
                         $ui_msj   = ($grabo == 1) ? "Factura grabada con éxito | ID {$id}" : "ERROR API | " . ($this->mensaje_api['Message'] ?? 'Falla al procesar');
-                        
+
                         echo "<div style='color: {$ui_color}; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>
                                 [FAC-{$pedi_enc['N_COMP']}] {$ui_icon} " . htmlspecialchars($ui_msj) . "
                               </div>";
