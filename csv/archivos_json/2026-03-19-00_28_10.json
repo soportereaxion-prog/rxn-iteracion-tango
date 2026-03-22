@@ -1,0 +1,241 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300002303",
+		"codigoTalonario": "5",
+		"codigoCliente": "36452",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "300",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 54411.27,
+		"totalExento": 0.00,
+		"totalIva": 9443.27,
+		"subtotal": 54411.27,
+		"totalSinImpuestos": 44968.00,
+		"subtotalSinImpuestos": 44968.00,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101061",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 01 NEGR1/101061-2",
+                                        "descripcionAdicional": "1/101061-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101123",
+				                        "descripcion": "CR.ROSTRO PIEL SECA/SENSIBLE A1/101123-8",
+                                        "descripcionAdicional": "1/101123-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1561.81,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 8999.00,
+                                         "importeSinImpuestos": 7437.19
+                        	}
+                     ,{
+				                        "codigo": "101015",
+				                        "descripcion": "LABIAL MATTE YOU 07 ROSA CALID1/101015-9",
+                                        "descripcionAdicional": "1/101015-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "101074",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 03 CO1/101074-3",
+                                        "descripcionAdicional": "1/101074-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101096",
+				                        "descripcion": "AGUA MICELAR C/AC.HIALURONICO 1/101096-7",
+                                        "descripcionAdicional": "1/101096-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2256.02,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12999.00,
+                                        "importe": 12999.00,
+                                         "importeSinImpuestos": 10742.98
+                        	}
+                     ,{
+				                        "codigo": "101532",
+				                        "descripcion": "LABIAL LIQ.12H MATE METAL.SK L1/101532-5",
+                                        "descripcionAdicional": "1/101532-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2256.02,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12999.00,
+                                        "importe": 12999.00,
+                                         "importeSinImpuestos": 10742.98
+                        	}
+                     ,{
+				                        "codigo": "101431",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 1 ROSA D2/101431-4",
+                                        "descripcionAdicional": "2/101431-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "100725",
+				                        "descripcion": "FRUTOS ROJOS LECHE DE LIMPIEZA1/100725-5",
+                                        "descripcionAdicional": "1/100725-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1561.81,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 8999.00,
+                                         "importeSinImpuestos": 7437.19
+                        	}
+                     ,{
+				                        "codigo": "101569",
+				                        "descripcion": "ESMALTE P/UNAS YOU 18 LILAC FE2/101569-4",
+                                        "descripcionAdicional": "2/101569-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.47,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 11999.00,
+                                         "importeSinImpuestos": 9916.53
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -3014.16,
+	"codigoUM": "BON",
+	"precio": 17367.30,
+        "importe": 17367.30,
+        "importeSinImpuestos": -14353.14
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -377.43,
+				"codigoUM": "BON",
+				"precio": 2174.70,
+                                "importe": 2174.70,
+                                "importeSinImpuestos": -1797.27
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 271.48,
+				"codigoUM": "UNI",
+				"precio": 1564.27,
+                                "importe": 1564.27,
+                                "importeSinImpuestos": 1292.79
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 54411.27
+			}
+                        ]
+            }
+        ]

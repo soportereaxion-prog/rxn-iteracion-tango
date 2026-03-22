@@ -1,0 +1,215 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300001032",
+		"codigoTalonario": "5",
+		"codigoCliente": "38377",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "087",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 65216.05,
+		"totalExento": 0.00,
+		"totalIva": 11318.49,
+		"subtotal": 65216.05,
+		"totalSinImpuestos": 53897.56,
+		"subtotalSinImpuestos": 53897.56,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 520.49,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 2999.00,
+                                         "importeSinImpuestos": 2478.51
+                        	}
+                     ,{
+				                        "codigo": "41183",
+				                        "descripcion": "LOCION COLONIA FEMENINA PASSIO1/41183-9",
+                                        "descripcionAdicional": "1/41183-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101160",
+				                        "descripcion": "LOCION COLONIA FEMENINA MOONLI1/101160-9",
+                                        "descripcionAdicional": "1/101160-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101540",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 1 BER1/101540-5",
+                                        "descripcionAdicional": "1/101540-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 1735.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 9998.00,
+                                         "importeSinImpuestos": 8262.81
+                        	}
+                     ,{
+				                        "codigo": "100256",
+				                        "descripcion": "EAUTOILETTEFEM.FLY50ML1/100256-7",
+                                        "descripcionAdicional": "1/100256-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 5553.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 31998.00,
+                                         "importeSinImpuestos": 26444.63
+                        	}
+                     ,{
+				                        "codigo": "101495",
+				                        "descripcion": "PROTECT INSTA DRY ACEITE SEC.R1/101495-0",
+                                        "descripcionAdicional": "1/101495-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96
+                        	}
+                     ,{
+				                        "codigo": "101284",
+				                        "descripcion": "CREMA PARA EL CUERPO AVENA 3001/101284-5",
+                                        "descripcionAdicional": "1/101284-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.47,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 11999.00,
+                                         "importeSinImpuestos": 9916.53
+                        	}
+                     ,{
+				                        "codigo": "101272",
+				                        "descripcion": "LAP LAB CREM SK N11 NUDE TOSTA1/101272-7",
+                                        "descripcionAdicional": "1/101272-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 693.87,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1999.00,
+                                        "importe": 3998.00,
+                                         "importeSinImpuestos": 3304.13
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -4268.95,
+	"codigoUM": "BON",
+	"precio": 24597.30,
+        "importe": 24597.30,
+        "importeSinImpuestos": -20328.35
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -182.15,
+				"codigoUM": "BON",
+				"precio": 1049.55,
+                                "importe": 1049.55,
+                                "importeSinImpuestos": -867.40
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 325.40,
+				"codigoUM": "UNI",
+				"precio": 1874.90,
+                                "importe": 1874.90,
+                                "importeSinImpuestos": 1549.50
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 65216.05
+			}
+                        ]
+            }
+        ]

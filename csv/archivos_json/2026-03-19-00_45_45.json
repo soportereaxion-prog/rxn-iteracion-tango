@@ -1,0 +1,215 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300002861",
+		"codigoTalonario": "5",
+		"codigoCliente": "13349",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "304",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 41147.20,
+		"totalExento": 0.00,
+		"totalIva": 7141.24,
+		"subtotal": 41147.20,
+		"totalSinImpuestos": 34005.96,
+		"subtotalSinImpuestos": 34005.96,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101308",
+				                        "descripcion": "POLVO VOLATIL TRANSLUCIDO SK 61/101308-8",
+                                        "descripcionAdicional": "1/101308-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.47,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 11999.00,
+                                         "importeSinImpuestos": 9916.53
+                        	}
+                     ,{
+				                        "codigo": "101540",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 1 BER1/101540-5",
+                                        "descripcionAdicional": "1/101540-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "101172",
+				                        "descripcion": "YOU FIJADOR DE MAQUILLAJE SPRA1/101172-8",
+                                        "descripcionAdicional": "1/101172-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74
+                        	}
+                     ,{
+				                        "codigo": "101522",
+				                        "descripcion": "CANDY HORSE BEST FRIENDS LOC. 1/101522-1",
+                                        "descripcionAdicional": "1/101522-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101632",
+				                        "descripcion": "CREMA P/PEINAR XXXXX EXPERT 161/101632-4",
+                                        "descripcionAdicional": "1/101632-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "101523",
+				                        "descripcion": "GAMERS NEXT LEVEL LOCION INFAN1/101523-3",
+                                        "descripcionAdicional": "1/101523-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101601",
+				                        "descripcion": "AMPOLLA DE BRILLO SHOCK TRAT.C1/101601-9",
+                                        "descripcionAdicional": "1/101601-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 624.62,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3599.00,
+                                        "importe": 3599.00,
+                                         "importeSinImpuestos": 2974.38
+                        	}
+                     ,{
+				                        "codigo": "900506",
+				                        "descripcion": "PR.MOLDECORAZON25X16CM5/900506-6",
+                                        "descripcionAdicional": "5/900506-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -2530.05,
+	"codigoUM": "BON",
+	"precio": 14577.90,
+        "importe": 14577.90,
+        "importeSinImpuestos": -12047.85
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -182.21,
+				"codigoUM": "BON",
+				"precio": 1049.85,
+                                "importe": 1049.85,
+                                "importeSinImpuestos": -867.64
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 205.30,
+				"codigoUM": "UNI",
+				"precio": 1182.94,
+                                "importe": 1182.94,
+                                "importeSinImpuestos": 977.64
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 41147.20
+			}
+                        ]
+            }
+        ]

@@ -1,0 +1,98 @@
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333;
+	text-decoration: none;
+	line-height: 16px;
+}
+form {
+	line-height: 30px;
+}
+form label {
+	font-weight: bold;
+	width: 100px;
+	float: left;
+}
+
+.confirm {
+	color: #036;
+	font-style: italic;
+}
+th {
+	font-weight: bold;
+	color: #FFF;
+	background: #333;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	padding-left: 5px;
+}
+td {
+	height: 28px;
+	line-height: 28px;
+	border-bottom: solid 1px #CCC;
+	text-align: center;
+	padding-left: 5px;
+}
+/* search */
+#criterio {
+	width: auto;
+}
+#btbuscar {
+	width: 70px;
+	height: 24px;
+}
+
+label       { display: block; }
+input,
+textarea      
+{
+width: 200px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border: 1px solid #BDC2C9;
+}
+input.boton      
+{
+width: 15px;
+}
+fieldset
+{
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+}
+select 
+{
+-webkit-appearance: button;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+   background-image: url(../imagenes/flechita.png);
+   background-position: center right;
+   background-repeat: no-repeat;
+}
+a:hover
+{
+    text-decoration:none;
+    
+    color: #000000;
+}
+a:link   
+{   
+ text-decoration:none;
+ color: #000000;   
+}   
+.texto{width: 75px;}
+.correo{width: 180px;}
+.numerico{width: 75px;}
+.anio{width: 40px;}
+.textarea{width: 350px;}
+.supertextarea{width: 700px;}
+.vistaOperador{width: 175px;}
+.texto{width: 75px;}
+.correo{width: 140px;}
+.diaMes{width: 20px;}
+.tiempo{width: 24px;}
+.imputacionSuperBoton{width: 600px;}
+.impu{width: 60px;}

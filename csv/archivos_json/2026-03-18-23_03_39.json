@@ -1,0 +1,189 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000066",
+		"codigoTalonario": "5",
+		"codigoCliente": "36895",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "012",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 28699.07,
+		"totalExento": 0.00,
+		"totalIva": 4980.82,
+		"subtotal": 28699.07,
+		"totalSinImpuestos": 23718.25,
+		"subtotalSinImpuestos": 23718.25,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101076",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 05 NU1/101076-8",
+                                        "descripcionAdicional": "1/101076-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101675",
+				                        "descripcion": "CREMA P/MANOS BERRIES & HONEY 1/101675-8",
+                                        "descripcionAdicional": "1/101675-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96
+                        	}
+                     ,{
+				                        "codigo": "101663",
+				                        "descripcion": "CREMA ANTI AGE FOR MEN XX G1/101663-0",
+                                        "descripcionAdicional": "1/101663-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101665",
+				                        "descripcion": "GEL DE DUCHA HIDRATANTE FOR ME1/101665-4",
+                                        "descripcionAdicional": "1/101665-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1127.93,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6499.00,
+                                        "importe": 6499.00,
+                                         "importeSinImpuestos": 5371.07
+                        	}
+                     ,{
+				                        "codigo": "101525",
+				                        "descripcion": "PRIMER EFECTO MATE YOU X 20 G7/101525-8",
+                                        "descripcionAdicional": "7/101525-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 798.17,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4599.00,
+                                        "importe": 4599.00,
+                                         "importeSinImpuestos": 3800.83
+                        	}
+                     ,{
+				                        "codigo": "46462",
+				                        "descripcion": "PALO DE AMASAR POLI5/46462-5",
+                                        "descripcionAdicional": "5/46462-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96
+                        	}
+                     ,{
+				                        "codigo": "302643",
+				                        "descripcion": "PULSERA C/DIJE CUORE NEG.PROTE5/302643-1",
+                                        "descripcionAdicional": "5/302643-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -697.55,
+	"codigoUM": "BON",
+	"precio": 4019.20,
+        "importe": 4019.20,
+        "importeSinImpuestos": -3321.65
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -138.81,
+				"codigoUM": "BON",
+				"precio": 799.80,
+                                "importe": 799.80,
+                                "importeSinImpuestos": -660.99
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 143.19,
+				"codigoUM": "UNI",
+				"precio": 825.07,
+                                "importe": 825.07,
+                                "importeSinImpuestos": 681.88
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 28699.07
+			}
+                        ]
+            }
+        ]

@@ -1,0 +1,280 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000779",
+		"codigoTalonario": "5",
+		"codigoCliente": "38603",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "085",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 72918.79,
+		"totalExento": 0.00,
+		"totalIva": 12655.33,
+		"subtotal": 72918.79,
+		"totalSinImpuestos": 60263.46,
+		"subtotalSinImpuestos": 60263.46,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "301725",
+				                        "descripcion": "COLGANTE DOBLE SILVER TWO HEAR3/301725-4",
+                                        "descripcionAdicional": "3/301725-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 607.44,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3500.00,
+                                        "importe": 3500.00,
+                                         "importeSinImpuestos": 2892.56
+                        	}
+                     ,{
+				                        "codigo": "101646",
+				                        "descripcion": "CREMA DE TOMILLO BIENESTAR X 81/101646-7",
+                                        "descripcionAdicional": "1/101646-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74
+                        	}
+                     ,{
+				                        "codigo": "101532",
+				                        "descripcion": "LABIAL LIQ.12H MATE METAL.SK L1/101532-5",
+                                        "descripcionAdicional": "1/101532-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2256.02,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12999.00,
+                                        "importe": 12999.00,
+                                         "importeSinImpuestos": 10742.98
+                        	}
+                     ,{
+				                        "codigo": "100710",
+				                        "descripcion": "ESMALTE P/UNAS YOU 01 CIRUELA 2/100710-0",
+                                        "descripcionAdicional": "2/100710-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 641.80,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 3698.00,
+                                         "importeSinImpuestos": 3056.20
+                        	}
+                     ,{
+				                        "codigo": "100907",
+				                        "descripcion": "ESMALTE P/UNAS YOU 07 GRIS NOR2/100907-9",
+                                        "descripcionAdicional": "2/100907-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 641.80,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 3698.00,
+                                         "importeSinImpuestos": 3056.20
+                        	}
+                     ,{
+				                        "codigo": "101570",
+				                        "descripcion": "ESMALTE P/UNAS YOU 19 FANTASY 1/101570-9",
+                                        "descripcionAdicional": "1/101570-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 641.98,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3699.00,
+                                        "importe": 3699.00,
+                                         "importeSinImpuestos": 3057.02
+                        	}
+                     ,{
+				                        "codigo": "406529",
+				                        "descripcion": "RECIPIENTE PARA JABON LIQUIDO 5/406529-0",
+                                        "descripcionAdicional": "5/406529-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "405068",
+				                        "descripcion": "GORRA DE BANO TRANSLUCIDA5/405068-2",
+                                        "descripcionAdicional": "5/405068-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "901124",
+				                        "descripcion": "PR.VERTEDORES X2 DESTINO5/901124-5",
+                                        "descripcionAdicional": "5/901124-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 1249.24,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3599.00,
+                                        "importe": 7198.00,
+                                         "importeSinImpuestos": 5948.76
+                        	}
+                     ,{
+				                        "codigo": "901165",
+				                        "descripcion": "PR. AZUCARERA CERAMICA AURORA5/901165-5",
+                                        "descripcionAdicional": "5/901165-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "403481",
+				                        "descripcion": "VIOLETTA ACCES SACAPUNTAS DOBL5/403481-0",
+                                        "descripcionAdicional": "5/403481-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2776.69,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 15999.00,
+                                         "importeSinImpuestos": 13222.31
+                        	}
+                     ,{
+				                        "codigo": "204999",
+				                        "descripcion": "BOLSO CORINA VERDE5/204999-8",
+                                        "descripcionAdicional": "5/204999-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "204994",
+				                        "descripcion": "SOPORTE P/CELU ACRILICO FUNNY5/204994-7",
+                                        "descripcionAdicional": "5/204994-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "11409",
+				                        "descripcion": "DIJE LETRA L S/CAD D/K5/11409-7",
+                                        "descripcionAdicional": "5/11409-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 346.93,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1999.00,
+                                        "importe": 1999.00,
+                                         "importeSinImpuestos": 1652.07
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -1670.96,
+	"codigoUM": "BON",
+	"precio": 9627.90,
+        "importe": 9627.90,
+        "importeSinImpuestos": -7956.94
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -1481.05,
+				"codigoUM": "BON",
+				"precio": 8533.65,
+                                "importe": 8533.65,
+                                "importeSinImpuestos": -7052.60
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 363.83,
+				"codigoUM": "UNI",
+				"precio": 2096.34,
+                                "importe": 2096.34,
+                                "importeSinImpuestos": 1732.51
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 72918.79
+			}
+                        ]
+            }
+        ]

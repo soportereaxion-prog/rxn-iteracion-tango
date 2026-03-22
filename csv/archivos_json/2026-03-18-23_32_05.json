@@ -1,0 +1,280 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000945",
+		"codigoTalonario": "5",
+		"codigoCliente": "96668",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "085",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 56865.13,
+		"totalExento": 0.00,
+		"totalIva": 9869.16,
+		"subtotal": 56865.13,
+		"totalSinImpuestos": 46995.97,
+		"subtotalSinImpuestos": 46995.97,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "400277",
+				                        "descripcion": "LIMPIA VIDRIOS BAUTI S/E COLOR5/400277-1",
+                                        "descripcionAdicional": "5/400277-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 520.49,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 2999.00,
+                                         "importeSinImpuestos": 2478.51
+                        	}
+                     ,{
+				                        "codigo": "405774",
+				                        "descripcion": "BOTELLA DE VIDRIO C/T METAL PL5/405774-9",
+                                        "descripcionAdicional": "5/405774-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "100724",
+				                        "descripcion": "FRUTOS ROJOS GEL EXFOLIANTE 101/100724-3",
+                                        "descripcionAdicional": "1/100724-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74
+                        	}
+                     ,{
+				                        "codigo": "100867",
+				                        "descripcion": "PROTECT UV RECOVERY TRAT.RESTA1/100867-7",
+                                        "descripcionAdicional": "1/100867-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "101197",
+				                        "descripcion": "BE VEGAN SPRAY NUTRITIVO CAB.D1/101197-8",
+                                        "descripcionAdicional": "1/101197-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101431",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 1 ROSA D2/101431-4",
+                                        "descripcionAdicional": "2/101431-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 4/101405-0",
+                                        "descripcionAdicional": "4/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "404850",
+				                        "descripcion": "IMAN ROMPECABEZAS SISTEMA MUSC5/404850-0",
+                                        "descripcionAdicional": "5/404850-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74
+                        	}
+                     ,{
+				                        "codigo": "901124",
+				                        "descripcion": "PR.VERTEDORES X2 DESTINO5/901124-5",
+                                        "descripcionAdicional": "5/901124-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+				                        "codigo": "400248",
+				                        "descripcion": "CIERRA BOLSAS X5 DESIGN COL SU5/400248-0",
+                                        "descripcionAdicional": "5/400248-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 867.42,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 4998.00,
+                                         "importeSinImpuestos": 4130.58
+                        	}
+                     ,{
+				                        "codigo": "901165",
+				                        "descripcion": "PR. AZUCARERA CERAMICA AURORA5/901165-5",
+                                        "descripcionAdicional": "5/901165-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+				                        "codigo": "404415",
+				                        "descripcion": "PRECINTOS REUTIL. CIERRA BOLSA3/404415-7",
+                                        "descripcionAdicional": "3/404415-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 4,
+                                        "importeIva": 2081.95,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 11996.00,
+                                         "importeSinImpuestos": 9914.05
+                        	}
+                     ,{
+				                        "codigo": "46462",
+				                        "descripcion": "PALO DE AMASAR POLI3/46462-5",
+                                        "descripcionAdicional": "3/46462-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 1040.98,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 5998.00,
+                                         "importeSinImpuestos": 4957.02
+                        	}
+                     ,{
+				                        "codigo": "901124",
+				                        "descripcion": "PR.VERTEDORES X2 DESTINO5/901124-5",
+                                        "descripcionAdicional": "5/901124-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 346.93,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1999.00,
+                                        "importe": 1999.00,
+                                         "importeSinImpuestos": 1652.07
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -1137.44,
+	"codigoUM": "BON",
+	"precio": 6553.80,
+        "importe": 6553.80,
+        "importeSinImpuestos": -5416.36
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -1223.19,
+				"codigoUM": "BON",
+				"precio": 7047.90,
+                                "importe": 7047.90,
+                                "importeSinImpuestos": -5824.71
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 283.73,
+				"codigoUM": "UNI",
+				"precio": 1634.82,
+                                "importe": 1634.82,
+                                "importeSinImpuestos": 1351.09
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 56865.13
+			}
+                        ]
+            }
+        ]

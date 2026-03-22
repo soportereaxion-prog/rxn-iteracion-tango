@@ -1,0 +1,319 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300002533",
+		"codigoTalonario": "5",
+		"codigoCliente": "93534",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "300",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 51863.54,
+		"totalExento": 0.00,
+		"totalIva": 9001.11,
+		"subtotal": 51863.54,
+		"totalSinImpuestos": 42862.43,
+		"subtotalSinImpuestos": 42862.43,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101450",
+				                        "descripcion": "LOCION COLONIA FEMENINA ENIGMA1/101450-1",
+                                        "descripcionAdicional": "1/101450-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2429.40,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 13998.00,
+                                         "importeSinImpuestos": 11568.60
+                        	}
+                     ,{
+				                        "codigo": "101285",
+				                        "descripcion": "LOCION COLONIA FEMENINA MAGNET1/101285-8",
+                                        "descripcionAdicional": "1/101285-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "100724",
+				                        "descripcion": "FRUTOS ROJOS GEL EXFOLIANTE 101/100724-3",
+                                        "descripcionAdicional": "1/100724-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74
+                        	}
+                     ,{
+				                        "codigo": "101064",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 04 PLAT1/101064-9",
+                                        "descripcionAdicional": "1/101064-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101068",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 08 BLAN1/101068-8",
+                                        "descripcionAdicional": "1/101068-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101160",
+				                        "descripcion": "LOCION COLONIA FEMENINA MOONLI1/101160-9",
+                                        "descripcionAdicional": "1/101160-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101540",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 1 BER1/101540-5",
+                                        "descripcionAdicional": "1/101540-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "100727",
+				                        "descripcion": "ESMALTE P/UNAS YOU 06 NEGRO CH2/100727-0",
+                                        "descripcionAdicional": "2/100727-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "100710",
+				                        "descripcion": "ESMALTE P/UNAS YOU 01 CIRUELA 2/100710-0",
+                                        "descripcionAdicional": "2/100710-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "101431",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 1 ROSA D2/101431-4",
+                                        "descripcionAdicional": "2/101431-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "101639",
+				                        "descripcion": "ESMALTE GEL SK LL CR. 49 MOCCA1/101639-0",
+                                        "descripcionAdicional": "1/101639-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 954.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5499.00,
+                                        "importe": 5499.00,
+                                         "importeSinImpuestos": 4544.63
+                        	}
+                     ,{
+				                        "codigo": "101569",
+				                        "descripcion": "ESMALTE P/UNAS YOU 18 LILAC FE2/101569-4",
+                                        "descripcionAdicional": "2/101569-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 641.80,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 3698.00,
+                                         "importeSinImpuestos": 3056.20
+                        	}
+                     ,{
+				                        "codigo": "258",
+				                        "descripcion": "FOLLETO CAMP. 099/258-7",
+                                        "descripcionAdicional": "9/258-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 103.96,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 599.00,
+                                        "importe": 599.00,
+                                         "importeSinImpuestos": 495.04
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 9/101405-0",
+                                        "descripcionAdicional": "9/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 114.55,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 220.00,
+                                        "importe": 660.00,
+                                         "importeSinImpuestos": 545.45
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 520.49,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 2999.00,
+                                         "importeSinImpuestos": 2478.51
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 798.17,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4599.00,
+                                        "importe": 4599.00,
+                                         "importeSinImpuestos": 3800.83
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -3172.70,
+	"codigoUM": "BON",
+	"precio": 18280.80,
+        "importe": 18280.80,
+        "importeSinImpuestos": -15108.10
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -197.80,
+				"codigoUM": "BON",
+				"precio": 1139.70,
+                                "importe": 1139.70,
+                                "importeSinImpuestos": -941.90
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 258.77,
+				"codigoUM": "UNI",
+				"precio": 1491.03,
+                                "importe": 1491.03,
+                                "importeSinImpuestos": 1232.26
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 51863.54
+			}
+                        ]
+            }
+        ]

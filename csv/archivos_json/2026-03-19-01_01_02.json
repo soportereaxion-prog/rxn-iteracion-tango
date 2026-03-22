@@ -1,0 +1,267 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300003371",
+		"codigoTalonario": "5",
+		"codigoCliente": "17660",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "997",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 55547.89,
+		"totalExento": 0.00,
+		"totalIva": 9640.53,
+		"subtotal": 55547.89,
+		"totalSinImpuestos": 45907.36,
+		"subtotalSinImpuestos": 45907.36,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "100190",
+				                        "descripcion": "CREMA P/MANOS PERFUM. VIOLETTA1/100190-2",
+                                        "descripcionAdicional": "1/100190-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2776.51,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 15998.00,
+                                         "importeSinImpuestos": 13221.49
+                        	}
+                     ,{
+				                        "codigo": "100558",
+				                        "descripcion": "CREMA P/MANOS PERFUM. VIOLETTA1/100558-8",
+                                        "descripcionAdicional": "1/100558-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2776.51,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 15998.00,
+                                         "importeSinImpuestos": 13221.49
+                        	}
+                     ,{
+				                        "codigo": "100657",
+				                        "descripcion": "FRUTOS ROJOS JABON DE LIMP FAC1/100657-4",
+                                        "descripcionAdicional": "1/100657-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "101419",
+				                        "descripcion": "LAP LAB SK DESTELLOS 3 ROSA DE1/101419-3",
+                                        "descripcionAdicional": "1/101419-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "101431",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 1 ROSA D2/101431-4",
+                                        "descripcionAdicional": "2/101431-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "101434",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 4 VIOLET2/101434-1",
+                                        "descripcionAdicional": "2/101434-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "260",
+				                        "descripcion": "FOLLETO CAMP. 114/260-4",
+                                        "descripcionAdicional": "4/260-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "403608",
+				                        "descripcion": "SETX2ESPECIEROSC/SOPORTECOLNEG5/403608-8",
+                                        "descripcionAdicional": "5/403608-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 954.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5499.00,
+                                        "importe": 5499.00,
+                                         "importeSinImpuestos": 4544.63
+                        	}
+                     ,{
+				                        "codigo": "406792",
+				                        "descripcion": "LUNCHERA VIOLETTA TOYS KOBI5/406792-3",
+                                        "descripcionAdicional": "5/406792-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "407349",
+				                        "descripcion": "BOWL C/TAPA DINA ROSA 500CC5/407349-1",
+                                        "descripcionAdicional": "5/407349-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+				                        "codigo": "500712",
+				                        "descripcion": "NUEVOS CLIENTES C11-20254/500712-2",
+                                        "descripcionAdicional": "4/500712-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "500716",
+				                        "descripcion": "VOLANTE EQUAL4/500716-1",
+                                        "descripcionAdicional": "4/500716-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -1794.27,
+	"codigoUM": "BON",
+	"precio": 10338.40,
+        "importe": 10338.40,
+        "importeSinImpuestos": -8544.13
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -242.92,
+				"codigoUM": "BON",
+				"precio": 1399.70,
+                                "importe": 1399.70,
+                                "importeSinImpuestos": -1156.78
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 277.16,
+				"codigoUM": "UNI",
+				"precio": 1596.95,
+                                "importe": 1596.95,
+                                "importeSinImpuestos": 1319.79
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 55547.89
+			}
+                        ]
+            }
+        ]

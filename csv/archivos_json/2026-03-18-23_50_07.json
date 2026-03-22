@@ -1,0 +1,241 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300001526",
+		"codigoTalonario": "5",
+		"codigoCliente": "97573",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "087",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 38447.86,
+		"totalExento": 0.00,
+		"totalIva": 6672.78,
+		"subtotal": 38447.86,
+		"totalSinImpuestos": 31775.08,
+		"subtotalSinImpuestos": 31775.08,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 520.49,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 2999.00,
+                                         "importeSinImpuestos": 2478.51
+                        	}
+                     ,{
+				                        "codigo": "101285",
+				                        "descripcion": "LOCION COLONIA FEMENINA MAGNET1/101285-8",
+                                        "descripcionAdicional": "1/101285-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "42205",
+				                        "descripcion": "DEO COLONIA MASC. SEX FOR MEN 1/42205-7",
+                                        "descripcionAdicional": "1/42205-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "100459",
+				                        "descripcion": "LOCION COLONIA FEMENINA ADDICT1/100459-1",
+                                        "descripcionAdicional": "1/100459-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "100293",
+				                        "descripcion": "DEO COLONIA MASC. SEX MEN INTE1/100293-8",
+                                        "descripcionAdicional": "1/100293-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "100863",
+				                        "descripcion": "DEO COLONIA MASC. HOMME SPORT 1/100863-7",
+                                        "descripcionAdicional": "1/100863-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "41183",
+				                        "descripcion": "LOCION COLONIA FEMENINA PASSIO1/41183-9",
+                                        "descripcionAdicional": "1/41183-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 4/101405-0",
+                                        "descripcionAdicional": "4/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -1249.38,
+	"codigoUM": "BON",
+	"precio": 7198.80,
+        "importe": 7198.80,
+        "importeSinImpuestos": -5949.42
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -164.82,
+				"codigoUM": "BON",
+				"precio": 949.70,
+                                "importe": 949.70,
+                                "importeSinImpuestos": -784.88
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 191.84,
+				"codigoUM": "UNI",
+				"precio": 1105.34,
+                                "importe": 1105.34,
+                                "importeSinImpuestos": 913.50
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 38447.86
+			}
+                        ]
+            }
+        ]

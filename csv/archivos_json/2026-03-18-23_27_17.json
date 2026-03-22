@@ -1,0 +1,176 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000785",
+		"codigoTalonario": "5",
+		"codigoCliente": "38597",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "085",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 42518.17,
+		"totalExento": 0.00,
+		"totalIva": 7379.20,
+		"subtotal": 42518.17,
+		"totalSinImpuestos": 35138.97,
+		"subtotalSinImpuestos": 35138.97,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "100724",
+				                        "descripcion": "FRUTOS ROJOS GEL EXFOLIANTE 102/100724-3",
+                                        "descripcionAdicional": "2/100724-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "100724",
+				                        "descripcion": "FRUTOS ROJOS GEL EXFOLIANTE 101/100724-3",
+                                        "descripcionAdicional": "1/100724-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74
+                        	}
+                     ,{
+				                        "codigo": "100657",
+				                        "descripcion": "FRUTOS ROJOS JABON DE LIMP FAC1/100657-4",
+                                        "descripcionAdicional": "1/100657-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "100801",
+				                        "descripcion": "EAU TOILETTE FEM. MAGIC LOVE 51/100801-7",
+                                        "descripcionAdicional": "1/100801-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2776.69,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 15999.00,
+                                         "importeSinImpuestos": 13222.31
+                        	}
+                     ,{
+				                        "codigo": "101404",
+				                        "descripcion": "EAU TOILETTE MASC. SEX MEN BLA1/101404-8",
+                                        "descripcionAdicional": "1/101404-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2603.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 14999.00,
+                                        "importe": 14999.00,
+                                         "importeSinImpuestos": 12395.87
+                        	}
+                     ,{
+				                        "codigo": "101000",
+				                        "descripcion": "DESODORANTE ANTIT. ROLLON BE V1/101000-4",
+                                        "descripcionAdicional": "1/101000-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -3071.59,
+	"codigoUM": "BON",
+	"precio": 17698.20,
+        "importe": 17698.20,
+        "importeSinImpuestos": -14626.61
+        },{
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 212.15,
+				"codigoUM": "UNI",
+				"precio": 1222.36,
+                                "importe": 1222.36,
+                                "importeSinImpuestos": 1010.21
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 42518.17
+			}
+                        ]
+            }
+        ]

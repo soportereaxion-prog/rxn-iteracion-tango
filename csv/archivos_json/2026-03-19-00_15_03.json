@@ -1,0 +1,150 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300001925",
+		"codigoTalonario": "5",
+		"codigoCliente": "37445",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "164",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 21391.69,
+		"totalExento": 0.00,
+		"totalIva": 3712.61,
+		"subtotal": 21391.69,
+		"totalSinImpuestos": 17679.08,
+		"subtotalSinImpuestos": 17679.08,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101064",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 04 PLAT1/101064-9",
+                                        "descripcionAdicional": "1/101064-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "100256",
+				                        "descripcion": "EAUTOILETTEFEM.FLY50ML1/100256-7",
+                                        "descripcionAdicional": "1/100256-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2776.69,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 15999.00,
+                                         "importeSinImpuestos": 13222.31
+                        	}
+                     ,{
+				                        "codigo": "101495",
+				                        "descripcion": "PROTECT INSTA DRY ACEITE SEC.R1/101495-0",
+                                        "descripcionAdicional": "1/101495-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96
+                        	}
+                     ,{
+				                        "codigo": "204999",
+				                        "descripcion": "BOLSO CORINA VERDE5/204999-8",
+                                        "descripcionAdicional": "5/204999-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 520.49,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 2999.00,
+                                         "importeSinImpuestos": 2478.51
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -784.36,
+	"codigoUM": "BON",
+	"precio": 4519.40,
+        "importe": 4519.40,
+        "importeSinImpuestos": -3735.04
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -52.05,
+				"codigoUM": "BON",
+				"precio": 299.90,
+                                "importe": 299.90,
+                                "importeSinImpuestos": -247.85
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 106.73,
+				"codigoUM": "UNI",
+				"precio": 614.99,
+                                "importe": 614.99,
+                                "importeSinImpuestos": 508.26
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 21391.69
+			}
+                        ]
+            }
+        ]

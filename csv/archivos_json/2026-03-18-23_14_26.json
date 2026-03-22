@@ -1,0 +1,359 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000380",
+		"codigoTalonario": "5",
+		"codigoCliente": "39056",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "070",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 109420.76,
+		"totalExento": 0.00,
+		"totalIva": 18990.38,
+		"subtotal": 109420.76,
+		"totalSinImpuestos": 90430.38,
+		"subtotalSinImpuestos": 90430.38,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101076",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 05 NU1/101076-8",
+                                        "descripcionAdicional": "1/101076-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101071",
+				                        "descripcion": "DELINEADOR P/OJOS Y LABIOS 18C1/101071-7",
+                                        "descripcionAdicional": "1/101071-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101292",
+				                        "descripcion": "SUERO RESTAURADOR C/AC.CANNABI1/101292-5",
+                                        "descripcionAdicional": "1/101292-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.47,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 11999.00,
+                                         "importeSinImpuestos": 9916.53
+                        	}
+                     ,{
+				                        "codigo": "101075",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 04 BO1/101075-6",
+                                        "descripcionAdicional": "1/101075-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101062",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 02 MARR1/101062-5",
+                                        "descripcionAdicional": "1/101062-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101073",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 02 CE1/101073-1",
+                                        "descripcionAdicional": "1/101073-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101068",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 08 BLAN1/101068-8",
+                                        "descripcionAdicional": "1/101068-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101291",
+				                        "descripcion": "CR.REGENERADORA C/AC.CANNABIS 1/101291-3",
+                                        "descripcionAdicional": "1/101291-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "100193",
+				                        "descripcion": "CREMA DE ENEBRO BIENESTAR X 851/100193-9",
+                                        "descripcionAdicional": "1/100193-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 4,
+                                        "importeIva": 8329.88,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 47996.00,
+                                         "importeSinImpuestos": 39666.12
+                        	}
+                     ,{
+				                        "codigo": "101210",
+				                        "descripcion": "GAMERS LOCION INFANTIL 75 ML1/101210-6",
+                                        "descripcionAdicional": "1/101210-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "100256",
+				                        "descripcion": "EAUTOILETTEFEM.FLY50ML1/100256-7",
+                                        "descripcionAdicional": "1/100256-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 5553.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 31998.00,
+                                         "importeSinImpuestos": 26444.63
+                        	}
+                     ,{
+				                        "codigo": "100727",
+				                        "descripcion": "ESMALTE P/UNAS YOU 06 NEGRO CH2/100727-0",
+                                        "descripcionAdicional": "2/100727-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "101646",
+				                        "descripcion": "CREMA DE TOMILLO BIENESTAR X 81/101646-7",
+                                        "descripcionAdicional": "1/101646-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74
+                        	}
+                     ,{
+				                        "codigo": "100714",
+				                        "descripcion": "ESMALTE P/UNAS YOU 05 FUCSIA P2/100714-9",
+                                        "descripcionAdicional": "2/100714-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "101055",
+				                        "descripcion": "OLEO MULTIPROPOSITO BIENESTAR 1/101055-7",
+                                        "descripcionAdicional": "1/101055-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2256.02,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12999.00,
+                                        "importe": 12999.00,
+                                         "importeSinImpuestos": 10742.98
+                        	}
+                     ,{
+				                        "codigo": "101664",
+				                        "descripcion": "CERA MODELADORA PARA PEINAR FO1/101664-2",
+                                        "descripcionAdicional": "1/101664-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101170",
+				                        "descripcion": "DEL.LIQ.METAL.PRECISION SK LL 1/101170-3",
+                                        "descripcionAdicional": "1/101170-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "407218",
+				                        "descripcion": "TARRO CEREALES LITO VERDE5/407218-7",
+                                        "descripcionAdicional": "5/407218-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+				                        "codigo": "404415",
+				                        "descripcion": "PRECINTOS REUTIL. CIERRA BOLSA4/404415-7",
+                                        "descripcionAdicional": "4/404415-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "404415",
+				                        "descripcion": "PRECINTOS REUTIL. CIERRA BOLSA5/404415-7",
+                                        "descripcionAdicional": "5/404415-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 624.62,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3599.00,
+                                        "importe": 3599.00,
+                                         "importeSinImpuestos": 2974.38
+                        	}
+                     ,{
+				                        "codigo": "88739",
+				                        "descripcion": "DEMOSTRAD.GRATISP/LIDERESC94/88739-2",
+                                        "descripcionAdicional": "4/88739-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -9712.52,
+	"codigoUM": "BON",
+	"precio": 55962.63,
+        "importe": 55962.63,
+        "importeSinImpuestos": -46250.11
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -1213.77,
+				"codigoUM": "BON",
+				"precio": 6993.63,
+                                "importe": 6993.63,
+                                "importeSinImpuestos": -5779.86
+                        	},
+                                
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 109420.76
+			}
+                        ]
+            }
+        ]

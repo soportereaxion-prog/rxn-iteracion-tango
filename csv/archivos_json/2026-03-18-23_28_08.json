@@ -1,0 +1,306 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000814",
+		"codigoTalonario": "5",
+		"codigoCliente": "38564",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "085",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 76876.32,
+		"totalExento": 0.00,
+		"totalIva": 13342.19,
+		"subtotal": 76876.32,
+		"totalSinImpuestos": 63534.13,
+		"subtotalSinImpuestos": 63534.13,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "901124",
+				                        "descripcion": "PR.VERTEDORES X2 DESTINO5/901124-5",
+                                        "descripcionAdicional": "5/901124-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "101061",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 01 NEGR1/101061-2",
+                                        "descripcionAdicional": "1/101061-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 902.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 5198.00,
+                                         "importeSinImpuestos": 4295.87
+                        	}
+                     ,{
+				                        "codigo": "101076",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 05 NU1/101076-8",
+                                        "descripcionAdicional": "1/101076-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101127",
+				                        "descripcion": "DEO COLONIA MASC. ANTHOLOGY 121/101127-7",
+                                        "descripcionAdicional": "1/101127-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "100293",
+				                        "descripcion": "DEO COLONIA MASC. SEX MEN INTE1/100293-8",
+                                        "descripcionAdicional": "1/100293-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "101066",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 06 VERD1/101066-3",
+                                        "descripcionAdicional": "1/101066-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "100839",
+				                        "descripcion": "VIOLETTA T-REX LOCION P/NENES 1/100839-7",
+                                        "descripcionAdicional": "1/100839-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1127.93,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6499.00,
+                                        "importe": 6499.00,
+                                         "importeSinImpuestos": 5371.07
+                        	}
+                     ,{
+				                        "codigo": "101495",
+				                        "descripcion": "PROTECT INSTA DRY ACEITE SEC.R1/101495-0",
+                                        "descripcionAdicional": "1/101495-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96
+                        	}
+                     ,{
+				                        "codigo": "900506",
+				                        "descripcion": "PR.MOLDECORAZON25X16CM5/900506-6",
+                                        "descripcionAdicional": "5/900506-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101569",
+				                        "descripcion": "ESMALTE P/UNAS YOU 18 LILAC FE1/101569-4",
+                                        "descripcionAdicional": "1/101569-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 641.98,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3699.00,
+                                        "importe": 3699.00,
+                                         "importeSinImpuestos": 3057.02
+                        	}
+                     ,{
+				                        "codigo": "400248",
+				                        "descripcion": "CIERRA BOLSAS X5 DESIGN COL SU5/400248-0",
+                                        "descripcionAdicional": "5/400248-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 1301.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 7497.00,
+                                         "importeSinImpuestos": 6195.87
+                        	}
+                     ,{
+				                        "codigo": "46462",
+				                        "descripcion": "PALO DE AMASAR POLI5/46462-5",
+                                        "descripcionAdicional": "5/46462-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1475.03,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8499.00,
+                                        "importe": 8499.00,
+                                         "importeSinImpuestos": 7023.97
+                        	}
+                     ,{
+				                        "codigo": "901124",
+				                        "descripcion": "PR.VERTEDORES X2 DESTINO5/901124-5",
+                                        "descripcionAdicional": "5/901124-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 346.93,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1999.00,
+                                        "importe": 1999.00,
+                                         "importeSinImpuestos": 1652.07
+                        	}
+                     ,{
+				                        "codigo": "406530",
+				                        "descripcion": "RECIPIENTE PARA JABON EN POLVO5/406530-5",
+                                        "descripcionAdicional": "5/406530-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1492.39,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8599.00,
+                                        "importe": 8599.00,
+                                         "importeSinImpuestos": 7106.61
+                        	}
+                     ,{
+				                        "codigo": "101257",
+				                        "descripcion": "SHAMPOO MATIZADOR BLOND EXPERT2/101257-9",
+                                        "descripcionAdicional": "2/101257-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.56,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.50,
+                                        "importe": 11999.50,
+                                         "importeSinImpuestos": 9916.94
+                        	}
+                     ,{
+				                        "codigo": "101256",
+				                        "descripcion": "MASCARA MATIZADORA BLOND EXPER2/101256-7",
+                                        "descripcionAdicional": "2/101256-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.56,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.50,
+                                        "importe": 11999.50,
+                                         "importeSinImpuestos": 9916.94
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -3050.55,
+	"codigoUM": "BON",
+	"precio": 17577.00,
+        "importe": 17577.00,
+        "importeSinImpuestos": -14526.45
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -1030.70,
+				"codigoUM": "BON",
+				"precio": 5938.80,
+                                "importe": 5938.80,
+                                "importeSinImpuestos": -4908.10
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 383.57,
+				"codigoUM": "UNI",
+				"precio": 2210.12,
+                                "importe": 2210.12,
+                                "importeSinImpuestos": 1826.55
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 76876.32
+			}
+                        ]
+            }
+        ]

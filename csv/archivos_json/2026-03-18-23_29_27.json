@@ -1,0 +1,280 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000855",
+		"codigoTalonario": "5",
+		"codigoCliente": "38494",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "085",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 65372.91,
+		"totalExento": 0.00,
+		"totalIva": 11345.71,
+		"subtotal": 65372.91,
+		"totalSinImpuestos": 54027.20,
+		"subtotalSinImpuestos": 54027.20,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "301725",
+				                        "descripcion": "COLGANTE DOBLE SILVER TWO HEAR3/301725-4",
+                                        "descripcionAdicional": "3/301725-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 607.44,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3500.00,
+                                        "importe": 3500.00,
+                                         "importeSinImpuestos": 2892.56
+                        	}
+                     ,{
+				                        "codigo": "101063",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 03 AZUL1/101063-7",
+                                        "descripcionAdicional": "1/101063-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101127",
+				                        "descripcion": "DEO COLONIA MASC. ANTHOLOGY 121/101127-7",
+                                        "descripcionAdicional": "1/101127-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 1735.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 9998.00,
+                                         "importeSinImpuestos": 8262.81
+                        	}
+                     ,{
+				                        "codigo": "100657",
+				                        "descripcion": "FRUTOS ROJOS JABON DE LIMP FAC1/100657-4",
+                                        "descripcionAdicional": "1/100657-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2082.30,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 11998.00,
+                                         "importeSinImpuestos": 9915.70
+                        	}
+                     ,{
+				                        "codigo": "101066",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 06 VERD1/101066-3",
+                                        "descripcionAdicional": "1/101066-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101339",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 11 NU2/101339-3",
+                                        "descripcionAdicional": "2/101339-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 3470.73,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 19998.00,
+                                         "importeSinImpuestos": 16527.27
+                        	}
+                     ,{
+				                        "codigo": "101317",
+				                        "descripcion": "CR.HIDRATANTE AGUA DE ROSAS 801/101317-0",
+                                        "descripcionAdicional": "1/101317-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "101495",
+				                        "descripcion": "PROTECT INSTA DRY ACEITE SEC.R1/101495-0",
+                                        "descripcionAdicional": "1/101495-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96
+                        	}
+                     ,{
+				                        "codigo": "101568",
+				                        "descripcion": "ESMALTE P/UNAS YOU DEST. 17SIL2/101568-2",
+                                        "descripcionAdicional": "2/101568-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "100898",
+				                        "descripcion": "FRUTOS ROJOS DESMAQ.BIFAS ROS/1/100898-3",
+                                        "descripcionAdicional": "1/100898-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "101431",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 1 ROSA D2/101431-4",
+                                        "descripcionAdicional": "2/101431-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "101639",
+				                        "descripcion": "ESMALTE GEL SK LL CR. 49 MOCCA1/101639-0",
+                                        "descripcionAdicional": "1/101639-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 954.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5499.00,
+                                        "importe": 5499.00,
+                                         "importeSinImpuestos": 4544.63
+                        	}
+                     ,{
+				                        "codigo": "400248",
+				                        "descripcion": "CIERRA BOLSAS X5 DESIGN COL SU5/400248-0",
+                                        "descripcionAdicional": "5/400248-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+				                        "codigo": "901124",
+				                        "descripcion": "PR.VERTEDORES X2 DESTINO5/901124-5",
+                                        "descripcionAdicional": "5/901124-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -4185.39,
+	"codigoUM": "BON",
+	"precio": 24115.80,
+        "importe": 24115.80,
+        "importeSinImpuestos": -19930.41
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -221.23,
+				"codigoUM": "BON",
+				"precio": 1274.70,
+                                "importe": 1274.70,
+                                "importeSinImpuestos": -1053.47
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 326.18,
+				"codigoUM": "UNI",
+				"precio": 1879.41,
+                                "importe": 1879.41,
+                                "importeSinImpuestos": 1553.23
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 65372.91
+			}
+                        ]
+            }
+        ]

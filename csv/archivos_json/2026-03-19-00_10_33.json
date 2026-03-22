@@ -1,0 +1,267 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300001807",
+		"codigoTalonario": "5",
+		"codigoCliente": "37649",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "164",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 60701.67,
+		"totalExento": 0.00,
+		"totalIva": 10535.00,
+		"subtotal": 60701.67,
+		"totalSinImpuestos": 50166.67,
+		"subtotalSinImpuestos": 50166.67,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101075",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 04 BO1/101075-6",
+                                        "descripcionAdicional": "1/101075-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101062",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 02 MARR1/101062-5",
+                                        "descripcionAdicional": "1/101062-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101072",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 01 RO1/101072-9",
+                                        "descripcionAdicional": "1/101072-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101604",
+				                        "descripcion": "MILK EMULS.CORP. EXTRACTO PEPI1/101604-5",
+                                        "descripcionAdicional": "1/101604-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "100256",
+				                        "descripcion": "EAUTOILETTEFEM.FLY50ML1/100256-7",
+                                        "descripcionAdicional": "1/100256-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2776.69,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 15999.00,
+                                         "importeSinImpuestos": 13222.31
+                        	}
+                     ,{
+				                        "codigo": "101404",
+				                        "descripcion": "EAU TOILETTE MASC. SEX MEN BLA1/101404-8",
+                                        "descripcionAdicional": "1/101404-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2603.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 14999.00,
+                                        "importe": 14999.00,
+                                         "importeSinImpuestos": 12395.87
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 798.17,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4599.00,
+                                        "importe": 4599.00,
+                                         "importeSinImpuestos": 3800.83
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.47,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 11999.00,
+                                         "importeSinImpuestos": 9916.53
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 346.93,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1999.00,
+                                        "importe": 1999.00,
+                                         "importeSinImpuestos": 1652.07
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 9/101405-0",
+                                        "descripcionAdicional": "9/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 6,
+                                        "importeIva": 229.09,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 220.00,
+                                        "importe": 1320.00,
+                                         "importeSinImpuestos": 1090.91
+                        	}
+                     ,{
+				                        "codigo": "203915",
+				                        "descripcion": "PORTATARJETAS SOBRE KATE VERDE5/203915-4",
+                                        "descripcionAdicional": "5/203915-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1301.48,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7499.00,
+                                        "importe": 7499.00,
+                                         "importeSinImpuestos": 6197.52
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -2384.32,
+	"codigoUM": "BON",
+	"precio": 13738.20,
+        "importe": 13738.20,
+        "importeSinImpuestos": -11353.88
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -783.46,
+				"codigoUM": "BON",
+				"precio": 4514.25,
+                                "importe": 4514.25,
+                                "importeSinImpuestos": -3730.79
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 302.87,
+				"codigoUM": "UNI",
+				"precio": 1745.11,
+                                "importe": 1745.11,
+                                "importeSinImpuestos": 1442.24
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 60701.67
+			}
+                        ]
+            }
+        ]

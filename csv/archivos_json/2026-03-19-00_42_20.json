@@ -1,0 +1,254 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300002755",
+		"codigoTalonario": "5",
+		"codigoCliente": "36003",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "304",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 103339.73,
+		"totalExento": 0.00,
+		"totalIva": 17935.01,
+		"subtotal": 103339.73,
+		"totalSinImpuestos": 85404.72,
+		"subtotalSinImpuestos": 85404.72,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101061",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 01 NEGR1/101061-2",
+                                        "descripcionAdicional": "1/101061-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101450",
+				                        "descripcion": "LOCION COLONIA FEMENINA ENIGMA1/101450-1",
+                                        "descripcionAdicional": "1/101450-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101076",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 05 NU1/101076-8",
+                                        "descripcionAdicional": "1/101076-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101065",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 05NEGRO1/101065-1",
+                                        "descripcionAdicional": "1/101065-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101510",
+				                        "descripcion": "SERUM FACIAL C/ARGIRELINE DERM1/101510-2",
+                                        "descripcionAdicional": "1/101510-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 6247.59,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 17999.00,
+                                        "importe": 35998.00,
+                                         "importeSinImpuestos": 29750.41
+                        	}
+                     ,{
+				                        "codigo": "101062",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 02 MARR1/101062-5",
+                                        "descripcionAdicional": "1/101062-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101025",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 1 BEN2/101025-4",
+                                        "descripcionAdicional": "2/101025-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 3470.73,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 19998.00,
+                                         "importeSinImpuestos": 16527.27
+                        	}
+                     ,{
+				                        "codigo": "100774",
+				                        "descripcion": "MAQUILLAJECORRECTORYOUN03STROB1/100774-5",
+                                        "descripcionAdicional": "1/100774-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "100899",
+				                        "descripcion": "PEST./CEJAS LIPOSOMAS SPRAY SP1/100899-5",
+                                        "descripcionAdicional": "1/100899-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1561.81,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 8999.00,
+                                         "importeSinImpuestos": 7437.19
+                        	}
+                     ,{
+				                        "codigo": "101028",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 5 ANG2/101028-0",
+                                        "descripcionAdicional": "2/101028-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "100801",
+				                        "descripcion": "EAU TOILETTE FEM. MAGIC LOVE 51/100801-7",
+                                        "descripcionAdicional": "1/100801-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2776.69,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 15999.00,
+                                         "importeSinImpuestos": 13222.31
+                        	}
+                     ,{
+				                        "codigo": "101339",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 11 NU2/101339-3",
+                                        "descripcionAdicional": "2/101339-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 5206.09,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 29997.00,
+                                         "importeSinImpuestos": 24790.91
+                        	}
+                     ,{
+				                        "codigo": "900061",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA N1 (CC4/900061-8",
+                                        "descripcionAdicional": "4/900061-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -7465.45,
+	"codigoUM": "BON",
+	"precio": 43015.20,
+        "importe": 43015.20,
+        "importeSinImpuestos": -35549.75
+        },{
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 515.61,
+				"codigoUM": "UNI",
+				"precio": 2970.92,
+                                "importe": 2970.92,
+                                "importeSinImpuestos": 2455.31
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 103339.73
+			}
+                        ]
+            }
+        ]

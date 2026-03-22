@@ -1,0 +1,606 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000306",
+		"codigoTalonario": "5",
+		"codigoCliente": "91039",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "012",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "23,537.19",
+		"leyenda2": "108,314.12",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 144821.48,
+		"totalExento": 0.00,
+		"totalIva": 36507.36,
+		"subtotal": 131060.11,
+		"totalSinImpuestos": 108314.12,
+		"subtotalSinImpuestos": 108314.12,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101061",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 01 NEGR1/101061-2",
+                                        "descripcionAdicional": "1/101061-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 5,
+                                        "importeIva": 2255.33,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 12995.00,
+                                         "importeSinImpuestos": 10739.67,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 12995.00,
+						"importe": 1364.48
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101285",
+				                        "descripcion": "LOCION COLONIA FEMENINA MAGNET1/101285-8",
+                                        "descripcionAdicional": "1/101285-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101063",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 03 AZUL1/101063-7",
+                                        "descripcionAdicional": "1/101063-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100459",
+				                        "descripcion": "LOCION COLONIA FEMENINA ADDICT1/100459-1",
+                                        "descripcionAdicional": "1/100459-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101127",
+				                        "descripcion": "DEO COLONIA MASC. ANTHOLOGY 121/101127-7",
+                                        "descripcionAdicional": "1/101127-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.59,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 4999.00,
+						"importe": 524.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100293",
+				                        "descripcion": "DEO COLONIA MASC. SEX MEN INTE1/100293-8",
+                                        "descripcionAdicional": "1/100293-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.59,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 4999.00,
+						"importe": 524.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101067",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 07 CELE1/101067-6",
+                                        "descripcionAdicional": "1/101067-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "41183",
+				                        "descripcion": "LOCION COLONIA FEMENINA PASSIO1/41183-9",
+                                        "descripcionAdicional": "1/41183-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101066",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 06 VERD1/101066-3",
+                                        "descripcionAdicional": "1/101066-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100839",
+				                        "descripcion": "VIOLETTA T-REX LOCION P/NENES 1/100839-7",
+                                        "descripcionAdicional": "1/100839-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1127.92,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6499.00,
+                                        "importe": 6499.00,
+                                         "importeSinImpuestos": 5371.07,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6499.00,
+						"importe": 682.40
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101209",
+				                        "descripcion": "CANDY HORSE LOCION INFANTIL 751/101209-1",
+                                        "descripcionAdicional": "1/101209-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100256",
+				                        "descripcion": "EAUTOILETTEFEM.FLY50ML1/100256-7",
+                                        "descripcionAdicional": "1/100256-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2776.69,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 15999.00,
+                                         "importeSinImpuestos": 13222.31,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 15999.00,
+						"importe": 1679.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100949",
+				                        "descripcion": "VIOLETTA BRONTOSAURIO LOCION N1/100949-2",
+                                        "descripcionAdicional": "1/100949-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1127.92,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6499.00,
+                                        "importe": 6499.00,
+                                         "importeSinImpuestos": 5371.07,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6499.00,
+						"importe": 682.40
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100630",
+				                        "descripcion": "DESOD.ANTIT.ROLLON 55ML FLY1/100630-0",
+                                        "descripcionAdicional": "1/100630-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "406529",
+				                        "descripcion": "RECIPIENTE PARA JABON LIQUIDO 5/406529-0",
+                                        "descripcionAdicional": "5/406529-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2082.30,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 11998.00,
+                                         "importeSinImpuestos": 9915.70,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 11998.00,
+						"importe": 1259.79
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101306",
+				                        "descripcion": "BASE MAQ.C/AC.HIALUR. SKLL 4 W1/101306-3",
+                                        "descripcionAdicional": "1/101306-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3818.01,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 21999.00,
+                                        "importe": 21999.00,
+                                         "importeSinImpuestos": 18180.99,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 21999.00,
+						"importe": 2309.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "407485",
+				                        "descripcion": "ESPECIERO C/CUCHARA CEREN GRIS5/407485-9",
+                                        "descripcionAdicional": "5/407485-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 1301.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 7497.00,
+                                         "importeSinImpuestos": 6195.87,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7497.00,
+						"importe": 787.19
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "407484",
+				                        "descripcion": "ESPECIERO C/CUCHARA CEREN NEGR5/407484-7",
+                                        "descripcionAdicional": "5/407484-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 1301.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 7497.00,
+                                         "importeSinImpuestos": 6195.87,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7497.00,
+						"importe": 787.19
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "407484",
+				                        "descripcion": "ESPECIERO C/CUCHARA CEREN NEGR3/407484-7",
+                                        "descripcionAdicional": "3/407484-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 1561.46,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 8997.00,
+                                         "importeSinImpuestos": 7435.54,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 8997.00,
+						"importe": 944.69
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "407485",
+				                        "descripcion": "ESPECIERO C/CUCHARA CEREN GRIS3/407485-9",
+                                        "descripcionAdicional": "3/407485-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 5,
+                                        "importeIva": 2602.44,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 14995.00,
+                                         "importeSinImpuestos": 12392.56,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 14995.00,
+						"importe": 1574.48
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "406562",
+				                        "descripcion": "PORTA ACCESORIOS DIS NUEVO5/406562-2",
+                                        "descripcionAdicional": "5/406562-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "900062",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA N2 (CC4/900062-0",
+                                        "descripcionAdicional": "4/900062-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 0.01,
+						"importe": 0.00
+					} 
+                                	]
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -6080.33,
+	"codigoUM": "BON",
+	"precio": 35034.30,
+        "importe": 35034.30,
+        "importeSinImpuestos": -28953.97,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -35034.30,
+						"importe": -3678.60
+					} 
+                                	]
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -1394.93,
+				"codigoUM": "BON",
+				"precio": 8037.45,
+                                "importe": 8037.45,
+                                "importeSinImpuestos": -6642.52,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -8037.45,
+						"importe": -843.93
+					} 
+                                	]
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 653.92,
+				"codigoUM": "UNI",
+				"precio": 3767.85,
+                                "importe": 3767.85,
+                                "importeSinImpuestos": 3113.93,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": 3767.85,
+						"importe": 395.62
+					} 
+                                	]
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 144821.48
+			}
+                        ]
+            }
+        ]

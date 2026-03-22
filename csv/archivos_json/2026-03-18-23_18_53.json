@@ -1,0 +1,254 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000534",
+		"codigoTalonario": "5",
+		"codigoCliente": "38802",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "070",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 69978.69,
+		"totalExento": 0.00,
+		"totalIva": 12145.06,
+		"subtotal": 69978.69,
+		"totalSinImpuestos": 57833.63,
+		"subtotalSinImpuestos": 57833.63,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101285",
+				                        "descripcion": "LOCION COLONIA FEMENINA MAGNET1/101285-8",
+                                        "descripcionAdicional": "1/101285-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101510",
+				                        "descripcion": "SERUM FACIAL C/ARGIRELINE DERM1/101510-2",
+                                        "descripcionAdicional": "1/101510-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3123.79,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 17999.00,
+                                        "importe": 17999.00,
+                                         "importeSinImpuestos": 14875.21
+                        	}
+                     ,{
+				                        "codigo": "100459",
+				                        "descripcion": "LOCION COLONIA FEMENINA ADDICT1/100459-1",
+                                        "descripcionAdicional": "1/100459-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101540",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 1 BER1/101540-5",
+                                        "descripcionAdicional": "1/101540-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "101604",
+				                        "descripcion": "MILK EMULS.CORP. EXTRACTO PEPI1/101604-5",
+                                        "descripcionAdicional": "1/101604-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "100256",
+				                        "descripcion": "EAUTOILETTEFEM.FLY50ML1/100256-7",
+                                        "descripcionAdicional": "1/100256-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2776.69,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 15999.00,
+                                         "importeSinImpuestos": 13222.31
+                        	}
+                     ,{
+				                        "codigo": "100935",
+				                        "descripcion": "LOLA FANTASIA LOCION P/ NENAS 1/100935-7",
+                                        "descripcionAdicional": "1/100935-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1127.93,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6499.00,
+                                        "importe": 6499.00,
+                                         "importeSinImpuestos": 5371.07
+                        	}
+                     ,{
+				                        "codigo": "101132",
+				                        "descripcion": "CREMA PARA CUERPO BE VEGAN 3001/101132-0",
+                                        "descripcionAdicional": "1/101132-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2256.02,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12999.00,
+                                        "importe": 12999.00,
+                                         "importeSinImpuestos": 10742.98
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 4/101405-0",
+                                        "descripcionAdicional": "4/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "404415",
+				                        "descripcion": "PRECINTOS REUTIL. CIERRA BOLSA5/404415-7",
+                                        "descripcionAdicional": "5/404415-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1475.03,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8499.00,
+                                        "importe": 8499.00,
+                                         "importeSinImpuestos": 7023.97
+                        	}
+                     ,{
+				                        "codigo": "901163",
+				                        "descripcion": "PR. TAZA CON TETERA CERAMICA A5/901163-1",
+                                        "descripcionAdicional": "5/901163-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 1040.98,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 5998.00,
+                                         "importeSinImpuestos": 4957.02
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -4138.84,
+	"codigoUM": "BON",
+	"precio": 23847.60,
+        "importe": 23847.60,
+        "importeSinImpuestos": -19708.76
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -377.40,
+				"codigoUM": "BON",
+				"precio": 2174.55,
+                                "importe": 2174.55,
+                                "importeSinImpuestos": -1797.15
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 349.16,
+				"codigoUM": "UNI",
+				"precio": 2011.82,
+                                "importe": 2011.82,
+                                "importeSinImpuestos": 1662.66
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 69978.69
+			}
+                        ]
+            }
+        ]

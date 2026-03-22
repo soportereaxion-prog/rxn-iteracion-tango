@@ -1,0 +1,176 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300002735",
+		"codigoTalonario": "5",
+		"codigoCliente": "6847",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "304",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 27691.10,
+		"totalExento": 0.00,
+		"totalIva": 4805.90,
+		"subtotal": 27691.10,
+		"totalSinImpuestos": 22885.20,
+		"subtotalSinImpuestos": 22885.20,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "100899",
+				                        "descripcion": "PEST./CEJAS LIPOSOMAS SPRAY SP1/100899-5",
+                                        "descripcionAdicional": "1/100899-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1561.81,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 8999.00,
+                                         "importeSinImpuestos": 7437.19
+                        	}
+                     ,{
+				                        "codigo": "100629",
+				                        "descripcion": "YOU IMPACT MASC. PESTANAS LAVA1/100629-5",
+                                        "descripcionAdicional": "1/100629-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1561.81,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 8999.00,
+                                         "importeSinImpuestos": 7437.19
+                        	}
+                     ,{
+				                        "codigo": "100906",
+				                        "descripcion": "LABIAL CREMOSO YOU 05 ROSA DEL1/100906-6",
+                                        "descripcionAdicional": "1/100906-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "100903",
+				                        "descripcion": "LABIAL CREMOSO YOU 02 ROSA ROM1/100903-0",
+                                        "descripcionAdicional": "1/100903-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "101052",
+				                        "descripcion": "EAU TOILETTE MASC. NIGHT SEDUC5/101052-0",
+                                        "descripcionAdicional": "5/101052-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 867.42,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 4998.00,
+                                         "importeSinImpuestos": 4130.58
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -971.76,
+	"codigoUM": "BON",
+	"precio": 5599.20,
+        "importe": 5599.20,
+        "importeSinImpuestos": -4627.44
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -86.74,
+				"codigoUM": "BON",
+				"precio": 499.80,
+                                "importe": 499.80,
+                                "importeSinImpuestos": -413.06
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 138.16,
+				"codigoUM": "UNI",
+				"precio": 796.09,
+                                "importe": 796.09,
+                                "importeSinImpuestos": 657.93
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 27691.10
+			}
+                        ]
+            }
+        ]

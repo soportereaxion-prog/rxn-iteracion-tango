@@ -1,0 +1,252 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300001854",
+		"codigoTalonario": "5",
+		"codigoCliente": "37574",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "164",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "4,655.03",
+		"leyenda2": "21,421.63",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 29284.46,
+		"totalExento": 0.00,
+		"totalIva": 7220.17,
+		"subtotal": 25920.18,
+		"totalSinImpuestos": 21421.63,
+		"subtotalSinImpuestos": 21421.63,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101495",
+				                        "descripcion": "PROTECT INSTA DRY ACEITE SEC.R1/101495-0",
+                                        "descripcionAdicional": "1/101495-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 3999.00,
+						"importe": 419.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 3304.96,
+						"importe": 99.15
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101532",
+				                        "descripcion": "LABIAL LIQ.12H MATE METAL.SK L2/101532-5",
+                                        "descripcionAdicional": "2/101532-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 3470.73,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 19998.00,
+                                         "importeSinImpuestos": 16527.27,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 19998.00,
+						"importe": 2099.79
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 16527.27,
+						"importe": 495.82
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101431",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 1 ROSA D2/101431-4",
+                                        "descripcionAdicional": "2/101431-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 1849.00,
+						"importe": 194.15
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 1528.10,
+						"importe": 45.84
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 867.42,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 4998.00,
+                                         "importeSinImpuestos": 4130.58,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 4998.00,
+						"importe": 524.79
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 4130.58,
+						"importe": 123.92
+                                        	}
+                                	]
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -897.13,
+	"codigoUM": "BON",
+	"precio": 5169.20,
+        "importe": 5169.20,
+        "importeSinImpuestos": -4272.07,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -5169.20,
+						"importe": -542.77
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": -4272.07,
+						"importe": -128.16
+                                        	}
+                                	]
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -86.74,
+				"codigoUM": "BON",
+				"precio": 499.80,
+                                "importe": 499.80,
+                                "importeSinImpuestos": -413.06,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -499.80,
+						"importe": -52.48
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": -413.06,
+						"importe": -12.39
+                                        	}
+                                	]
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 129.33,
+				"codigoUM": "UNI",
+				"precio": 745.18,
+                                "importe": 745.18,
+                                "importeSinImpuestos": 615.85,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": 745.18,
+						"importe": 78.24
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 615.85,
+						"importe": 18.48
+                                        	}
+                                	]
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 29284.46
+			}
+                        ]
+            }
+        ]

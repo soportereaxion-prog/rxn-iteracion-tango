@@ -1,0 +1,267 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300003107",
+		"codigoTalonario": "5",
+		"codigoCliente": "37256",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "505",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 112370.26,
+		"totalExento": 0.00,
+		"totalIva": 19502.25,
+		"subtotal": 112370.26,
+		"totalSinImpuestos": 92868.01,
+		"subtotalSinImpuestos": 92868.01,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101510",
+				                        "descripcion": "SERUM FACIAL C/ARGIRELINE DERM1/101510-2",
+                                        "descripcionAdicional": "1/101510-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3123.79,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 17999.00,
+                                        "importe": 17999.00,
+                                         "importeSinImpuestos": 14875.21
+                        	}
+                     ,{
+				                        "codigo": "101026",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 2 ENC2/101026-6",
+                                        "descripcionAdicional": "2/101026-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "101291",
+				                        "descripcion": "CR.REGENERADORA C/AC.CANNABIS 1/101291-3",
+                                        "descripcionAdicional": "1/101291-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "100801",
+				                        "descripcion": "EAU TOILETTE FEM. MAGIC LOVE 51/100801-7",
+                                        "descripcionAdicional": "1/100801-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 5553.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 31998.00,
+                                         "importeSinImpuestos": 26444.63
+                        	}
+                     ,{
+				                        "codigo": "101339",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 11 NU2/101339-3",
+                                        "descripcionAdicional": "2/101339-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "100256",
+				                        "descripcion": "EAUTOILETTEFEM.FLY50ML1/100256-7",
+                                        "descripcionAdicional": "1/100256-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 5553.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 31998.00,
+                                         "importeSinImpuestos": 26444.63
+                        	}
+                     ,{
+				                        "codigo": "100588",
+				                        "descripcion": "ESMALTE GEL SK LL 17 BORGONA E1/100588-1",
+                                        "descripcionAdicional": "1/100588-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 954.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5499.00,
+                                        "importe": 5499.00,
+                                         "importeSinImpuestos": 4544.63
+                        	}
+                     ,{
+				                        "codigo": "101638",
+				                        "descripcion": "ESMALTE GEL SK LL CR. 48 CREAM1/101638-7",
+                                        "descripcionAdicional": "1/101638-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 954.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5499.00,
+                                        "importe": 5499.00,
+                                         "importeSinImpuestos": 4544.63
+                        	}
+                     ,{
+				                        "codigo": "101639",
+				                        "descripcion": "ESMALTE GEL SK LL CR. 49 MOCCA1/101639-0",
+                                        "descripcionAdicional": "1/101639-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 954.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5499.00,
+                                        "importe": 5499.00,
+                                         "importeSinImpuestos": 4544.63
+                        	}
+                     ,{
+				                        "codigo": "101052",
+				                        "descripcion": "EAU TOILETTE MASC. NIGHT SEDUC5/101052-0",
+                                        "descripcionAdicional": "5/101052-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2082.30,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 11998.00,
+                                         "importeSinImpuestos": 9915.70
+                        	}
+                     ,{
+				                        "codigo": "101226",
+				                        "descripcion": "EAU TOILETTE FEM. PARAISO OCEA4/101226-3",
+                                        "descripcionAdicional": "4/101226-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "101656",
+				                        "descripcion": "EAU PARFUM FEM. VIOLETTA EQUAL7/101656-2",
+                                        "descripcionAdicional": "7/101656-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -6863.46,
+	"codigoUM": "BON",
+	"precio": 39546.60,
+        "importe": 39546.60,
+        "importeSinImpuestos": -32683.14
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -312.34,
+				"codigoUM": "BON",
+				"precio": 1799.70,
+                                "importe": 1799.70,
+                                "importeSinImpuestos": -1487.36
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 560.67,
+				"codigoUM": "UNI",
+				"precio": 3230.54,
+                                "importe": 3230.54,
+                                "importeSinImpuestos": 2669.87
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 112370.26
+			}
+                        ]
+            }
+        ]

@@ -1,0 +1,214 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "E0001100000056",
+		"codigoTalonario": "22",
+		"codigoCliente": "108782",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 2,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "123",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 36976.71,
+		"totalExento": 36976.71,
+		"totalIva": 0.00,
+		"subtotal": 36976.71,
+		"totalSinImpuestos": 0.00,
+		"subtotalSinImpuestos": 0.00,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				    "codigo": "100657",
+                    "descripcion": "FRUTOS ROJOS JABON DE LIMP FAC",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5999.00,
+                    "importe": 5999.00
+                        	}
+                     ,{
+				    "codigo": "100710",
+                    "descripcion": "ESMALTE P/UNAS YOU 01 CIRUELA ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1849.00,
+                    "importe": 1849.00
+                        	}
+                     ,{
+				    "codigo": "100711",
+                    "descripcion": "ESMALTE P/UNAS YOU 02 ROJO SEN",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1849.00,
+                    "importe": 1849.00
+                        	}
+                     ,{
+				    "codigo": "100714",
+                    "descripcion": "ESMALTE P/UNAS YOU 05 FUCSIA P",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1849.00,
+                    "importe": 1849.00
+                        	}
+                     ,{
+				    "codigo": "100723",
+                    "descripcion": "FRUTOS ROJOS CR.HIDRATANTE 70 ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5499.00,
+                    "importe": 5499.00
+                        	}
+                     ,{
+				    "codigo": "100724",
+                    "descripcion": "FRUTOS ROJOS GEL EXFOLIANTE 10",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5999.00,
+                    "importe": 5999.00
+                        	}
+                     ,{
+				    "codigo": "100727",
+                    "descripcion": "ESMALTE P/UNAS YOU 06 NEGRO CH",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1849.00,
+                    "importe": 1849.00
+                        	}
+                     ,{
+				    "codigo": "101235",
+                    "descripcion": "BRUMA FACIAL AGUA DE ROSAS 150",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5999.00,
+                    "importe": 5999.00
+                        	}
+                     ,{
+				    "codigo": "101236",
+                    "descripcion": "LECHE/TONICO MICELAR AGUA DE R",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 9999.00,
+                    "importe": 9999.00
+                        	}
+                     ,{
+				    "codigo": "101237",
+                    "descripcion": "AGUA MICELAR AGUA DE ROSAS 200",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 9999.00,
+                    "importe": 9999.00
+                        	}
+                     ,{
+				    "codigo": "260",
+                    "descripcion": "FOLLETO CAMP. 11              ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 0.01,
+                    "importe": 0.01
+                        	}
+                     ,{
+				    "codigo": "500712",
+                    "descripcion": "NUEVOS CLIENTES C11-2025      ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 0.01,
+                    "importe": 0.01
+                        	}
+                     ,{
+				    "codigo": "500716",
+                    "descripcion": "VOLANTE EQUAL                 ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 0.01,
+                    "importe": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"codigoDeposito": "1",
+        "codigoTasaIva": "3",
+	"cantidad": -1,
+	"precio": 15267.00,
+        "importe": 15267.00
+        },{
+	"codigo": "02",
+        "descripcion": "Gastos administrativos",
+	"codigoDeposito": "1",
+        "codigoTasaIva": "3",
+	"cantidad": 1,
+	"precio": 1353.68,
+        "importe": 1353.68
+        },
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 36976.71
+			}
+                        ],
+            "xmlTyp" : "",
+            "CuitDestino": "J",
+            "TipoExpo": "4",
+            "PaisAfip": "200",
+            "CodigoIncoterms": "FOB",
+            "DescripcionIncoterms": ""  
+            }
+        ]

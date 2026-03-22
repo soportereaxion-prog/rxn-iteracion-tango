@@ -1,0 +1,176 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300003303",
+		"codigoTalonario": "5",
+		"codigoCliente": "97599",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "505",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 35454.18,
+		"totalExento": 0.00,
+		"totalIva": 6153.19,
+		"subtotal": 35454.18,
+		"totalSinImpuestos": 29300.99,
+		"subtotalSinImpuestos": 29300.99,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101025",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 1 BEN2/101025-4",
+                                        "descripcionAdicional": "2/101025-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "101030",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 8 ELE2/101030-7",
+                                        "descripcionAdicional": "2/101030-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "100585",
+				                        "descripcion": "ESMALTE GEL SK LL 14 NUDE WHIT1/100585-4",
+                                        "descripcionAdicional": "1/100585-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 954.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5499.00,
+                                        "importe": 5499.00,
+                                         "importeSinImpuestos": 4544.63
+                        	}
+                     ,{
+				                        "codigo": "101226",
+				                        "descripcion": "EAU TOILETTE FEM. PARAISO OCEA4/101226-3",
+                                        "descripcionAdicional": "4/101226-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "300853",
+				                        "descripcion": "ANILLO  CORAZON UNICO CH P/M5/300853-3",
+                                        "descripcionAdicional": "5/300853-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 277.51,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1599.00,
+                                        "importe": 1599.00,
+                                         "importeSinImpuestos": 1321.49
+                        	}
+                     ,{
+				                        "codigo": "406088",
+				                        "descripcion": "CARTUCHERA RANITA5/406088-0",
+                                        "descripcionAdicional": "5/406088-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2429.40,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 13998.00,
+                                         "importeSinImpuestos": 11568.60
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -885.02,
+	"codigoUM": "BON",
+	"precio": 5099.40,
+        "importe": 5099.40,
+        "importeSinImpuestos": -4214.38
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -270.69,
+				"codigoUM": "BON",
+				"precio": 1559.70,
+                                "importe": 1559.70,
+                                "importeSinImpuestos": -1289.01
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 176.90,
+				"codigoUM": "UNI",
+				"precio": 1019.27,
+                                "importe": 1019.27,
+                                "importeSinImpuestos": 842.37
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 35454.18
+			}
+                        ]
+            }
+        ]

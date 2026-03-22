@@ -1,0 +1,267 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000552",
+		"codigoTalonario": "5",
+		"codigoCliente": "38718",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "070",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 62213.73,
+		"totalExento": 0.00,
+		"totalIva": 10797.41,
+		"subtotal": 62213.73,
+		"totalSinImpuestos": 51416.32,
+		"subtotalSinImpuestos": 51416.32,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101285",
+				                        "descripcion": "LOCION COLONIA FEMENINA MAGNET1/101285-8",
+                                        "descripcionAdicional": "1/101285-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "100459",
+				                        "descripcion": "LOCION COLONIA FEMENINA ADDICT1/100459-1",
+                                        "descripcionAdicional": "1/100459-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "100293",
+				                        "descripcion": "DEO COLONIA MASC. SEX MEN INTE1/100293-8",
+                                        "descripcionAdicional": "1/100293-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "100863",
+				                        "descripcion": "DEO COLONIA MASC. HOMME SPORT 1/100863-7",
+                                        "descripcionAdicional": "1/100863-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "41183",
+				                        "descripcion": "LOCION COLONIA FEMENINA PASSIO1/41183-9",
+                                        "descripcionAdicional": "1/41183-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "100193",
+				                        "descripcion": "CREMA DE ENEBRO BIENESTAR X 851/100193-9",
+                                        "descripcionAdicional": "1/100193-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.47,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 11999.00,
+                                         "importeSinImpuestos": 9916.53
+                        	}
+                     ,{
+				                        "codigo": "101210",
+				                        "descripcion": "GAMERS LOCION INFANTIL 75 ML1/101210-6",
+                                        "descripcionAdicional": "1/101210-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "100695",
+				                        "descripcion": "EAU TOILETTE MASC. BLUE LAKE 51/100695-7",
+                                        "descripcionAdicional": "1/100695-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3123.79,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 17999.00,
+                                        "importe": 17999.00,
+                                         "importeSinImpuestos": 14875.21
+                        	}
+                     ,{
+				                        "codigo": "901124",
+				                        "descripcion": "PR.VERTEDORES X2 DESTINO5/901124-5",
+                                        "descripcionAdicional": "5/901124-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+				                        "codigo": "404415",
+				                        "descripcion": "PRECINTOS REUTIL. CIERRA BOLSA5/404415-7",
+                                        "descripcionAdicional": "5/404415-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+				                        "codigo": "901165",
+				                        "descripcion": "PR. AZUCARERA CERAMICA AURORA5/901165-5",
+                                        "descripcionAdicional": "5/901165-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29
+                        	}
+                     ,{
+				                        "codigo": "407410",
+				                        "descripcion": "FUNDA DE ALMOHADA CUAD SUENA5/407410-7",
+                                        "descripcionAdicional": "5/407410-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 520.49,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 2999.00,
+                                         "importeSinImpuestos": 2478.51
+                        	}
+                     ,{
+				                        "codigo": "407410",
+				                        "descripcion": "FUNDA DE ALMOHADA CUAD SUENA5/407410-7",
+                                        "descripcionAdicional": "5/407410-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 798.17,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4599.00,
+                                        "importe": 4599.00,
+                                         "importeSinImpuestos": 3800.83
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -3540.08,
+	"codigoUM": "BON",
+	"precio": 20397.60,
+        "importe": 20397.60,
+        "importeSinImpuestos": -16857.52
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -392.97,
+				"codigoUM": "BON",
+				"precio": 2264.25,
+                                "importe": 2264.25,
+                                "importeSinImpuestos": -1871.28
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 310.41,
+				"codigoUM": "UNI",
+				"precio": 1788.58,
+                                "importe": 1788.58,
+                                "importeSinImpuestos": 1478.17
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 62213.73
+			}
+                        ]
+            }
+        ]

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manual - ReAxion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 40px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+
+        .header img {
+            height: 80px;
+            margin-right: 20px;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+
+        .manual {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #800000;
+            margin-top: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .important {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-left: 4px solid #800000;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+
+        .header img {
+            height: 120px;
+        }
+
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: #9fd0f0;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-left,
+        .footer-right {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5">
+        <!-- Encabezado -->
+        <div class="header">
+            <img src="logo-reaxion-v3.png" alt="Logo ReAxion" />
+            <div>
+                <h1 class="display-5 fw-bold text-decoration-underline mb-0">Módulo del Sistema</h1>
+                <p class="fs-4 fst-italic">Copia Facturas.</p>
+            </div>
+        </div>
+
+        <!-- Información del Módulo -->
+        <section class="mb-4">
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Versión:</strong> LadyApi001</li>
+                <li class="list-group-item"><strong>Fecha de actualización:</strong> 20/05/2025</li>
+                <li class="list-group-item"><strong>Propósito:</strong> Permite copiar una factura previamente emitida
+                    según la empresa que elijas para reutilizar sus datos rápidamente en una nueva base de datos.
+
+                </li>
+            </ul>
+        </section>
+
+        <section class="mb-4">
+            <h2 class="h4 text-decoration-underline">Descripción General</h2><br><br>
+            <p>¿Qué hace este módulo?<br><br>
+                Este módulo permite copiar facturas desde una empresa seleccionada en la lista hacia otra empresa
+                definida previamente en el módulo de “Configuración de directorio”. De este modo, podes replicar
+                facturas entre empresas de forma rápida y segura.</p>
+
+            <p>
+                ¿Para qué sirve?
+            </p>
+            <p>
+
+                Sirve para “reutilizar facturación existente” entre distintas empresas configuradas en el sistema, lo
+                que facilita tareas como:
+            </p>
+            <ul>
+                <li>Replicar ventas realizadas en una empresa hacia otra sin tener que cargarlas manualmente.</li>
+                <li>Ahorrar tiempo en procesos repetitivos.</li>
+                <li>Mantener consistencia en las facturas entre empresas con estructuras similares.</li>
+            </ul>
+            <h2 class="h4 text-decoration-underline">Pantalla principal</h2><br>
+            <p>La pantalla principal consta de un selector de empresa. Al hacer clic en la flecha hacia abajo, se
+                desplegará una lista con las distintas empresas disponibles.
+                Además, el selector permite escribir directamente el nombre de la empresa para filtrar la lista y
+                encontrarla más rápidamente. Para ello, simplemente hace clic en el campo y comienza a escribir, el
+                sistema irá mostrando coincidencias a medida que escribís.
+                Al ingresar por primera vez al módulo, el usuario verá un mensaje que indica:
+                "Seleccione una empresa y haga clic en Siguiente"
+                Una vez seleccionada la empresa deseada, hace clic en el botón "Siguiente" para continuar con el
+                proceso.
+            </p>
+
+        </section>
+
+        <section class="mb-4 text-center">
+            <img src="CopiarFacturas/copia1.png" class="img-fluid rounded" alt="Captura del módulo">
+        </section>
+        <section class="mb-4 text-center">
+            <img src="CopiarFacturas/copia2.png" class="img-fluid rounded" alt="Captura del módulo">
+        </section>
+        <h2 class="h4 text-decoration-underline">Selección de factura</h2><br>
+        <p>Luego de hacer clic en el botón "Siguiente", aparecerá un mensaje que dice:
+            "Seleccione una factura y haga clic en Siguiente."
+            A la derecha se habilitará un selector similar al de empresas, pero en este caso mostrará las facturas
+            disponibles correspondientes a la empresa seleccionada previamente.
+            También podés filtrar las facturas escribiendo en el campo de búsqueda, lo que te permitirá encontrar la
+            factura deseada de forma más rápida.
+            Una vez que hayas seleccionado la factura, hace clic en el botón "Siguiente" para continuar con el proceso.
+
+
+        </p>
+        <section class="mb-4 text-center">
+            <img src="CopiarFacturas/copia3.png" class="img-fluid rounded" alt="Captura del módulo">
+        </section>
+        <section class="mb-4 text-center">
+            <img src="CopiarFacturas/copia4.png" class="img-fluid rounded" alt="Captura del módulo">
+        </section>
+
+        <h2 class="h4 text-decoration-underline">Copia de factura</h2><br>
+        <p>Una vez que le haya dado click en siguiente se copiara con éxito la factura en la empresa destino que tiene
+            configurada en el módulo de “Configuración de directorio”, mostrando así un mensaje que dice:
+            “La factura fue copiada con éxito”
+
+
+
+        </p>
+
+        <section class="mb-4 text-center">
+            <img src="CopiarFacturas/copia5.png" class="img-fluid rounded" alt="Captura del módulo">
+        </section>
+
+        <h2 class="h4 text-decoration-underline">Campos obligatorios y Mensajes de alertas</h2><br>
+        <p>Todos los campos son obligatorios. Si intenta hacer clic en el botón "Siguiente" sin haber seleccionado una
+            empresa, el sistema mostrará un mensaje como el siguiente:
+
+
+
+        </p>
+        <section class="mb-4 text-center">
+            <img src="CopiarFacturas/copia6.png" class="img-fluid rounded" alt="Captura del módulo">
+        </section>
+        <p>Del mismo modo, si intenta hacer clic en "Siguiente" sin haber seleccionado una factura para copiar, el
+            sistema mostrará un mensaje como el siguiente:
+
+
+
+        </p>
+        <section class="mb-4 text-center">
+            <img src="CopiarFacturas/copia7.png" class="img-fluid rounded" alt="Captura del módulo">
+        </section>
+
+        <p>Es posible que la factura ya exista en la empresa destino. En ese caso, el sistema mostrará un mensaje en
+            color rojo indicando que la factura ya se encuentra registrada en dicha empresa:
+
+
+
+        </p>
+        <section class="mb-4 text-center">
+            <img src="CopiarFacturas/copia8.png" class="img-fluid rounded" alt="Captura del módulo">
+        </section>
+
+        <h2 class="h4 text-decoration-underline">Empresa seleccionada previamente</h2><br>
+        <p>El sistema cuenta con una funcionalidad que almacena la última empresa seleccionada por el operador. Esto
+            significa que, al volver a ingresar al módulo de “Copia de facturas”, el selector de empresas mostrará por
+            defecto la última empresa que fue utilizada.
+            Esta característica está diseñada para agilizar el flujo de trabajo, especialmente en situaciones donde el
+            operador trabaja repetidamente con la misma empresa. Así, se evita tener que buscar y seleccionar nuevamente
+            la empresa cada vez que se accede al módulo, lo que reduce tiempos y mejora la experiencia de uso.
+            Nota: Si el operador desea cambiar de empresa, puede hacerlo fácilmente desplegando el selector y eligiendo
+            una nueva opción. Quedará por defecto hasta que el operador lo cambie.
+
+
+
+
+        </p>
+
+        <footer style="background-color: #000; color: white; padding: 20px 10px;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+
+                <!-- Izquierda: logo y contacto -->
+                <div style="display: flex; flex-direction: column; gap: 10px; max-width: 400px;">
+                    <!-- Logo con fondo blanco -->
+                    <img src="logo-reaxion-v3.png" alt="Logo ReAxion"
+                        style="height: 80px; background-color: white; padding: 5px; border-radius: 4px;" width="300px">
+
+                    <!-- Información de soporte -->
+                    <div style="color: #e8eaec; font-size: 0.9em;">
+                        <p style="margin: 0;">
+                            Contacto con soporte:<br>
+                            WhatsApp: (569) 2656 40-1333<br>
+                            Teléfono: (54) 11 5263 2464<br>
+                            Correo: soporte@reaxion.com.ar
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Derecha: dirección y enlaces -->
+                <div style="text-align: right; font-size: 0.9em; color: #b0d4ff;">
+                    <p style="margin-bottom: 10px;">
+                        El Piquillín 845 – Villa de Merlo (D5881AOO)<br>
+                        San Luis, Argentina
+                    </p>
+                    <a href="https://reaxion.com.ar/" style="color: #b0d4ff; text-decoration: none;">Página oficial</a>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+    <!-- Bootstrap JS (Opcional si no se usan componentes interactivos) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

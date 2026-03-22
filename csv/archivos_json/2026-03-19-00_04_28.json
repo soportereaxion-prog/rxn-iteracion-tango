@@ -1,0 +1,267 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300001621",
+		"codigoTalonario": "5",
+		"codigoCliente": "37866",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "164",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 68737.15,
+		"totalExento": 0.00,
+		"totalIva": 11929.58,
+		"subtotal": 68737.15,
+		"totalSinImpuestos": 56807.57,
+		"subtotalSinImpuestos": 56807.57,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101471",
+				                        "descripcion": "LAP LAB SEMIMATE SK N206 TERRA2/101471-2",
+                                        "descripcionAdicional": "2/101471-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1336.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7699.00,
+                                        "importe": 7699.00,
+                                         "importeSinImpuestos": 6362.81
+                        	}
+                     ,{
+				                        "codigo": "101285",
+				                        "descripcion": "LOCION COLONIA FEMENINA MAGNET1/101285-8",
+                                        "descripcionAdicional": "1/101285-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "101510",
+				                        "descripcion": "SERUM FACIAL C/ARGIRELINE DERM1/101510-2",
+                                        "descripcionAdicional": "1/101510-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3123.79,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 17999.00,
+                                        "importe": 17999.00,
+                                         "importeSinImpuestos": 14875.21
+                        	}
+                     ,{
+				                        "codigo": "101030",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 8 ELE2/101030-7",
+                                        "descripcionAdicional": "2/101030-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 3470.73,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 19998.00,
+                                         "importeSinImpuestos": 16527.27
+                        	}
+                     ,{
+				                        "codigo": "100727",
+				                        "descripcion": "ESMALTE P/UNAS YOU 06 NEGRO CH2/100727-0",
+                                        "descripcionAdicional": "2/100727-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "101225",
+				                        "descripcion": "FIJADOR PARA CEJAS YOU BROW FI1/101225-1",
+                                        "descripcionAdicional": "1/101225-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1561.81,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 8999.00,
+                                         "importeSinImpuestos": 7437.19
+                        	}
+                     ,{
+				                        "codigo": "101431",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 1 ROSA D2/101431-4",
+                                        "descripcionAdicional": "2/101431-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "101272",
+				                        "descripcion": "LAP LAB CREM SK N11 NUDE TOSTA2/101272-7",
+                                        "descripcionAdicional": "2/101272-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1336.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7699.00,
+                                        "importe": 7699.00,
+                                         "importeSinImpuestos": 6362.81
+                        	}
+                     ,{
+				                        "codigo": "258",
+				                        "descripcion": "FOLLETO CAMP. 099/258-7",
+                                        "descripcionAdicional": "9/258-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 51.89,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 299.00,
+                                        "importe": 299.00,
+                                         "importeSinImpuestos": 247.11
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 4/101405-0",
+                                        "descripcionAdicional": "4/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "201792",
+				                        "descripcion": "ACCESORIO SUJETADOR DE CINTURA5/201792-5",
+                                        "descripcionAdicional": "5/201792-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.47,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 11999.00,
+                                         "importeSinImpuestos": 9916.53
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -3805.56,
+	"codigoUM": "BON",
+	"precio": 21927.30,
+        "importe": 21927.30,
+        "importeSinImpuestos": -18121.74
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -468.54,
+				"codigoUM": "BON",
+				"precio": 2699.70,
+                                "importe": 2699.70,
+                                "importeSinImpuestos": -2231.16
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 342.96,
+				"codigoUM": "UNI",
+				"precio": 1976.13,
+                                "importe": 1976.13,
+                                "importeSinImpuestos": 1633.17
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 68737.15
+			}
+                        ]
+            }
+        ]

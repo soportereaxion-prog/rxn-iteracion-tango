@@ -1,0 +1,280 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000373",
+		"codigoTalonario": "5",
+		"codigoCliente": "83975",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "070",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 65702.95,
+		"totalExento": 0.00,
+		"totalIva": 11403.01,
+		"subtotal": 65702.95,
+		"totalSinImpuestos": 54299.94,
+		"subtotalSinImpuestos": 54299.94,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101511",
+				                        "descripcion": "ESPUMA LIMP.FACIAL CLEAR FACE 2/101511-4",
+                                        "descripcionAdicional": "2/101511-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "101514",
+				                        "descripcion": "CLEAR FACE MICROG.LIMP.FAC.ACC1/101514-1",
+                                        "descripcionAdicional": "1/101514-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.60,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40
+                        	}
+                     ,{
+				                        "codigo": "404415",
+				                        "descripcion": "PRECINTOS REUTIL. CIERRA BOLSA5/404415-7",
+                                        "descripcionAdicional": "5/404415-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 4,
+                                        "importeIva": 1734.84,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 9996.00,
+                                         "importeSinImpuestos": 8261.16
+                        	}
+                     ,{
+				                        "codigo": "100727",
+				                        "descripcion": "ESMALTE P/UNAS YOU 06 NEGRO CH2/100727-0",
+                                        "descripcionAdicional": "2/100727-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "100710",
+				                        "descripcion": "ESMALTE P/UNAS YOU 01 CIRUELA 2/100710-0",
+                                        "descripcionAdicional": "2/100710-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10
+                        	}
+                     ,{
+				                        "codigo": "100771",
+				                        "descripcion": "LAP LAB SATIN SK N402 MERLOT I2/100771-9",
+                                        "descripcionAdicional": "2/100771-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1336.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7699.00,
+                                        "importe": 7699.00,
+                                         "importeSinImpuestos": 6362.81
+                        	}
+                     ,{
+				                        "codigo": "101284",
+				                        "descripcion": "CREMA PARA EL CUERPO AVENA 3001/101284-5",
+                                        "descripcionAdicional": "1/101284-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.47,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 11999.00,
+                                         "importeSinImpuestos": 9916.53
+                        	}
+                     ,{
+				                        "codigo": "101640",
+				                        "descripcion": "BRILLO LABIAL INFINITE G SK 1 1/101640-4",
+                                        "descripcionAdicional": "1/101640-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74
+                        	}
+                     ,{
+				                        "codigo": "404415",
+				                        "descripcion": "PRECINTOS REUTIL. CIERRA BOLSA3/404415-7",
+                                        "descripcionAdicional": "3/404415-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 1040.98,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 5998.00,
+                                         "importeSinImpuestos": 4957.02
+                        	}
+                     ,{
+				                        "codigo": "406530",
+				                        "descripcion": "RECIPIENTE PARA JABON EN POLVO5/406530-5",
+                                        "descripcionAdicional": "5/406530-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "406529",
+				                        "descripcion": "RECIPIENTE PARA JABON LIQUIDO 5/406529-0",
+                                        "descripcionAdicional": "5/406529-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "901166",
+				                        "descripcion": "PR. PLATO CROISSANT CERAMICA A5/901166-7",
+                                        "descripcionAdicional": "5/901166-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 1040.80,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1999.00,
+                                        "importe": 5997.00,
+                                         "importeSinImpuestos": 4956.20
+                        	}
+                     ,{
+				                        "codigo": "46462",
+				                        "descripcion": "PALO DE AMASAR POLI5/46462-5",
+                                        "descripcionAdicional": "5/46462-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96
+                        	}
+                     ,{
+				                        "codigo": "57963",
+				                        "descripcion": "MIXING BOWL CON TAPA S/E COLOR5/57963-3",
+                                        "descripcionAdicional": "5/57963-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 520.49,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 2999.00,
+                                         "importeSinImpuestos": 2478.51
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -2155.17,
+	"codigoUM": "BON",
+	"precio": 12417.90,
+        "importe": 12417.90,
+        "importeSinImpuestos": -10262.73
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -1067.02,
+				"codigoUM": "BON",
+				"precio": 6148.05,
+                                "importe": 6148.05,
+                                "importeSinImpuestos": -5081.03
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 327.83,
+				"codigoUM": "UNI",
+				"precio": 1888.90,
+                                "importe": 1888.90,
+                                "importeSinImpuestos": 1561.07
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 65702.95
+			}
+                        ]
+            }
+        ]

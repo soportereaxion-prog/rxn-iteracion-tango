@@ -1,0 +1,176 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300002681",
+		"codigoTalonario": "5",
+		"codigoCliente": "36091",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "304",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 56785.53,
+		"totalExento": 0.00,
+		"totalIva": 9855.33,
+		"subtotal": 56785.53,
+		"totalSinImpuestos": 46930.20,
+		"subtotalSinImpuestos": 46930.20,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101470",
+				                        "descripcion": "LAP LAB SEMIMATE SK N205 ROSA 2/101470-0",
+                                        "descripcionAdicional": "2/101470-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1336.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7699.00,
+                                        "importe": 7699.00,
+                                         "importeSinImpuestos": 6362.81
+                        	}
+                     ,{
+				                        "codigo": "100724",
+				                        "descripcion": "FRUTOS ROJOS GEL EXFOLIANTE 102/100724-3",
+                                        "descripcionAdicional": "2/100724-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "101076",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 05 NU1/101076-8",
+                                        "descripcionAdicional": "1/101076-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93
+                        	}
+                     ,{
+				                        "codigo": "101025",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 1 BEN2/101025-4",
+                                        "descripcionAdicional": "2/101025-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 4,
+                                        "importeIva": 6941.45,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 39996.00,
+                                         "importeSinImpuestos": 33054.55
+                        	}
+                     ,{
+				                        "codigo": "100723",
+				                        "descripcion": "FRUTOS ROJOS CR.HIDRATANTE 70 1/100723-1",
+                                        "descripcionAdicional": "1/100723-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 954.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5499.00,
+                                        "importe": 5499.00,
+                                         "importeSinImpuestos": 4544.63
+                        	}
+                     ,{
+				                        "codigo": "101030",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 8 ELE2/101030-7",
+                                        "descripcionAdicional": "2/101030-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64
+                        	}
+                     ,{
+				                        "codigo": "101605",
+				                        "descripcion": "MILK EMULS.CORP. JENGIBRE Y DE1/101605-8",
+                                        "descripcionAdicional": "1/101605-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -4102.29,
+	"codigoUM": "BON",
+	"precio": 23637.00,
+        "importe": 23637.00,
+        "importeSinImpuestos": -19534.71
+        },{
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 283.33,
+				"codigoUM": "UNI",
+				"precio": 1632.53,
+                                "importe": 1632.53,
+                                "importeSinImpuestos": 1349.20
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 56785.53
+			}
+                        ]
+            }
+        ]

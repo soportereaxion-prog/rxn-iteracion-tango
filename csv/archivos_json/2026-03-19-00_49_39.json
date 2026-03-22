@@ -1,0 +1,241 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300002988",
+		"codigoTalonario": "5",
+		"codigoCliente": "37400",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "505",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 73993.11,
+		"totalExento": 0.00,
+		"totalIva": 12841.75,
+		"subtotal": 73993.11,
+		"totalSinImpuestos": 61151.36,
+		"subtotalSinImpuestos": 61151.36,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "100786",
+				                        "descripcion": "AH+ TRAT. D/ACCION LABIOS C/A.2/100786-5",
+                                        "descripcionAdicional": "2/100786-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2776.51,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 15998.00,
+                                         "importeSinImpuestos": 13221.49
+                        	}
+                     ,{
+				                        "codigo": "101510",
+				                        "descripcion": "SERUM FACIAL C/ARGIRELINE DERM1/101510-2",
+                                        "descripcionAdicional": "1/101510-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3123.79,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 17999.00,
+                                        "importe": 17999.00,
+                                         "importeSinImpuestos": 14875.21
+                        	}
+                     ,{
+				                        "codigo": "100788",
+				                        "descripcion": "STAND UP LAVANDA CREM.DUREZAS/1/100788-9",
+                                        "descripcionAdicional": "1/100788-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85
+                        	}
+                     ,{
+				                        "codigo": "101160",
+				                        "descripcion": "LOCION COLONIA FEMENINA MOONLI1/101160-9",
+                                        "descripcionAdicional": "1/101160-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30
+                        	}
+                     ,{
+				                        "codigo": "33000",
+				                        "descripcion": "TRAT.C/A.HIALUR.ANTIARR.+HIDRA1/33000-6",
+                                        "descripcionAdicional": "1/33000-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.47,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 11999.00,
+                                         "importeSinImpuestos": 9916.53
+                        	}
+                     ,{
+				                        "codigo": "101096",
+				                        "descripcion": "AGUA MICELAR C/AC.HIALURONICO 1/101096-7",
+                                        "descripcionAdicional": "1/101096-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2256.02,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12999.00,
+                                        "importe": 12999.00,
+                                         "importeSinImpuestos": 10742.98
+                        	}
+                     ,{
+				                        "codigo": "101404",
+				                        "descripcion": "EAU TOILETTE MASC. SEX MEN BLA1/101404-8",
+                                        "descripcionAdicional": "1/101404-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2603.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 14999.00,
+                                        "importe": 14999.00,
+                                         "importeSinImpuestos": 12395.87
+                        	}
+                     ,{
+				                        "codigo": "101226",
+				                        "descripcion": "EAU TOILETTE FEM. PARAISO OCEA4/101226-3",
+                                        "descripcionAdicional": "4/101226-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.02,
+                                         "importeSinImpuestos": 0.02
+                        	}
+                     ,{
+				                        "codigo": "101052",
+				                        "descripcion": "EAU TOILETTE MASC. NIGHT SEDUC5/101052-0",
+                                        "descripcionAdicional": "5/101052-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 1301.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 7497.00,
+                                         "importeSinImpuestos": 6195.87
+                        	}
+                     ,{
+				                        "codigo": "101525",
+				                        "descripcion": "PRIMER EFECTO MATE YOU X 20 G7/101525-8",
+                                        "descripcionAdicional": "7/101525-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 798.17,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4599.00,
+                                        "importe": 4599.00,
+                                         "importeSinImpuestos": 3800.83
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -4529.34,
+	"codigoUM": "BON",
+	"precio": 26097.60,
+        "importe": 26097.60,
+        "importeSinImpuestos": -21568.26
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -195.17,
+				"codigoUM": "BON",
+				"precio": 1124.55,
+                                "importe": 1124.55,
+                                "importeSinImpuestos": -929.38
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 369.19,
+				"codigoUM": "UNI",
+				"precio": 2127.23,
+                                "importe": 2127.23,
+                                "importeSinImpuestos": 1758.04
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 73993.11
+			}
+                        ]
+            }
+        ]

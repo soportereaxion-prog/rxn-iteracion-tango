@@ -1,0 +1,283 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000700000012",
+		"codigoTalonario": "15",
+		"codigoCliente": "4721",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "888",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 89071.39,
+		"totalExento": 0.00,
+		"totalIva": 15458.69,
+		"subtotal": 89071.39,
+		"totalSinImpuestos": 73612.70,
+		"subtotalSinImpuestos": 73612.70,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "100348",
+				                        "descripcion": "LABIAL MATE SK LL 9 ROSA ARDIE1/100348-6",
+                                        "descripcionAdicional": "1/100348-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1062.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6119.99,
+                                        "importe": 6119.99,
+                                         "importeSinImpuestos": 5057.84
+                        	}
+                     ,{
+				                        "codigo": "100629",
+				                        "descripcion": "YOU IMPACT MASC. PESTANAS LAVA1/100629-5",
+                                        "descripcionAdicional": "1/100629-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1379.32,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7947.49,
+                                        "importe": 7947.49,
+                                         "importeSinImpuestos": 6568.17
+                        	}
+                     ,{
+				                        "codigo": "100773",
+				                        "descripcion": "MAQUILLAJE CORRECTOR YOU N02 M1/100773-3",
+                                        "descripcionAdicional": "1/100773-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 590.08,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3399.99,
+                                        "importe": 3399.99,
+                                         "importeSinImpuestos": 2809.91
+                        	}
+                     ,{
+				                        "codigo": "100774",
+				                        "descripcion": "MAQUILLAJECORRECTORYOUN03STROB1/100774-5",
+                                        "descripcionAdicional": "1/100774-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 590.08,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3399.99,
+                                        "importe": 3399.99,
+                                         "importeSinImpuestos": 2809.91
+                        	}
+                     ,{
+				                        "codigo": "101338",
+				                        "descripcion": "MASC.P/PEST.WAT.CASUAL EXTREME1/101338-1",
+                                        "descripcionAdicional": "1/101338-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1253.92,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7224.99,
+                                        "importe": 7224.99,
+                                         "importeSinImpuestos": 5971.07
+                        	}
+                     ,{
+				                        "codigo": "101625",
+				                        "descripcion": "BRILLO LABIL YOU XXXXX 1 XXXXX1/101625-6",
+                                        "descripcionAdicional": "1/101625-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 902.83,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5202.00,
+                                        "importe": 5202.00,
+                                         "importeSinImpuestos": 4299.17
+                        	}
+                     ,{
+				                        "codigo": "101626",
+				                        "descripcion": "BRILLO LABIL YOU XXXXX 2 XXXXX1/101626-9",
+                                        "descripcionAdicional": "1/101626-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 902.82,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5201.99,
+                                        "importe": 5201.99,
+                                         "importeSinImpuestos": 4299.17
+                        	}
+                     ,{
+				                        "codigo": "101627",
+				                        "descripcion": "BRILLO LABIL YOU XXXXX 3 XXXXX1/101627-1",
+                                        "descripcionAdicional": "1/101627-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 902.82,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5201.99,
+                                        "importe": 5201.99,
+                                         "importeSinImpuestos": 4299.17
+                        	}
+                     ,{
+				                        "codigo": "101633",
+				                        "descripcion": "ILUMINADOR Y RUBOR SK LL 1 SUN1/101633-6",
+                                        "descripcionAdicional": "1/101633-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1065.84,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6141.24,
+                                        "importe": 6141.24,
+                                         "importeSinImpuestos": 5075.40
+                        	}
+                     ,{
+				                        "codigo": "101634",
+				                        "descripcion": "ILUMINADOR Y RUBOR SK LL 2 ROS1/101634-9",
+                                        "descripcionAdicional": "1/101634-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1065.84,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6141.25,
+                                        "importe": 6141.25,
+                                         "importeSinImpuestos": 5075.41
+                        	}
+                     ,{
+				                        "codigo": "101635",
+				                        "descripcion": "ILUMINADOR Y RUBOR SK LL 3 PEA1/101635-1",
+                                        "descripcionAdicional": "1/101635-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1065.84,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6141.24,
+                                        "importe": 6141.24,
+                                         "importeSinImpuestos": 5075.40
+                        	}
+                     ,{
+				                        "codigo": "101640",
+				                        "descripcion": "BRILLO LABIAL INFINITE G SK 1 1/101640-4",
+                                        "descripcionAdicional": "1/101640-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1203.77,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6935.99,
+                                        "importe": 6935.99,
+                                         "importeSinImpuestos": 5732.22
+                        	}
+                     ,{
+				                        "codigo": "101641",
+				                        "descripcion": "BRILLO LABIAL INFINITE G SK 2 1/101641-6",
+                                        "descripcionAdicional": "1/101641-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1203.77,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6935.99,
+                                        "importe": 6935.99,
+                                         "importeSinImpuestos": 5732.22
+                        	}
+                     ,{
+				                        "codigo": "101642",
+				                        "descripcion": "BRILLO LABIAL INFINITE G SK 3 1/101642-9",
+                                        "descripcionAdicional": "1/101642-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1203.77,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6935.99,
+                                        "importe": 6935.99,
+                                         "importeSinImpuestos": 5732.22
+                        	}
+                     ,{
+				                        "codigo": "101655",
+				                        "descripcion": "ILUMINADOR Y RUBOR SK LL 4 SOF1/101655-0",
+                                        "descripcionAdicional": "1/101655-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1065.84,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6141.24,
+                                        "importe": 6141.24,
+                                         "importeSinImpuestos": 5075.40
+                        	}
+                     ,{
+				                        "codigo": "800056",
+				                        "descripcion": "NECESER+AMPOLLETAS4/800056-0",
+                                        "descripcionAdicional": "4/800056-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "9",
+				                        "descripcion": "GASTOS DE ENVIO0/9-0",
+                                        "descripcionAdicional": "0/9-0",
+				                        "descargaStock" : false,
+				                        "cantidad": -1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 89071.39
+			}
+                        ]
+            }
+        ]

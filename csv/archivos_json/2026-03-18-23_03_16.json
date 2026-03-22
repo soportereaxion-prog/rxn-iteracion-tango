@@ -1,0 +1,453 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000052",
+		"codigoTalonario": "5",
+		"codigoCliente": "65105",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "012",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "16,099.62",
+		"leyenda2": "74,087.63",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 99058.93,
+		"totalExento": 0.00,
+		"totalIva": 24971.30,
+		"subtotal": 89646.05,
+		"totalSinImpuestos": 74087.63,
+		"subtotalSinImpuestos": 74087.63,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101514",
+				                        "descripcion": "CLEAR FACE MICROG.LIMP.FAC.ACC1/101514-1",
+                                        "descripcionAdicional": "1/101514-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.59,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 4999.00,
+						"importe": 524.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101061",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 01 NEGR1/101061-2",
+                                        "descripcionAdicional": "1/101061-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101076",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 05 NU1/101076-8",
+                                        "descripcionAdicional": "1/101076-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101062",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 02 MARR1/101062-5",
+                                        "descripcionAdicional": "1/101062-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100657",
+				                        "descripcion": "FRUTOS ROJOS JABON DE LIMP FAC1/100657-4",
+                                        "descripcionAdicional": "1/100657-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5999.00,
+						"importe": 629.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100774",
+				                        "descripcion": "MAQUILLAJECORRECTORYOUN03STROB1/100774-5",
+                                        "descripcionAdicional": "1/100774-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.59,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 4999.00,
+						"importe": 524.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101066",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 06 VERD1/101066-3",
+                                        "descripcionAdicional": "1/101066-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101540",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 1 BER1/101540-5",
+                                        "descripcionAdicional": "1/101540-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 1735.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 9998.00,
+                                         "importeSinImpuestos": 8262.81,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9998.00,
+						"importe": 1049.79
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100671",
+				                        "descripcion": "DELINEAD.LIQ. PRECISION SK LL 1/100671-0",
+                                        "descripcionAdicional": "1/100671-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9999.00,
+						"importe": 1049.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100357",
+				                        "descripcion": "EAU TOILETTE FEM. PARAISO TROP1/100357-8",
+                                        "descripcionAdicional": "1/100357-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3123.79,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 17999.00,
+                                        "importe": 17999.00,
+                                         "importeSinImpuestos": 14875.21,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 17999.00,
+						"importe": 1889.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101224",
+				                        "descripcion": "BRUMA C/GLITTER YOU SHIMMER GL1/101224-9",
+                                        "descripcionAdicional": "1/101224-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2082.47,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11999.00,
+                                        "importe": 11999.00,
+                                         "importeSinImpuestos": 9916.53,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 11999.00,
+						"importe": 1259.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100801",
+				                        "descripcion": "EAU TOILETTE FEM. MAGIC LOVE 51/100801-7",
+                                        "descripcionAdicional": "1/100801-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2776.69,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 15999.00,
+                                         "importeSinImpuestos": 13222.31,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 15999.00,
+						"importe": 1679.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101522",
+				                        "descripcion": "CANDY HORSE BEST FRIENDS LOC. 1/101522-1",
+                                        "descripcionAdicional": "1/101522-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101523",
+				                        "descripcion": "GAMERS NEXT LEVEL LOCION INFAN1/101523-3",
+                                        "descripcionAdicional": "1/101523-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "43155",
+				                        "descripcion": "EAU TOILETTE FEM. PARAISO 60ML1/43155-0",
+                                        "descripcionAdicional": "1/43155-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3123.79,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 17999.00,
+                                        "importe": 17999.00,
+                                         "importeSinImpuestos": 14875.21,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 17999.00,
+						"importe": 1889.90
+					} 
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 0.01,
+						"importe": 0.00
+					} 
+                                	]
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -6476.19,
+	"codigoUM": "BON",
+	"precio": 37315.20,
+        "importe": 37315.20,
+        "importeSinImpuestos": -30839.01,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -37315.20,
+						"importe": -3918.10
+					} 
+                                	]
+        },{
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 447.29,
+				"codigoUM": "UNI",
+				"precio": 2577.24,
+                                "importe": 2577.24,
+                                "importeSinImpuestos": 2129.95,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": 2577.24,
+						"importe": 270.61
+					} 
+                                	]
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 99058.93
+			}
+                        ]
+            }
+        ]

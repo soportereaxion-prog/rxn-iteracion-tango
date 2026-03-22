@@ -1,0 +1,337 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300003188",
+		"codigoTalonario": "5",
+		"codigoCliente": "37136",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "505",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "8,463.62",
+		"leyenda2": "38,948.09",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 53244.02,
+		"totalExento": 0.00,
+		"totalIva": 13127.48,
+		"subtotal": 47127.17,
+		"totalSinImpuestos": 38948.09,
+		"subtotalSinImpuestos": 38948.09,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101285",
+				                        "descripcion": "LOCION COLONIA FEMENINA MAGNET1/101285-8",
+                                        "descripcionAdicional": "1/101285-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2429.41,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 13998.00,
+                                         "importeSinImpuestos": 11568.60,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 13998.00,
+						"importe": 1469.79
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 11568.60,
+						"importe": 347.06
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101065",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 05NEGRO1/101065-1",
+                                        "descripcionAdicional": "1/101065-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 1353.20,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 7797.00,
+                                         "importeSinImpuestos": 6443.80,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7797.00,
+						"importe": 818.69
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 6443.80,
+						"importe": 193.31
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101075",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 04 BO1/101075-6",
+                                        "descripcionAdicional": "1/101075-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 2147.93,
+						"importe": 64.44
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100459",
+				                        "descripcion": "LOCION COLONIA FEMENINA ADDICT1/100459-1",
+                                        "descripcionAdicional": "1/100459-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 5784.30,
+						"importe": 173.53
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101160",
+				                        "descripcion": "LOCION COLONIA FEMENINA MOONLI1/101160-9",
+                                        "descripcionAdicional": "1/101160-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2429.41,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 13998.00,
+                                         "importeSinImpuestos": 11568.60,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 13998.00,
+						"importe": 1469.79
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 11568.60,
+						"importe": 347.06
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101291",
+				                        "descripcion": "CR.REGENERADORA C/AC.CANNABIS 1/101291-3",
+                                        "descripcionAdicional": "1/101291-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9999.00,
+						"importe": 1049.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 8263.64,
+						"importe": 247.91
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101237",
+				                        "descripcion": "AGUA MICELAR AGUA DE ROSAS 2001/101237-0",
+                                        "descripcionAdicional": "1/101237-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9999.00,
+						"importe": 1049.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 8263.64,
+						"importe": 247.91
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "900460",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                        "descripcionAdicional": "4/900460-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 0.01,
+						"importe": 0.00
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 0.01,
+						"importe": 0.00
+                                        	}
+                                	]
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -3404.55,
+	"codigoUM": "BON",
+	"precio": 19616.70,
+        "importe": 19616.70,
+        "importeSinImpuestos": -16212.15,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -19616.70,
+						"importe": -2059.75
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": -16212.15,
+						"importe": -486.36
+                                        	}
+                                	]
+        },{
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 235.14,
+				"codigoUM": "UNI",
+				"precio": 1354.86,
+                                "importe": 1354.86,
+                                "importeSinImpuestos": 1119.72,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": 1354.86,
+						"importe": 142.26
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 1119.72,
+						"importe": 33.59
+                                        	}
+                                	]
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 53244.02
+			}
+                        ]
+            }
+        ]

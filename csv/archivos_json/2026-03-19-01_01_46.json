@@ -1,0 +1,114 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000700000021",
+		"codigoTalonario": "15",
+		"codigoCliente": "108993",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "888",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 33956.50,
+		"totalExento": 0.00,
+		"totalIva": 5893.28,
+		"subtotal": 33956.50,
+		"totalSinImpuestos": 28063.22,
+		"subtotalSinImpuestos": 28063.22,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "100193",
+				                        "descripcion": "CREMA DE ENEBRO BIENESTAR X 851/100193-9",
+                                        "descripcionAdicional": "1/100193-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2212.81,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12749.99,
+                                        "importe": 12749.99,
+                                         "importeSinImpuestos": 10537.18
+                        	}
+                     ,{
+				                        "codigo": "101055",
+				                        "descripcion": "OLEO MULTIPROPOSITO BIENESTAR 1/101055-7",
+                                        "descripcionAdicional": "1/101055-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2429.75,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 13999.99,
+                                        "importe": 13999.99,
+                                         "importeSinImpuestos": 11570.24
+                        	}
+                     ,{
+				                        "codigo": "800056",
+				                        "descripcion": "NECESER+AMPOLLETAS4/800056-0",
+                                        "descripcionAdicional": "4/800056-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "9",
+				                        "descripcion": "GASTOS DE ENVIO0/9-0",
+                                        "descripcionAdicional": "0/9-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1250.72,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7206.51,
+                                        "importe": 7206.51,
+                                         "importeSinImpuestos": 5955.79
+                        	}
+                     ,
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 33956.50
+			}
+                        ]
+            }
+        ]

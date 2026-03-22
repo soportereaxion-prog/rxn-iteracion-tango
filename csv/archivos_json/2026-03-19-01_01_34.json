@@ -1,0 +1,114 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000700000014",
+		"codigoTalonario": "15",
+		"codigoCliente": "108988",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "888",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 30612.18,
+		"totalExento": 0.00,
+		"totalIva": 5312.86,
+		"subtotal": 30612.18,
+		"totalSinImpuestos": 25299.32,
+		"subtotalSinImpuestos": 25299.32,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101238",
+				                        "descripcion": "SUERO AGUA DE ROSAS 30 ML1/101238-2",
+                                        "descripcionAdicional": "1/101238-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1457.85,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8399.99,
+                                        "importe": 8399.99,
+                                         "importeSinImpuestos": 6942.14
+                        	}
+                     ,{
+				                        "codigo": "101406",
+				                        "descripcion": "SET REGALABLE AGUA DE ROSAS CR1/101406-2",
+                                        "descripcionAdicional": "1/101406-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2126.03,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12249.99,
+                                        "importe": 12249.99,
+                                         "importeSinImpuestos": 10123.96
+                        	}
+                     ,{
+				                        "codigo": "800056",
+				                        "descripcion": "NECESER+AMPOLLETAS4/800056-0",
+                                        "descripcionAdicional": "4/800056-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "9",
+				                        "descripcion": "GASTOS DE ENVIO0/9-0",
+                                        "descripcionAdicional": "0/9-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1728.98,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9962.19,
+                                        "importe": 9962.19,
+                                         "importeSinImpuestos": 8233.21
+                        	}
+                     ,
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 30612.18
+			}
+                        ]
+            }
+        ]

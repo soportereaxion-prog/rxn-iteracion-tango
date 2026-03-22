@@ -1,0 +1,700 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000739",
+		"codigoTalonario": "5",
+		"codigoCliente": "38647",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "085",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "26,146.98",
+		"leyenda2": "120,323.88",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 164488.83,
+		"totalExento": 0.00,
+		"totalIva": 40555.21,
+		"subtotal": 145591.85,
+		"totalSinImpuestos": 120323.88,
+		"subtotalSinImpuestos": 120323.88,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "46462",
+				                        "descripcion": "PALO DE AMASAR POLI5/46462-5",
+                                        "descripcionAdicional": "5/46462-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1318.84,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7599.00,
+                                        "importe": 7599.00,
+                                         "importeSinImpuestos": 6280.17,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7599.00,
+						"importe": 797.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 6280.17,
+						"importe": 188.41
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "901124",
+				                        "descripcion": "PR.VERTEDORES X2 DESTINO5/901124-5",
+                                        "descripcionAdicional": "5/901124-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 433.71,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 2499.00,
+                                         "importeSinImpuestos": 2065.29,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2499.00,
+						"importe": 262.40
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 2065.29,
+						"importe": 61.96
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100062",
+				                        "descripcion": "THERMO EXPERT PROTEC.TERMICO I1/100062-5",
+                                        "descripcionAdicional": "1/100062-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9999.00,
+						"importe": 1049.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 8263.64,
+						"importe": 247.91
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101510",
+				                        "descripcion": "SERUM FACIAL C/ARGIRELINE DERM1/101510-2",
+                                        "descripcionAdicional": "1/101510-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3123.79,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 17999.00,
+                                        "importe": 17999.00,
+                                         "importeSinImpuestos": 14875.21,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 17999.00,
+						"importe": 1889.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 14875.21,
+						"importe": 446.26
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101461",
+				                        "descripcion": "DESOD.ANTIT.ROLLON BLANQ SPECI1/101461-8",
+                                        "descripcionAdicional": "1/101461-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7999.00,
+						"importe": 839.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 6610.74,
+						"importe": 198.32
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101540",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 1 BER1/101540-5",
+                                        "descripcionAdicional": "1/101540-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 5,
+                                        "importeIva": 4337.97,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 24995.00,
+                                         "importeSinImpuestos": 20657.02,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 24995.00,
+						"importe": 2624.48
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 20657.02,
+						"importe": 619.71
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101209",
+				                        "descripcion": "CANDY HORSE LOCION INFANTIL 751/101209-1",
+                                        "descripcionAdicional": "1/101209-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2429.41,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 13998.00,
+                                         "importeSinImpuestos": 11568.60,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 13998.00,
+						"importe": 1469.79
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 11568.60,
+						"importe": 347.06
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101210",
+				                        "descripcion": "GAMERS LOCION INFANTIL 75 ML1/101210-6",
+                                        "descripcionAdicional": "1/101210-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 5784.30,
+						"importe": 173.53
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100256",
+				                        "descripcion": "EAUTOILETTEFEM.FLY50ML1/100256-7",
+                                        "descripcionAdicional": "1/100256-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 5553.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15999.00,
+                                        "importe": 31998.00,
+                                         "importeSinImpuestos": 26444.63,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 31998.00,
+						"importe": 3359.79
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 26444.63,
+						"importe": 793.34
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101646",
+				                        "descripcion": "CREMA DE TOMILLO BIENESTAR X 81/101646-7",
+                                        "descripcionAdicional": "1/101646-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7999.00,
+						"importe": 839.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 6610.74,
+						"importe": 198.32
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101522",
+				                        "descripcion": "CANDY HORSE BEST FRIENDS LOC. 1/101522-1",
+                                        "descripcionAdicional": "1/101522-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2429.41,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 13998.00,
+                                         "importeSinImpuestos": 11568.60,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 13998.00,
+						"importe": 1469.79
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 11568.60,
+						"importe": 347.06
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101523",
+				                        "descripcion": "GAMERS NEXT LEVEL LOCION INFAN1/101523-3",
+                                        "descripcionAdicional": "1/101523-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 5784.30,
+						"importe": 173.53
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100930",
+				                        "descripcion": "CREMA OLEO MIX BIENESTAR X 20 1/100930-6",
+                                        "descripcionAdicional": "1/100930-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1561.81,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 8999.00,
+                                         "importeSinImpuestos": 7437.19,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 8999.00,
+						"importe": 944.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 7437.19,
+						"importe": 223.12
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101532",
+				                        "descripcion": "LABIAL LIQ.12H MATE METAL.SK L1/101532-5",
+                                        "descripcionAdicional": "1/101532-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2256.03,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12999.00,
+                                        "importe": 12999.00,
+                                         "importeSinImpuestos": 10742.98,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 12999.00,
+						"importe": 1364.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 10742.98,
+						"importe": 322.29
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101431",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 1 ROSA D2/101431-4",
+                                        "descripcionAdicional": "2/101431-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 1849.00,
+						"importe": 194.15
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 1528.10,
+						"importe": 45.84
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100720",
+				                        "descripcion": "DERMATOLOGY SUERO ANTIOXID. VI1/100720-4",
+                                        "descripcionAdicional": "1/100720-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2603.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 14999.00,
+                                        "importe": 14999.00,
+                                         "importeSinImpuestos": 12395.87,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 14999.00,
+						"importe": 1574.90
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 12395.87,
+						"importe": 371.88
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101570",
+				                        "descripcion": "ESMALTE P/UNAS YOU 19 FANTASY 2/101570-9",
+                                        "descripcionAdicional": "2/101570-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 1849.00,
+						"importe": 194.15
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 1528.10,
+						"importe": 45.84
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 4/101405-0",
+                                        "descripcionAdicional": "4/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.02,
+                                         "importeSinImpuestos": 0.02,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 0.02,
+						"importe": 0.00
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 0.02,
+						"importe": 0.00
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "404415",
+				                        "descripcion": "PRECINTOS REUTIL. CIERRA BOLSA5/404415-7",
+                                        "descripcionAdicional": "5/404415-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 867.42,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 4998.00,
+                                         "importeSinImpuestos": 4130.58,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 4998.00,
+						"importe": 524.79
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 4130.58,
+						"importe": 123.92
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "900061",
+				                        "descripcion": "PR. PAGO EN CONFERENCIA N1 (CC4/900061-8",
+                                        "descripcionAdicional": "4/900061-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 0.01,
+						"importe": 0.00
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 0.01,
+						"importe": 0.00
+                                        	}
+                                	]
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -9563.40,
+	"codigoUM": "BON",
+	"precio": 55103.40,
+        "importe": 55103.40,
+        "importeSinImpuestos": -45540.00,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -55103.40,
+						"importe": -5785.86
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": -45540.00,
+						"importe": -1366.20
+                                        	}
+                                	]
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -393.00,
+				"codigoUM": "BON",
+				"precio": 2264.40,
+                                "importe": 2264.40,
+                                "importeSinImpuestos": -1871.40,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -2264.40,
+						"importe": -237.76
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": -1871.40,
+						"importe": -56.14
+                                        	}
+                                	]
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 726.43,
+				"codigoUM": "UNI",
+				"precio": 4185.62,
+                                "importe": 4185.62,
+                                "importeSinImpuestos": 3459.19,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": 4185.62,
+						"importe": 439.49
+					} ,{
+						"codigoAlicuota": 73,
+						"codigoPercepcion": "",
+						"porcentaje": 3.00,
+						"base": 3459.19,
+						"importe": 103.78
+                                        	}
+                                	]
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 164488.83
+			}
+                        ]
+            }
+        ]

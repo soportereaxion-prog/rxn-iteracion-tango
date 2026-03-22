@@ -1,0 +1,124 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300003211",
+		"codigoTalonario": "5",
+		"codigoCliente": "37103",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "505",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 34798.73,
+		"totalExento": 0.00,
+		"totalIva": 6039.45,
+		"subtotal": 34798.73,
+		"totalSinImpuestos": 28759.28,
+		"subtotalSinImpuestos": 28759.28,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "100425",
+				                        "descripcion": "DELINEADOR RET. CEJAS SK LL 021/100425-9",
+                                        "descripcionAdicional": "1/100425-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1475.03,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8499.00,
+                                        "importe": 8499.00,
+                                         "importeSinImpuestos": 7023.97
+                        	}
+                     ,{
+				                        "codigo": "407148",
+				                        "descripcion": "AURICULARES C/BLUETOOTH S/E CO5/407148-1",
+                                        "descripcionAdicional": "5/407148-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 5206.44,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 29999.00,
+                                        "importe": 29999.00,
+                                         "importeSinImpuestos": 24792.56
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -295.01,
+	"codigoUM": "BON",
+	"precio": 1699.80,
+        "importe": 1699.80,
+        "importeSinImpuestos": -1404.79
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -520.64,
+				"codigoUM": "BON",
+				"precio": 2999.90,
+                                "importe": 2999.90,
+                                "importeSinImpuestos": -2479.26
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 173.63,
+				"codigoUM": "UNI",
+				"precio": 1000.43,
+                                "importe": 1000.43,
+                                "importeSinImpuestos": 826.80
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 34798.73
+			}
+                        ]
+            }
+        ]

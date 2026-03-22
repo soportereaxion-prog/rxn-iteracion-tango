@@ -1,0 +1,397 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000001",
+		"codigoTalonario": "5",
+		"codigoCliente": "100887",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2025-12-07 00:00:00.000",
+		"fechaCierreTesoreria": "2025-12-07 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "174",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 0.00,
+		"totalExento": 0.00,
+		"totalIva": 0.00,
+		"subtotal": 0.00,
+		"totalSinImpuestos": 0.00,
+		"subtotalSinImpuestos": 0.00,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				"codigo": "100632",
+				"descripcion": "VELVETY CREMA DEPILATORIA ROST1/100632-4",
+                                "descripcionAdicional": "1/100632-4",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "100997",
+				"descripcion": "MASK MASC.FACIAL.HIDRAT/REF.PE1/100997-9",
+                                "descripcionAdicional": "1/100997-9",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "101294",
+				"descripcion": "LAPIZ LAB.MATTE CASUAL 504 CHE1/101294-0",
+                                "descripcionAdicional": "1/101294-0",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "101338",
+				"descripcion": "MASC.P/PEST.WAT.CASUAL EXTREME1/101338-1",
+                                "descripcionAdicional": "1/101338-1",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "101605",
+				"descripcion": "MILK EMULS.CORP. JENGIBRE Y DE1/101605-8",
+                                "descripcionAdicional": "1/101605-8",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "101671",
+				"descripcion": "JABON LIQUIDO INTIMO VIOGINA X1/101671-0",
+                                "descripcionAdicional": "1/101671-0",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "101672",
+				"descripcion": "GEL HIDRATANTE LUBRICANTE INTI1/101672-2",
+                                "descripcionAdicional": "1/101672-2",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "101701",
+				"descripcion": "CUARTETO SOMBRA CASUAL 3 SOUTH1/101701-8",
+                                "descripcionAdicional": "1/101701-8",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "201765",
+				"descripcion": "ACCESORIOPARAESCOTENEGROTU5/201765-8",
+                                "descripcionAdicional": "5/201765-8",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "21625",
+				"descripcion": "MASK MASCARILLA ROSTRO LIMP.PR1/21625-6",
+                                "descripcionAdicional": "1/21625-6",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "24678",
+				"descripcion": "MAQ.CORRECTOR CASUAL 02 BEIG.M1/24678-6",
+                                "descripcionAdicional": "1/24678-6",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "267",
+				"descripcion": "FOLLETO CAMP. 184/267-9",
+                                "descripcionAdicional": "4/267-9",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "405845",
+				"descripcion": "VASO VIAJERO TRANSLUCIDO5/405845-7",
+                                "descripcionAdicional": "5/405845-7",
+				"descargaStock" : false,
+				"cantidad": 6,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "407512",
+				"descripcion": "COOKING BOWL X 5 LISO C/TAPA N5/407512-0",
+                                "descripcionAdicional": "5/407512-0",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "407707",
+				"descripcion": "ESPEJO ACRILICO DOBLE AUMENTO 5/407707-4",
+                                "descripcionAdicional": "5/407707-4",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "407846",
+				"descripcion": "SET DE PORTACEPILLOS DE DIENTE5/407846-9",
+                                "descripcionAdicional": "5/407846-9",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "43177",
+				"descripcion": "EAU TOILETTE FEM. GALA 50ML1/43177-3",
+                                "descripcionAdicional": "1/43177-3",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "500506",
+				"descripcion": "CARTON BINGO4/500506-9",
+                                "descripcionAdicional": "4/500506-9",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "500662",
+				"descripcion": "TARJETA DE INVITACION EXPO VIO4/500662-5",
+                                "descripcionAdicional": "4/500662-5",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "500730",
+				"descripcion": "VOLANTE CONTINUIDAD C18, 1, 2 4/500730-6",
+                                "descripcionAdicional": "4/500730-6",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "500741",
+				"descripcion": "MAGAZINE DE PREMIOS C18 A C5-24/500741-3",
+                                "descripcionAdicional": "4/500741-3",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "500745",
+				"descripcion": "VOLANTE NUEVOS CLIENTES C184/500745-3",
+                                "descripcionAdicional": "4/500745-3",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+				"codigo": "900460",
+				"descripcion": "PR. PAGO EN CONFERENCIA Nº1 (4/900460-1",
+                                "descripcionAdicional": "4/900460-1",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -0.00,
+	"codigoUM": "BON",
+	"precio": 0.00,
+        "importe": 0.00,
+        "importeSinImpuestos": -0.00
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -0.00,
+				"codigoUM": "BON",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": -0.00
+                        	},
+                                
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 0.00,
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2025-12-07 00:00:00.000",
+				"importe" : 0.00
+			}
+                        ]
+            }
+        ]

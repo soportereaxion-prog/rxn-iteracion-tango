@@ -1,0 +1,270 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000700000009",
+		"codigoTalonario": "15",
+		"codigoCliente": "10717",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "888",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 154139.86,
+		"totalExento": 0.00,
+		"totalIva": 26751.54,
+		"subtotal": 154139.86,
+		"totalSinImpuestos": 127388.32,
+		"subtotalSinImpuestos": 127388.32,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "100656",
+				                        "descripcion": "FIJADOR DE MAQUILLAJE SK LL 301/100656-2",
+                                        "descripcionAdicional": "1/100656-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1124.63,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6479.99,
+                                        "importe": 6479.99,
+                                         "importeSinImpuestos": 5355.36
+                        	}
+                     ,{
+				                        "codigo": "101097",
+				                        "descripcion": "MAQ.CORRECTOR LIQUIDO SK LL 1 1/101097-9",
+                                        "descripcionAdicional": "1/101097-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2999.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8639.99,
+                                        "importe": 17279.98,
+                                         "importeSinImpuestos": 14280.98
+                        	}
+                     ,{
+				                        "codigo": "101100",
+				                        "descripcion": "MAQ.CORRECTOR LIQUIDO SK LL 4 1/101100-3",
+                                        "descripcionAdicional": "1/101100-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2999.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8639.99,
+                                        "importe": 17279.98,
+                                         "importeSinImpuestos": 14280.98
+                        	}
+                     ,{
+				                        "codigo": "101338",
+				                        "descripcion": "MASC.P/PEST.WAT.CASUAL EXTREME1/101338-1",
+                                        "descripcionAdicional": "1/101338-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1475.20,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8499.99,
+                                        "importe": 8499.99,
+                                         "importeSinImpuestos": 7024.79
+                        	}
+                     ,{
+				                        "codigo": "101380",
+				                        "descripcion": "SET TONALIZADOR SILK KISS ILUM1/101380-5",
+                                        "descripcionAdicional": "1/101380-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3688.01,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 21249.99,
+                                        "importe": 21249.99,
+                                         "importeSinImpuestos": 17561.98
+                        	}
+                     ,{
+				                        "codigo": "101467",
+				                        "descripcion": "RUBOR LIQUIDO SK LL 2 CHEEKY1/101467-1",
+                                        "descripcionAdicional": "1/101467-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1919.50,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11059.99,
+                                        "importe": 11059.99,
+                                         "importeSinImpuestos": 9140.49
+                        	}
+                     ,{
+				                        "codigo": "101541",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 2 CAR1/101541-8",
+                                        "descripcionAdicional": "1/101541-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1110.74,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6399.99,
+                                        "importe": 6399.99,
+                                         "importeSinImpuestos": 5289.25
+                        	}
+                     ,{
+				                        "codigo": "101605",
+				                        "descripcion": "MILK EMULS.CORP. JENGIBRE Y DE1/101605-8",
+                                        "descripcionAdicional": "1/101605-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.43,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.99,
+                                        "importe": 7999.99,
+                                         "importeSinImpuestos": 6611.56
+                        	}
+                     ,{
+				                        "codigo": "101623",
+				                        "descripcion": "LAPIZ DELINEADOR P/OJOS YOU 1 1/101623-2",
+                                        "descripcionAdicional": "1/101623-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 619.59,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3569.99,
+                                        "importe": 3569.99,
+                                         "importeSinImpuestos": 2950.40
+                        	}
+                     ,{
+				                        "codigo": "101628",
+				                        "descripcion": "LAPIZ DELINEADOR P/LABIOS YOU 1/101628-3",
+                                        "descripcionAdicional": "1/101628-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 619.59,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3569.99,
+                                        "importe": 3569.99,
+                                         "importeSinImpuestos": 2950.40
+                        	}
+                     ,{
+				                        "codigo": "24201",
+				                        "descripcion": "BASE FLUIDA MATE SK LL 02 NATU1/24201-3",
+                                        "descripcionAdicional": "1/24201-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1561.98,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.99,
+                                        "importe": 8999.99,
+                                         "importeSinImpuestos": 7438.01
+                        	}
+                     ,{
+				                        "codigo": "403051",
+				                        "descripcion": "PINCELSILICC/MGOMADSTARCUISINE5/403051-1",
+                                        "descripcionAdicional": "5/403051-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1622.73,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9349.99,
+                                        "importe": 9349.99,
+                                         "importeSinImpuestos": 7727.26
+                        	}
+                     ,{
+				                        "codigo": "405259",
+				                        "descripcion": "PLACA DE SILICONA STAR CUISINE5/405259-7",
+                                        "descripcionAdicional": "5/405259-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2950.41,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 16999.99,
+                                        "importe": 16999.99,
+                                         "importeSinImpuestos": 14049.58
+                        	}
+                     ,{
+				                        "codigo": "43250",
+				                        "descripcion": "EAU TOILETTE FEM. LA MAISON BL1/43250-8",
+                                        "descripcionAdicional": "1/43250-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2672.73,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 15399.99,
+                                        "importe": 15399.99,
+                                         "importeSinImpuestos": 12727.26
+                        	}
+                     ,{
+				                        "codigo": "800056",
+				                        "descripcion": "NECESER+AMPOLLETAS4/800056-0",
+                                        "descripcionAdicional": "4/800056-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "9",
+				                        "descripcion": "GASTOS DE ENVIO0/9-0",
+                                        "descripcionAdicional": "0/9-0",
+				                        "descargaStock" : false,
+				                        "cantidad": -1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 154139.86
+			}
+                        ]
+            }
+        ]

@@ -1,0 +1,762 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "E0001100000171",
+		"codigoTalonario": "22",
+		"codigoCliente": "96704",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 2,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "123",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 266202.65,
+		"totalExento": 266202.65,
+		"totalIva": 0.00,
+		"subtotal": 266202.65,
+		"totalSinImpuestos": 0.00,
+		"subtotalSinImpuestos": 0.00,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				    "codigo": "100025",
+                    "descripcion": "ESMALTE GEL SK LL 8 NEGRO     ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5499.00,
+                    "importe": 5499.00
+                        	}
+                     ,{
+				    "codigo": "100190",
+                    "descripcion": "CREMA P/MANOS PERFUM. VIOLETTA",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 7999.00,
+                    "importe": 7999.00
+                        	}
+                     ,{
+				    "codigo": "100293",
+                    "descripcion": "DEO COLONIA MASC. SEX MEN INTE",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 4999.00,
+                    "importe": 4999.00
+                        	}
+                     ,{
+				    "codigo": "100308",
+                    "descripcion": "DESOD.ANTIT.ROLLON 55ML SEX ME",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5999.00,
+                    "importe": 5999.00
+                        	}
+                     ,{
+				    "codigo": "100558",
+                    "descripcion": "CREMA P/MANOS PERFUM. VIOLETTA",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 7999.00,
+                    "importe": 7999.00
+                        	}
+                     ,{
+				    "codigo": "100657",
+                    "descripcion": "FRUTOS ROJOS JABON DE LIMP FAC",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5999.00,
+                    "importe": 5999.00
+                        	}
+                     ,{
+				    "codigo": "100706",
+                    "descripcion": "LABIAL MATTE YOU 02 ROSA 3,5 G",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 4999.00,
+                    "importe": 4999.00
+                        	}
+                     ,{
+				    "codigo": "100707",
+                    "descripcion": "LABIAL MATTE YOU 03 ROSA INTEN",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 4999.00,
+                    "importe": 4999.00
+                        	}
+                     ,{
+				    "codigo": "100709",
+                    "descripcion": "LABIAL MATTE YOU 05 BORDO 3,5 ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 4999.00,
+                    "importe": 4999.00
+                        	}
+                     ,{
+				    "codigo": "100710",
+                    "descripcion": "ESMALTE P/UNAS YOU 01 CIRUELA ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1849.00,
+                    "importe": 1849.00
+                        	}
+                     ,{
+				    "codigo": "100714",
+                    "descripcion": "ESMALTE P/UNAS YOU 05 FUCSIA P",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 2,
+				    "precio": 1849.00,
+                    "importe": 3698.00
+                        	}
+                     ,{
+				    "codigo": "100723",
+                    "descripcion": "FRUTOS ROJOS CR.HIDRATANTE 70 ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5499.00,
+                    "importe": 5499.00
+                        	}
+                     ,{
+				    "codigo": "100724",
+                    "descripcion": "FRUTOS ROJOS GEL EXFOLIANTE 10",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 2,
+				    "precio": 5999.00,
+                    "importe": 11998.00
+                        	}
+                     ,{
+				    "codigo": "100727",
+                    "descripcion": "ESMALTE P/UNAS YOU 06 NEGRO CH",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 2,
+				    "precio": 1849.00,
+                    "importe": 3698.00
+                        	}
+                     ,{
+				    "codigo": "100907",
+                    "descripcion": "ESMALTE P/UNAS YOU 07 GRIS NOR",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1849.00,
+                    "importe": 1849.00
+                        	}
+                     ,{
+				    "codigo": "100967",
+                    "descripcion": "ESMALTE GEL SK LL  30 WHITE PU",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5499.00,
+                    "importe": 5499.00
+                        	}
+                     ,{
+				    "codigo": "101028",
+                    "descripcion": "LABIAL LIQUIDO 12H SK LL 5 ANG",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 12999.00,
+                    "importe": 12999.00
+                        	}
+                     ,{
+				    "codigo": "101170",
+                    "descripcion": "DEL.LIQ.METAL.PRECISION SK LL ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 9999.00,
+                    "importe": 9999.00
+                        	}
+                     ,{
+				    "codigo": "101171",
+                    "descripcion": "DEL.LIQ.METAL.PRECISION SK LL ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 9999.00,
+                    "importe": 9999.00
+                        	}
+                     ,{
+				    "codigo": "101258",
+                    "descripcion": "ESMALTE P/UNAS YOU 14 ROSA FAN",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1849.00,
+                    "importe": 1849.00
+                        	}
+                     ,{
+				    "codigo": "101317",
+                    "descripcion": "CR.HIDRATANTE AGUA DE ROSAS 80",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 9999.00,
+                    "importe": 9999.00
+                        	}
+                     ,{
+				    "codigo": "101325",
+                    "descripcion": "MAQ.ILUMINAD.YOU STICK 01 POP ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 11999.00,
+                    "importe": 11999.00
+                        	}
+                     ,{
+				    "codigo": "101404",
+                    "descripcion": "EAU TOILETTE MASC. SEX MEN BLA",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 14999.00,
+                    "importe": 14999.00
+                        	}
+                     ,{
+				    "codigo": "101434",
+                    "descripcion": "ESMALTE YOU HOLOSHINE 4 VIOLET",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1849.00,
+                    "importe": 1849.00
+                        	}
+                     ,{
+				    "codigo": "101453",
+                    "descripcion": "BASE HIDRAT.C/COLOR YOU S/TINT",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 11999.00,
+                    "importe": 11999.00
+                        	}
+                     ,{
+				    "codigo": "101523",
+                    "descripcion": "GAMERS NEXT LEVEL LOCION INFAN",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 6999.00,
+                    "importe": 6999.00
+                        	}
+                     ,{
+				    "codigo": "101525",
+                    "descripcion": "PRIMER EFECTO MATE YOU X 20 G ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 4599.00,
+                    "importe": 4599.00
+                        	}
+                     ,{
+				    "codigo": "101569",
+                    "descripcion": "ESMALTE P/UNAS YOU 18 LILAC FE",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 2,
+				    "precio": 1849.00,
+                    "importe": 3698.00
+                        	}
+                     ,{
+				    "codigo": "101646",
+                    "descripcion": "CREMA DE TOMILLO BIENESTAR X 8",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 7999.00,
+                    "importe": 7999.00
+                        	}
+                     ,{
+				    "codigo": "204499",
+                    "descripcion": "PROTECTORCABLEDISENOSDIVERTIDO",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 3999.00,
+                    "importe": 3999.00
+                        	}
+                     ,{
+				    "codigo": "204993",
+                    "descripcion": "CORREA SUJETA CELU/LLAVERO ZUR",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 9999.00,
+                    "importe": 9999.00
+                        	}
+                     ,{
+				    "codigo": "204994",
+                    "descripcion": "SOPORTE P/CELU ACRILICO FUNNY ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 6999.00,
+                    "importe": 6999.00
+                        	}
+                     ,{
+				    "codigo": "24195",
+                    "descripcion": "ESMALTE LACA GEL TOP COAT SK L",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5499.00,
+                    "importe": 5499.00
+                        	}
+                     ,{
+				    "codigo": "260",
+                    "descripcion": "FOLLETO CAMP. 11              ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 0.01,
+                    "importe": 0.01
+                        	}
+                     ,{
+				    "codigo": "401975",
+                    "descripcion": "TAZA PARA CAFE DOBLE PARED POU",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 2,
+				    "precio": 2999.00,
+                    "importe": 5998.00
+                        	}
+                     ,{
+				    "codigo": "402502",
+                    "descripcion": "CUCHARITAS X 4 FRANCIS COLOR N",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1999.00,
+                    "importe": 1999.00
+                        	}
+                     ,{
+				    "codigo": "403478",
+                    "descripcion": "VIOLETTA ACCES BROCHA P/CONTOU",
+                    "descripcionAdicional": "                \r\n21001IC04130887R-BUE",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 2,
+				    "precio": 4999.00,
+                    "importe": 9998.00
+                        	}
+                     ,{
+				    "codigo": "403555",
+                    "descripcion": "CONTBREAKTOGOSTARCUISINEROMANC",
+                    "descripcionAdicional": "                \r\n23001IC04062665R-BUENOS AIRES",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 7999.00,
+                    "importe": 7999.00
+                        	}
+                     ,{
+				    "codigo": "404077",
+                    "descripcion": "CONT X3 500 ML STAR CUISINE KE",
+                    "descripcionAdicional": "                \r\n22001IC04099427W-BUE",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 7999.00,
+                    "importe": 7999.00
+                        	}
+                     ,{
+				    "codigo": "404613",
+                    "descripcion": "COMEDEROPEZS/ECOLOR           ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 2499.00,
+                    "importe": 2499.00
+                        	}
+                     ,{
+				    "codigo": "801002",
+                    "descripcion": "PRODUCTO PRACTICOSAS 1 SIN ELE",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 2499.00,
+                    "importe": 2499.00
+                        	}
+                     ,{
+				    "codigo": "500618",
+                    "descripcion": "FICHA RUTINA PIELES MAD DERMAT",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 0.01,
+                    "importe": 0.01
+                        	}
+                     ,{
+				    "codigo": "404433",
+                    "descripcion": "SEPARADOR/ORGANIZ MULTIUSO SEB",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 4,
+				    "precio": 2999.00,
+                    "importe": 11996.00
+                        	}
+                     ,{
+				    "codigo": "406749",
+                    "descripcion": "GUARDATUTTI SURI ROSA         ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 3599.00,
+                    "importe": 3599.00
+                        	}
+                     ,{
+				    "codigo": "500712",
+                    "descripcion": "NUEVOS CLIENTES C11-2025      ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 0.01,
+                    "importe": 0.01
+                        	}
+                     ,{
+				    "codigo": "405326",
+                    "descripcion": "JABONERABANERAVINTAGENEG      ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 2999.00,
+                    "importe": 2999.00
+                        	}
+                     ,{
+				    "codigo": "53253",
+                    "descripcion": "DESOD.ANTIT.ROLLON 55ML SEX FO",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 5999.00,
+                    "importe": 5999.00
+                        	}
+                     ,{
+				    "codigo": "407415",
+                    "descripcion": "LECHERITA VISON               ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 3999.00,
+                    "importe": 3999.00
+                        	}
+                     ,{
+				    "codigo": "406978",
+                    "descripcion": "REGLA PATITA (I)              ",
+                    "descripcionAdicional": "                \r\n25001IC04045124K-BUE",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 2499.00,
+                    "importe": 2499.00
+                        	}
+                     ,{
+				    "codigo": "406925",
+                    "descripcion": "COOKING BOWL X 3 ONDA COLORS  ",
+                    "descripcionAdicional": "                \r\n25001IC04089935F-bue",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 19999.00,
+                    "importe": 19999.00
+                        	}
+                     ,{
+				    "codigo": "650364",
+                    "descripcion": "KIT DEMOSTRACION CUID.FACIAL D",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 0.01,
+                    "importe": 0.01
+                        	}
+                     ,{
+				    "codigo": "500716",
+                    "descripcion": "VOLANTE EQUAL                 ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 0.01,
+                    "importe": 0.01
+                        	}
+                     ,{
+				    "codigo": "52893",
+                    "descripcion": "KIT P/REPOSTERIA X 6 AQUA     ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 3999.00,
+                    "importe": 3999.00
+                        	}
+                     ,{
+				    "codigo": "500479",
+                    "descripcion": "PR.TARJETA CUMPLEANOS 2023/4  ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 0.01,
+                    "importe": 0.01
+                        	}
+                     ,{
+				    "codigo": "404185",
+                    "descripcion": "SET X 6 RESALTADORES DULL     ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 7999.00,
+                    "importe": 7999.00
+                        	}
+                     ,{
+				    "codigo": "42205",
+                    "descripcion": "DEO COLONIA MASC. SEX FOR MEN ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 4999.00,
+                    "importe": 4999.00
+                        	}
+                     ,{
+				    "codigo": "407347",
+                    "descripcion": "BOWL C/TAPA DINA BCO 500CC    ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 2,
+				    "precio": 2499.00,
+                    "importe": 4998.00
+                        	}
+                     ,{
+				    "codigo": "407070",
+                    "descripcion": "VASO NEGRO 750ML 2            ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 3699.00,
+                    "importe": 3699.00
+                        	}
+                     ,{
+				    "codigo": "406886",
+                    "descripcion": "COLCHONETA VERDE 40 X100 CM KI",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 19999.00,
+                    "importe": 19999.00
+                        	}
+                     ,{
+				    "codigo": "84341",
+                    "descripcion": "BIJOUTERIE SIN ELECCION       ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1999.00,
+                    "importe": 1999.00
+                        	}
+                     ,{
+				    "codigo": "407416",
+                    "descripcion": "LECHERITA NEGRA               ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 3999.00,
+                    "importe": 3999.00
+                        	}
+                     ,{
+				    "codigo": "650359",
+                    "descripcion": "AMP.C.ESTUCHE 3 EDT BODY LOVE ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 0.01,
+                    "importe": 0.01
+                        	}
+                     ,{
+				    "codigo": "407349",
+                    "descripcion": "BOWL C/TAPA DINA ROSA 500CC   ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 2499.00,
+                    "importe": 2499.00
+                        	}
+                     ,{
+				    "codigo": "404663",
+                    "descripcion": "CUCHARITAS X 4 FRANCIS COLOR B",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 1999.00,
+                    "importe": 1999.00
+                        	}
+                     ,{
+				    "codigo": "406247",
+                    "descripcion": "MANOPLA DE GOMA               ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 2999.00,
+                    "importe": 2999.00
+                        	}
+                     ,{
+				    "codigo": "407348",
+                    "descripcion": "BOWL C/TAPA DINA CEL 500CC    ",
+                    "descripcionAdicional": "                \r\n-",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 2499.00,
+                    "importe": 2499.00
+                        	}
+                     ,{
+				    "codigo": "900506",
+                    "descripcion": "PR.MOLDECORAZON25X16CM        ",
+                    "descripcionAdicional": "                \r\n21001IC04004863L-BUENOS AIRES",
+				    "codigoDeposito": "1",
+                    "codigoTasaIva": "3",
+				    "cantidad": 1,
+				    "precio": 6999.00,
+                    "importe": 6999.00
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"codigoDeposito": "1",
+        "codigoTasaIva": "3",
+	"cantidad": -1,
+	"precio": 84305.80,
+        "importe": 84305.80
+        },{
+	"codigo": "04",
+	"descripcion": "Bonificación Practicosas",
+	"codigoDeposito": "1",
+        "codigoTasaIva": "3",
+	"cantidad": -1,
+	"precio": 41067.00,
+        "importe": 41067.00
+        },{
+	"codigo": "02",
+        "descripcion": "Gastos administrativos",
+	"codigoDeposito": "1",
+        "codigoTasaIva": "3",
+	"cantidad": 1,
+	"precio": 9745.38,
+        "importe": 9745.38
+        },
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 266202.65
+			}
+                        ],
+            "xmlTyp" : "",
+            "CuitDestino": "J",
+            "TipoExpo": "4",
+            "PaisAfip": "200",
+            "CodigoIncoterms": "FOB",
+            "DescripcionIncoterms": ""  
+            }
+        ]

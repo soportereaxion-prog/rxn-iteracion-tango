@@ -1,0 +1,270 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000700000004",
+		"codigoTalonario": "15",
+		"codigoCliente": "108983",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "888",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 143289.85,
+		"totalExento": 0.00,
+		"totalIva": 24868.45,
+		"subtotal": 143289.85,
+		"totalSinImpuestos": 118421.40,
+		"subtotalSinImpuestos": 118421.40,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101100",
+				                        "descripcion": "MAQ.CORRECTOR LIQUIDO SK LL 4 1/101100-3",
+                                        "descripcionAdicional": "1/101100-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1499.50,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8639.99,
+                                        "importe": 8639.99,
+                                         "importeSinImpuestos": 7140.49
+                        	}
+                     ,{
+				                        "codigo": "101183",
+				                        "descripcion": "SOMBRA COMP.IND.SATIN.CASUAL 21/101183-4",
+                                        "descripcionAdicional": "1/101183-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1253.92,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7224.99,
+                                        "importe": 7224.99,
+                                         "importeSinImpuestos": 5971.07
+                        	}
+                     ,{
+				                        "codigo": "101328",
+				                        "descripcion": "MAQ.CORRECTOR YOU STICK 02 CON1/101328-7",
+                                        "descripcionAdicional": "1/101328-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2212.81,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12749.99,
+                                        "importe": 12749.99,
+                                         "importeSinImpuestos": 10537.18
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 1/101405-0",
+                                        "descripcionAdicional": "1/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.87,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.99,
+                                        "importe": 6999.99,
+                                         "importeSinImpuestos": 5785.12
+                        	}
+                     ,{
+				                        "codigo": "101427",
+				                        "descripcion": "PERFUME PARA CABELLO TROPICAL 1/101427-3",
+                                        "descripcionAdicional": "1/101427-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1386.69,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7989.99,
+                                        "importe": 7989.99,
+                                         "importeSinImpuestos": 6603.30
+                        	}
+                     ,{
+				                        "codigo": "101595",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE SWEET VA1/101595-8",
+                                        "descripcionAdicional": "1/101595-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.87,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.99,
+                                        "importe": 6999.99,
+                                         "importeSinImpuestos": 5785.12
+                        	}
+                     ,{
+				                        "codigo": "101639",
+				                        "descripcion": "ESMALTE GEL SK LL CR. 49 MOCCA1/101639-0",
+                                        "descripcionAdicional": "1/101639-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 973.63,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5609.99,
+                                        "importe": 5609.99,
+                                         "importeSinImpuestos": 4636.36
+                        	}
+                     ,{
+				                        "codigo": "101670",
+				                        "descripcion": "MAQUILLAJE CORRECTOR OPTICO CA1/101670-7",
+                                        "descripcionAdicional": "1/101670-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1253.92,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7224.99,
+                                        "importe": 7224.99,
+                                         "importeSinImpuestos": 5971.07
+                        	}
+                     ,{
+				                        "codigo": "24678",
+				                        "descripcion": "MAQ.CORRECTOR CASUAL 02 BEIG.M1/24678-6",
+                                        "descripcionAdicional": "1/24678-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 728.92,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4199.99,
+                                        "importe": 4199.99,
+                                         "importeSinImpuestos": 3471.07
+                        	}
+                     ,{
+				                        "codigo": "403480",
+				                        "descripcion": "VIOLETTA ACCES BROCHA P/BASE Y5/403480-8",
+                                        "descripcionAdicional": "5/403480-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1327.68,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7649.99,
+                                        "importe": 7649.99,
+                                         "importeSinImpuestos": 6322.31
+                        	}
+                     ,{
+				                        "codigo": "403713",
+				                        "descripcion": "ORGANIZADOR CON DIVISION STAR 5/403713-0",
+                                        "descripcionAdicional": "5/403713-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 4,
+                                        "importeIva": 4998.34,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7199.99,
+                                        "importe": 28799.96,
+                                         "importeSinImpuestos": 23801.62
+                        	}
+                     ,{
+				                        "codigo": "404809",
+				                        "descripcion": "ORGANIZADORTRANSLUCIDOSTARHOME5/404809-8",
+                                        "descripcionAdicional": "5/404809-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1457.85,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8399.99,
+                                        "importe": 8399.99,
+                                         "importeSinImpuestos": 6942.14
+                        	}
+                     ,{
+				                        "codigo": "405239",
+				                        "descripcion": "MOLDE CUADR SILI STAR CUISINE 5/405239-8",
+                                        "descripcionAdicional": "5/405239-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3401.65,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 19599.99,
+                                        "importe": 19599.99,
+                                         "importeSinImpuestos": 16198.34
+                        	}
+                     ,{
+				                        "codigo": "405248",
+				                        "descripcion": "MOLDE SILI TARTERA STAR CUISIN5/405248-0",
+                                        "descripcionAdicional": "5/405248-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1943.80,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 11199.99,
+                                        "importe": 11199.99,
+                                         "importeSinImpuestos": 9256.19
+                        	}
+                     ,{
+				                        "codigo": "800056",
+				                        "descripcion": "NECESER+AMPOLLETAS4/800056-0",
+                                        "descripcionAdicional": "4/800056-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "9",
+				                        "descripcion": "GASTOS DE ENVIO0/9-0",
+                                        "descripcionAdicional": "0/9-0",
+				                        "descargaStock" : false,
+				                        "cantidad": -1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 143289.85
+			}
+                        ]
+            }
+        ]

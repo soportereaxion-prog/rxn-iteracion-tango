@@ -1,0 +1,127 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000700000023",
+		"codigoTalonario": "15",
+		"codigoCliente": "108995",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "888",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 25144.83,
+		"totalExento": 0.00,
+		"totalIva": 4363.98,
+		"subtotal": 25144.83,
+		"totalSinImpuestos": 20780.85,
+		"subtotalSinImpuestos": 20780.85,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101541",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 2 CAR1/101541-8",
+                                        "descripcionAdicional": "1/101541-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 999.67,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5759.99,
+                                        "importe": 5759.99,
+                                         "importeSinImpuestos": 4760.32
+                        	}
+                     ,{
+				                        "codigo": "101542",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 3 CHO1/101542-0",
+                                        "descripcionAdicional": "1/101542-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 999.67,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5759.99,
+                                        "importe": 5759.99,
+                                         "importeSinImpuestos": 4760.32
+                        	}
+                     ,{
+				                        "codigo": "24677",
+				                        "descripcion": "MAQ.CORRECTOR CASUAL 01 BEIG.N1/24677-4",
+                                        "descripcionAdicional": "1/24677-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 656.03,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3779.99,
+                                        "importe": 3779.99,
+                                         "importeSinImpuestos": 3123.96
+                        	}
+                     ,{
+				                        "codigo": "800056",
+				                        "descripcion": "NECESER+AMPOLLETAS4/800056-0",
+                                        "descripcionAdicional": "4/800056-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "9",
+				                        "descripcion": "GASTOS DE ENVIO0/9-0",
+                                        "descripcionAdicional": "0/9-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1708.61,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9844.85,
+                                        "importe": 9844.85,
+                                         "importeSinImpuestos": 8136.24
+                        	}
+                     ,
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 25144.83
+			}
+                        ]
+            }
+        ]

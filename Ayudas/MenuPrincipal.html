@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ayuda ReAxion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="../icon1.ico" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 250px;
+      height: 100vh;
+      background-color: #f8f9fa;
+      border-right: 1px solid #ddd;
+      padding: 10px;
+      overflow-y: auto;
+      z-index: 1000;
+    }
+
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+      height: 100vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    .sidebar a {
+      cursor: pointer;
+    }
+
+    /* Clase que ajusta el contenido cargado */
+    .contenido-ajustado {
+      max-width: 100%;
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    .contenido-ajustado * {
+      max-width: 100% !important;
+      box-sizing: border-box;
+    }
+
+    .contenido-ajustado img {
+  max-width: 200px;
+  height: auto;
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.contenido-ajustado h1, 
+.contenido-ajustado h2, 
+.contenido-ajustado h3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding-left: 10px;
+}
+.contenido-ajustado img {
+  max-width: 500px !important;
+  width: auto !important;
+}
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar lateral -->
+  <div class="sidebar">
+    <h5 class="text-center">Ayudas del sistema</h5>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=ProcesarDatoss.html">Procesar Datos</a>
+      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=Reprocesar rechazados.html">Reprocesar rechazados</a>
+      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=LimpiarArchivos.html">Limpiar archivos pendientes</a>
+      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=RechazarPendientes.html">Rechazar pendientes</a>
+      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=CopiarFacturas.html">Copiar Facturas</a>
+      <a class="list-group-item list-group-item-action" href="MenuPrincipal.html?ayuda=ConfiguracionDeDirectorio.html">Configuración de directorio</a>
+      <a class="list-group-item list-group-item-action" href="../index.php">Volver al menu pricipal</a>
+
+    </div>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="content">
+    <div id="contenidoAyuda">
+      <h3>Bienvenido al sistema de ayuda</h3>
+      <p>Seleccioná una sección del menú para ver su contenido.</p>
+    </div>
+  </div>
+
+  <script>
+    function cargarAyuda(archivo) {
+      fetch(archivo)
+        .then(respuesta => {
+          if (!respuesta.ok) throw new Error('No se pudo cargar el archivo');
+          return respuesta.text();
+        })
+        .then(html => {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, "text/html");
+          const bodyContent = doc.body.innerHTML;
+
+          // Ajustamos el contenido cargado
+          document.getElementById('contenidoAyuda').innerHTML = `
+            <div class="contenido-ajustado">
+              ${bodyContent}
+            </div>
+          `;
+        })
+        .catch(error => {
+          document.getElementById('contenidoAyuda').innerHTML = '<p class="text-danger">Error al cargar el contenido.</p>';
+          console.error(error);
+        });
+    }
+
+    // Cargar automáticamente la ayuda si viene en la URL
+    const params = new URLSearchParams(window.location.search);
+    const ayuda = params.get('ayuda');
+    if (ayuda) {
+      cargarAyuda(ayuda);
+    }
+  </script>
+
+</body>
+</html>

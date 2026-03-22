@@ -1,0 +1,2098 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300002766",
+		"codigoTalonario": "5",
+		"codigoCliente": "35988",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "304",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "83,329.99",
+		"leyenda2": "382,121.58",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 524290.03,
+		"totalExento": 0.00,
+		"totalIva": 128794.20,
+		"subtotal": 462367.07,
+		"totalSinImpuestos": 382121.58,
+		"subtotalSinImpuestos": 382121.58,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101463",
+				                        "descripcion": "DELINEADOR P/LABIOS SKLL 1 ROJ1/101463-2",
+                                        "descripcionAdicional": "1/101463-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 5784.30,
+						"importe": 202.45
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101465",
+				                        "descripcion": "DELINEADOR P/LABIOS SKLL 3 TER1/101465-6",
+                                        "descripcionAdicional": "1/101465-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 5784.30,
+						"importe": 202.45
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 17,
+                                        "importeIva": 8848.29,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 50983.00,
+                                         "importeSinImpuestos": 42134.71,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 50983.00,
+						"importe": 5353.22
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 42134.71,
+						"importe": 1474.71
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101061",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 01 NEGR1/101061-2",
+                                        "descripcionAdicional": "1/101061-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 4,
+                                        "importeIva": 1804.27,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 10396.00,
+                                         "importeSinImpuestos": 8591.74,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 10396.00,
+						"importe": 1091.58
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 8591.74,
+						"importe": 300.71
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100724",
+				                        "descripcion": "FRUTOS ROJOS GEL EXFOLIANTE 101/100724-3",
+                                        "descripcionAdicional": "1/100724-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2776.51,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 15998.00,
+                                         "importeSinImpuestos": 13221.49,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 15998.00,
+						"importe": 1679.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 13221.49,
+						"importe": 462.75
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101076",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 05 NU1/101076-8",
+                                        "descripcionAdicional": "1/101076-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 6,
+                                        "importeIva": 2706.40,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 15594.00,
+                                         "importeSinImpuestos": 12887.60,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 15594.00,
+						"importe": 1637.37
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 12887.60,
+						"importe": 451.07
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101065",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 05NEGRO1/101065-1",
+                                        "descripcionAdicional": "1/101065-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 902.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 5198.00,
+                                         "importeSinImpuestos": 4295.87,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5198.00,
+						"importe": 545.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4295.87,
+						"importe": 150.36
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101063",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 03 AZUL1/101063-7",
+                                        "descripcionAdicional": "1/101063-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 2147.93,
+						"importe": 75.18
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101164",
+				                        "descripcion": "MASC. P/PESTANAS RESIST. SK PE1/101164-8",
+                                        "descripcionAdicional": "1/101164-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2256.03,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 12999.00,
+                                        "importe": 12999.00,
+                                         "importeSinImpuestos": 10742.98,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 12999.00,
+						"importe": 1364.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 10742.98,
+						"importe": 376.00
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101071",
+				                        "descripcion": "DELINEADOR P/OJOS Y LABIOS 18C1/101071-7",
+                                        "descripcionAdicional": "1/101071-7",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 902.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 5198.00,
+                                         "importeSinImpuestos": 4295.87,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5198.00,
+						"importe": 545.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4295.87,
+						"importe": 150.36
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101070",
+				                        "descripcion": "DELINEADOR P/OJOS Y LABIOS 18C1/101070-5",
+                                        "descripcionAdicional": "1/101070-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 902.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 5198.00,
+                                         "importeSinImpuestos": 4295.87,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5198.00,
+						"importe": 545.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4295.87,
+						"importe": 150.36
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101075",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 04 BO1/101075-6",
+                                        "descripcionAdicional": "1/101075-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 902.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 5198.00,
+                                         "importeSinImpuestos": 4295.87,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5198.00,
+						"importe": 545.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4295.87,
+						"importe": 150.36
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101073",
+				                        "descripcion": "DELINEADOR P/LABIOS 18CM 02 CE1/101073-1",
+                                        "descripcionAdicional": "1/101073-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 1353.20,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 7797.00,
+                                         "importeSinImpuestos": 6443.80,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7797.00,
+						"importe": 818.69
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 6443.80,
+						"importe": 225.53
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100425",
+				                        "descripcion": "DELINEADOR RET. CEJAS SK LL 021/100425-9",
+                                        "descripcionAdicional": "1/100425-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1475.03,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8499.00,
+                                        "importe": 8499.00,
+                                         "importeSinImpuestos": 7023.97,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 8499.00,
+						"importe": 892.40
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 7023.97,
+						"importe": 245.84
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101066",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 06 VERD1/101066-3",
+                                        "descripcionAdicional": "1/101066-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 902.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 5198.00,
+                                         "importeSinImpuestos": 4295.87,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5198.00,
+						"importe": 545.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4295.87,
+						"importe": 150.36
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101068",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 08 BLAN1/101068-8",
+                                        "descripcionAdicional": "1/101068-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 2147.93,
+						"importe": 75.18
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101540",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 1 BER1/101540-5",
+                                        "descripcionAdicional": "1/101540-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 2602.78,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 14997.00,
+                                         "importeSinImpuestos": 12394.21,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 14997.00,
+						"importe": 1574.69
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 12394.21,
+						"importe": 433.80
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101031",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 9 BES2/101031-9",
+                                        "descripcionAdicional": "2/101031-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9999.00,
+						"importe": 1049.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 8263.64,
+						"importe": 289.23
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101340",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 12 RO2/101340-8",
+                                        "descripcionAdicional": "2/101340-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9999.00,
+						"importe": 1049.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 8263.64,
+						"importe": 289.23
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101069",
+				                        "descripcion": "DELINEADOR P/OJOS 18CM 09 GRIS1/101069-0",
+                                        "descripcionAdicional": "1/101069-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 451.07,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 2599.00,
+                                         "importeSinImpuestos": 2147.93,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 2599.00,
+						"importe": 272.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 2147.93,
+						"importe": 75.18
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101604",
+				                        "descripcion": "MILK EMULS.CORP. EXTRACTO PEPI1/101604-5",
+                                        "descripcionAdicional": "1/101604-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1214.70,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6999.00,
+                                        "importe": 6999.00,
+                                         "importeSinImpuestos": 5784.30,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 6999.00,
+						"importe": 734.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 5784.30,
+						"importe": 202.45
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101121",
+				                        "descripcion": "CREMA MANOS PIEL SECA/SENSIBLE1/101121-4",
+                                        "descripcionAdicional": "1/101121-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5999.00,
+						"importe": 629.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4957.85,
+						"importe": 173.52
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100652",
+				                        "descripcion": "DELIN/LABIAL 2 EN 1 SK LL 4 SE1/100652-3",
+                                        "descripcionAdicional": "1/100652-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 3123.62,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 17998.00,
+                                         "importeSinImpuestos": 14874.38,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 17998.00,
+						"importe": 1889.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 14874.38,
+						"importe": 520.60
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "24206",
+				                        "descripcion": "MAQUILLAJE CORREC.POTE SK LL 01/24206-4",
+                                        "descripcionAdicional": "1/24206-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7999.00,
+						"importe": 839.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 6610.74,
+						"importe": 231.38
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100727",
+				                        "descripcion": "ESMALTE P/UNAS YOU 06 NEGRO CH2/100727-0",
+                                        "descripcionAdicional": "2/100727-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 1849.00,
+						"importe": 194.15
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 1528.10,
+						"importe": 53.48
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100651",
+				                        "descripcion": "DELIN/LABIAL 2 EN 1 SK LL 3 SO1/100651-1",
+                                        "descripcionAdicional": "1/100651-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 3123.62,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 17998.00,
+                                         "importeSinImpuestos": 14874.38,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 17998.00,
+						"importe": 1889.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 14874.38,
+						"importe": 520.60
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101541",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 2 CAR1/101541-8",
+                                        "descripcionAdicional": "1/101541-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 1735.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 9998.00,
+                                         "importeSinImpuestos": 8262.81,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9998.00,
+						"importe": 1049.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 8262.81,
+						"importe": 289.20
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "24195",
+				                        "descripcion": "ESMALTE LACA GEL TOP COAT SK L1/24195-3",
+                                        "descripcionAdicional": "1/24195-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 954.37,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5499.00,
+                                        "importe": 5499.00,
+                                         "importeSinImpuestos": 4544.63,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5499.00,
+						"importe": 577.40
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4544.63,
+						"importe": 159.06
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101542",
+				                        "descripcion": "LIP BALM BALSAMO HIDRAT. 3 CHO1/101542-0",
+                                        "descripcionAdicional": "1/101542-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.59,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 4999.00,
+						"importe": 524.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4131.40,
+						"importe": 144.60
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101341",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 13 SA2/101341-0",
+                                        "descripcionAdicional": "2/101341-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9999.00,
+						"importe": 1049.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 8263.64,
+						"importe": 289.23
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101029",
+				                        "descripcion": "LABIAL LIQUIDO 12H SK LL 6 SEC2/101029-2",
+                                        "descripcionAdicional": "2/101029-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9999.00,
+						"importe": 1049.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 8263.64,
+						"importe": 289.23
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100711",
+				                        "descripcion": "ESMALTE P/UNAS YOU 02 ROJO SEN2/100711-2",
+                                        "descripcionAdicional": "2/100711-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 1849.00,
+						"importe": 194.15
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 1528.10,
+						"importe": 53.48
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100649",
+				                        "descripcion": "DELIN/LABIAL 2 EN 1 SK LL 1 PI1/100649-4",
+                                        "descripcionAdicional": "1/100649-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 3123.62,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 17998.00,
+                                         "importeSinImpuestos": 14874.38,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 17998.00,
+						"importe": 1889.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 14874.38,
+						"importe": 520.60
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "100710",
+				                        "descripcion": "ESMALTE P/UNAS YOU 01 CIRUELA 2/100710-0",
+                                        "descripcionAdicional": "2/100710-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 1849.00,
+						"importe": 194.15
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 1528.10,
+						"importe": 53.48
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "24205",
+				                        "descripcion": "MAQUILLAJE CORREC.POTE SK LL 01/24205-2",
+                                        "descripcionAdicional": "1/24205-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 7,
+                                        "importeIva": 9717.79,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 55993.00,
+                                         "importeSinImpuestos": 46275.21,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 55993.00,
+						"importe": 5879.27
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 46275.21,
+						"importe": 1619.63
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101568",
+				                        "descripcion": "ESMALTE P/UNAS YOU DEST. 17SIL2/101568-2",
+                                        "descripcionAdicional": "2/101568-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 1849.00,
+						"importe": 194.15
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 1528.10,
+						"importe": 53.48
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101569",
+				                        "descripcion": "ESMALTE P/UNAS YOU 18 LILAC FE2/101569-4",
+                                        "descripcionAdicional": "2/101569-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 1849.00,
+						"importe": 194.15
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 1528.10,
+						"importe": 53.48
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101397",
+				                        "descripcion": "LAP LAB CREM SK N15 NUDE SUNSE2/101397-5",
+                                        "descripcionAdicional": "2/101397-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1336.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7699.00,
+                                        "importe": 7699.00,
+                                         "importeSinImpuestos": 6362.81,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7699.00,
+						"importe": 808.40
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 6362.81,
+						"importe": 222.70
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101577",
+				                        "descripcion": "PROT.SOLAR COLOR DERMAT FPS60 1/101577-4",
+                                        "descripcionAdicional": "1/101577-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 3470.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 19999.00,
+                                        "importe": 19999.00,
+                                         "importeSinImpuestos": 16528.10,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 19999.00,
+						"importe": 2099.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 16528.10,
+						"importe": 578.48
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101642",
+				                        "descripcion": "BRILLO LABIAL INFINITE G SK 3 1/101642-9",
+                                        "descripcionAdicional": "1/101642-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1388.26,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 7999.00,
+                                         "importeSinImpuestos": 6610.74,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7999.00,
+						"importe": 839.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 6610.74,
+						"importe": 231.38
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 4/101405-0",
+                                        "descripcionAdicional": "4/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 0.01,
+						"importe": 0.00
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 0.01,
+						"importe": 0.00
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 7,
+                                        "importeIva": 3035.97,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2499.00,
+                                        "importe": 17493.00,
+                                         "importeSinImpuestos": 14457.02,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 17493.00,
+						"importe": 1836.77
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 14457.02,
+						"importe": 506.00
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101525",
+				                        "descripcion": "PRIMER EFECTO MATE YOU X 20 G4/101525-8",
+                                        "descripcionAdicional": "4/101525-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 0.01,
+						"importe": 0.00
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 0.01,
+						"importe": 0.00
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 3/101405-0",
+                                        "descripcionAdicional": "3/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 6,
+                                        "importeIva": 3122.92,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2999.00,
+                                        "importe": 17994.00,
+                                         "importeSinImpuestos": 14871.07,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 17994.00,
+						"importe": 1889.37
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 14871.07,
+						"importe": 520.49
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 1353.20,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 7797.00,
+                                         "importeSinImpuestos": 6443.80,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7797.00,
+						"importe": 818.69
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 6443.80,
+						"importe": 225.53
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101661",
+				                        "descripcion": "EAU PARFUM MASC.VIOLETTA EQUAL4/101661-5",
+                                        "descripcionAdicional": "4/101661-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 0.01,
+						"importe": 0.00
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 0.01,
+						"importe": 0.00
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 624.62,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3599.00,
+                                        "importe": 3599.00,
+                                         "importeSinImpuestos": 2974.38,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 3599.00,
+						"importe": 377.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 2974.38,
+						"importe": 104.10
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 5,
+                                        "importeIva": 1734.67,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1999.00,
+                                        "importe": 9995.00,
+                                         "importeSinImpuestos": 8260.33,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9995.00,
+						"importe": 1049.48
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 8260.33,
+						"importe": 289.11
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 3123.62,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8999.00,
+                                        "importe": 17998.00,
+                                         "importeSinImpuestos": 14874.38,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 17998.00,
+						"importe": 1889.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 14874.38,
+						"importe": 520.60
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.59,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 4999.00,
+						"importe": 524.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4131.40,
+						"importe": 144.60
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5999.00,
+						"importe": 629.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4957.85,
+						"importe": 173.52
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 1388.08,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 7998.00,
+                                         "importeSinImpuestos": 6609.92,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7998.00,
+						"importe": 839.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 6609.92,
+						"importe": 231.35
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 2863.11,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5499.00,
+                                        "importe": 16497.00,
+                                         "importeSinImpuestos": 13633.88,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 16497.00,
+						"importe": 1732.19
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 13633.88,
+						"importe": 477.19
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 641.97,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3699.00,
+                                        "importe": 3699.00,
+                                         "importeSinImpuestos": 3057.02,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 3699.00,
+						"importe": 388.40
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 3057.02,
+						"importe": 107.00
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101405",
+				                        "descripcion": "SPLASH HUMECT. B.LOVE COCONUT 5/101405-0",
+                                        "descripcionAdicional": "5/101405-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 277.51,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1599.00,
+                                        "importe": 1599.00,
+                                         "importeSinImpuestos": 1321.49,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 1599.00,
+						"importe": 167.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 1321.49,
+						"importe": 46.25
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "204499",
+				                        "descripcion": "PROTECTORCABLEDISENOSDIVERTIDO5/204499-4",
+                                        "descripcionAdicional": "5/204499-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 694.04,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3999.00,
+                                        "importe": 3999.00,
+                                         "importeSinImpuestos": 3304.96,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 3999.00,
+						"importe": 419.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 3304.96,
+						"importe": 115.67
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101273",
+				                        "descripcion": "LAP LAB CREM SK N12 PURPURA IN2/101273-9",
+                                        "descripcionAdicional": "2/101273-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1336.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7699.00,
+                                        "importe": 7699.00,
+                                         "importeSinImpuestos": 6362.81,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 7699.00,
+						"importe": 808.40
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 6362.81,
+						"importe": 222.70
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101238",
+				                        "descripcion": "SUERO AGUA DE ROSAS 30 ML1/101238-2",
+                                        "descripcionAdicional": "1/101238-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2776.51,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 15998.00,
+                                         "importeSinImpuestos": 13221.49,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 15998.00,
+						"importe": 1679.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 13221.49,
+						"importe": 462.75
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101433",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 3 NARANJ2/101433-9",
+                                        "descripcionAdicional": "2/101433-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 320.90,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 1849.00,
+                                         "importeSinImpuestos": 1528.10,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 1849.00,
+						"importe": 194.15
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 1528.10,
+						"importe": 53.48
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "405460",
+				                        "descripcion": "SOPORTE P/CELULAR-TABLET MANIT5/405460-9",
+                                        "descripcionAdicional": "5/405460-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 902.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 5198.00,
+                                         "importeSinImpuestos": 4295.87,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5198.00,
+						"importe": 545.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4295.87,
+						"importe": 150.36
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101434",
+				                        "descripcion": "ESMALTE YOU HOLOSHINE 4 VIOLET2/101434-1",
+                                        "descripcionAdicional": "2/101434-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 641.80,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1849.00,
+                                        "importe": 3698.00,
+                                         "importeSinImpuestos": 3056.20,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 3698.00,
+						"importe": 388.29
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 3056.20,
+						"importe": 106.97
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "404048",
+				                        "descripcion": "CONTX31200MLSTARCUISINEKEEPROS5/404048-2",
+                                        "descripcionAdicional": "5/404048-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2603.13,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 14999.00,
+                                        "importe": 14999.00,
+                                         "importeSinImpuestos": 12395.87,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 14999.00,
+						"importe": 1574.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 12395.87,
+						"importe": 433.86
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "400540",
+				                        "descripcion": "APOYA CELULAR FOONU S/E COL5/400540-9",
+                                        "descripcionAdicional": "5/400540-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 555.03,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 1599.00,
+                                        "importe": 3198.00,
+                                         "importeSinImpuestos": 2642.98,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 3198.00,
+						"importe": 335.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 2642.98,
+						"importe": 92.50
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101235",
+				                        "descripcion": "BRUMA FACIAL AGUA DE ROSAS 1502/101235-6",
+                                        "descripcionAdicional": "2/101235-6",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1041.15,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5999.00,
+                                        "importe": 5999.00,
+                                         "importeSinImpuestos": 4957.85,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 5999.00,
+						"importe": 629.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4957.85,
+						"importe": 173.52
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "101236",
+				                        "descripcion": "LECHE/TONICO MICELAR AGUA DE R1/101236-8",
+                                        "descripcionAdicional": "1/101236-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1735.36,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9999.00,
+                                        "importe": 9999.00,
+                                         "importeSinImpuestos": 8263.64,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 9999.00,
+						"importe": 1049.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 8263.64,
+						"importe": 289.23
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "403478",
+				                        "descripcion": "VIOLETTA ACCES BROCHA P/CONTOU5/403478-1",
+                                        "descripcionAdicional": "5/403478-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 867.59,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4999.00,
+                                        "importe": 4999.00,
+                                         "importeSinImpuestos": 4131.40,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 4999.00,
+						"importe": 524.90
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 4131.40,
+						"importe": 144.60
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "403553",
+				                        "descripcion": "CONTBREAKTOGOSTARCUISINEROMANC5/403553-0",
+                                        "descripcionAdicional": "5/403553-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2776.51,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 15998.00,
+                                         "importeSinImpuestos": 13221.49,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 15998.00,
+						"importe": 1679.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 13221.49,
+						"importe": 462.75
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "403554",
+				                        "descripcion": "CONT BREAK TO GO STAR CUISINE 5/403554-3",
+                                        "descripcionAdicional": "5/403554-3",
+				                        "descargaStock" : false,
+				                        "cantidad": 2,
+                                        "importeIva": 2776.51,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7999.00,
+                                        "importe": 15998.00,
+                                         "importeSinImpuestos": 13221.49,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 15998.00,
+						"importe": 1679.79
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 13221.49,
+						"importe": 462.75
+                                        	}
+                                	]
+                        	}
+                     ,{
+				                        "codigo": "407194",
+				                        "descripcion": "SALERO VIDRIO TUZ STAR CUISINE5/407194-5",
+                                        "descripcionAdicional": "5/407194-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 4,
+                                        "importeIva": 1804.27,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 2599.00,
+                                        "importe": 10396.00,
+                                         "importeSinImpuestos": 8591.74,
+                           "percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje": 10.50,
+						"base": 10396.00,
+						"importe": 1091.58
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 8591.74,
+						"importe": 300.71
+                                        	}
+                                	]
+                        	}
+                     ,{
+	"codigo": "03",
+	"descripcion": "Bonificacion Cosméticos",
+	"descargaStock" : false,
+	"cantidad": -1,
+	"codigoDeposito": "1",
+        "importeIva": -21645.19,
+	"codigoUM": "BON",
+	"precio": 124717.50,
+        "importe": 124717.50,
+        "importeSinImpuestos": -103072.31,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -124717.50,
+						"importe": -13095.34
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": -103072.31,
+						"importe": -3607.53
+                                        	}
+                                	]
+        },{
+				"codigo": "04",
+				"descripcion": "Bonificación Practicosas",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -6285.29,
+				"codigoUM": "BON",
+				"precio": 36215.25,
+                                "importe": 36215.25,
+                                "importeSinImpuestos": -29929.96,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -36215.25,
+						"importe": -3802.60
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": -29929.96,
+						"importe": -1047.55
+                                        	}
+                                	]
+                        	},
+                                
+                     {
+				"codigo": "06",
+				"descripcion": "Bonificación adicional",
+				"descargaStock" : false,
+				"cantidad": -1,
+				"codigoDeposito": "1",
+                                "importeIva": -8425.78,
+				"codigoUM": "BON",
+				"precio": 48548.54,
+                                "importe": 48548.54,
+                                "importeSinImpuestos": -40122.76,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": -48548.54,
+						"importe": -5097.60
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": -40122.76,
+						"importe": -1404.30
+                                        	}
+                                	]
+                        	},
+                     {
+				"codigo": "02",
+				"descripcion": "Gastos administrativos",
+				"descargaStock" : false,
+				"cantidad": 1,
+				"codigoDeposito": "1",
+                                "importeIva": 2549.21,
+				"codigoUM": "UNI",
+				"precio": 14688.33,
+                                "importe": 14688.33,
+                                "importeSinImpuestos": 12139.12,"percepciones":
+                                        [{
+						"codigoAlicuota": 11,
+						"codigoPercepcion": "",
+						"porcentaje" : 10.50,
+						"base": 14688.33,
+						"importe": 1542.27
+					} ,{
+						"codigoAlicuota": 61,
+						"codigoPercepcion": "",
+						"porcentaje": 3.50,
+						"base": 12139.12,
+						"importe": 424.87
+                                        	}
+                                	]
+                        	}
+                     
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 524290.03
+			}
+                        ]
+            }
+        ]

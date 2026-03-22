@@ -1,0 +1,153 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000700000017",
+		"codigoTalonario": "15",
+		"codigoCliente": "108991",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "888",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 43594.81,
+		"totalExento": 0.00,
+		"totalIva": 7566.04,
+		"subtotal": 43594.81,
+		"totalSinImpuestos": 36028.77,
+		"subtotalSinImpuestos": 36028.77,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101011",
+				                        "descripcion": "COLONIA JAZMIN Y NARDOS 230ML1/101011-0",
+                                        "descripcionAdicional": "1/101011-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1327.68,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7649.99,
+                                        "importe": 7649.99,
+                                         "importeSinImpuestos": 6322.31
+                        	}
+                     ,{
+				                        "codigo": "101241",
+				                        "descripcion": "DELINEAD.RET.LABIOS CASUAL 3 C1/101241-1",
+                                        "descripcionAdicional": "1/101241-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 812.23,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 4679.99,
+                                        "importe": 4679.99,
+                                         "importeSinImpuestos": 3867.76
+                        	}
+                     ,{
+				                        "codigo": "101338",
+				                        "descripcion": "MASC.P/PEST.WAT.CASUAL EXTREME1/101338-1",
+                                        "descripcionAdicional": "1/101338-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1327.68,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7649.99,
+                                        "importe": 7649.99,
+                                         "importeSinImpuestos": 6322.31
+                        	}
+                     ,{
+				                        "codigo": "101668",
+				                        "descripcion": "RUBOR EN CREMA CASUAL 3 GRAPEY1/101668-2",
+                                        "descripcionAdicional": "1/101668-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1194.92,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6884.99,
+                                        "importe": 6884.99,
+                                         "importeSinImpuestos": 5690.07
+                        	}
+                     ,{
+				                        "codigo": "403480",
+				                        "descripcion": "VIOLETTA ACCES BROCHA P/BASE Y5/403480-8",
+                                        "descripcionAdicional": "5/403480-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1194.92,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6884.99,
+                                        "importe": 6884.99,
+                                         "importeSinImpuestos": 5690.07
+                        	}
+                     ,{
+				                        "codigo": "800056",
+				                        "descripcion": "NECESER+AMPOLLETAS4/800056-0",
+                                        "descripcionAdicional": "4/800056-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "9",
+				                        "descripcion": "GASTOS DE ENVIO0/9-0",
+                                        "descripcionAdicional": "0/9-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1708.61,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9844.85,
+                                        "importe": 9844.85,
+                                         "importeSinImpuestos": 8136.24
+                        	}
+                     ,
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 43594.81
+			}
+                        ]
+            }
+        ]

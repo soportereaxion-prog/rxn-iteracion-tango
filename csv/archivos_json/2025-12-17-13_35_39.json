@@ -1,0 +1,75 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000300000019",
+		"codigoTalonario": "5",
+		"codigoCliente": "100887",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2025-12-17 00:00:00.000",
+		"fechaCierreTesoreria": "2025-12-17 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "174",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 0.00,
+		"totalExento": 0.00,
+		"totalIva": 0.00,
+		"subtotal": 0.00,
+		"totalSinImpuestos": 0.00,
+		"subtotalSinImpuestos": 0.00,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				"codigo": "100632",
+				"descripcion": "VELVETY CREMA DEPILATORIA ROST1/100632-4",
+                                "descripcionAdicional": "1/100632-4",
+				"descargaStock" : false,
+				"cantidad": 1,
+                                "importeIva": 0.00,
+				"codigoDeposito": "1",
+				"codigoUM": "UNI",
+				"precio": 0.00,
+                                "importe": 0.00,
+                                "importeSinImpuestos": 0.00
+                        	}
+                     ,
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2025-12-17 00:00:00.000",
+				"importe" : 0.00
+			}
+                        ]
+            }
+        ]

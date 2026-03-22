@@ -1,0 +1,140 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000700000001",
+		"codigoTalonario": "15",
+		"codigoCliente": "67174",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "888",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 36028.16,
+		"totalExento": 0.00,
+		"totalIva": 6252.81,
+		"subtotal": 36028.16,
+		"totalSinImpuestos": 29775.35,
+		"subtotalSinImpuestos": 29775.35,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "101382",
+				                        "descripcion": "TOALLAS HUM.DESMAQ.AGUA DE ROS1/101382-0",
+                                        "descripcionAdicional": "1/101382-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 546.69,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 3150.00,
+                                        "importe": 3150.00,
+                                         "importeSinImpuestos": 2603.31
+                        	}
+                     ,{
+				                        "codigo": "406916",
+				                        "descripcion": "PORTA VIANDA C/DIV STAR CUISIN5/406916-4",
+                                        "descripcionAdicional": "5/406916-4",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 876.27,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5048.99,
+                                        "importe": 5048.99,
+                                         "importeSinImpuestos": 4172.72
+                        	}
+                     ,{
+				                        "codigo": "407191",
+				                        "descripcion": "PORTA VIANDA C/DIV STAR CUISIN5/407191-8",
+                                        "descripcionAdicional": "5/407191-8",
+				                        "descargaStock" : false,
+				                        "cantidad": 3,
+                                        "importeIva": 2628.81,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5048.99,
+                                        "importe": 15146.97,
+                                         "importeSinImpuestos": 12518.16
+                        	}
+                     ,{
+				                        "codigo": "407192",
+				                        "descripcion": "PORTA VIANDA C/DIV STAR CUISIN5/407192-0",
+                                        "descripcionAdicional": "5/407192-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 876.27,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5048.99,
+                                        "importe": 5048.99,
+                                         "importeSinImpuestos": 4172.72
+                        	}
+                     ,{
+				                        "codigo": "800056",
+				                        "descripcion": "NECESER+AMPOLLETAS4/800056-0",
+                                        "descripcionAdicional": "4/800056-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "9",
+				                        "descripcion": "GASTOS DE ENVIO0/9-0",
+                                        "descripcionAdicional": "0/9-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1324.77,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 7633.20,
+                                        "importe": 7633.20,
+                                         "importeSinImpuestos": 6308.43
+                        	}
+                     ,
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 36028.16
+			}
+                        ]
+            }
+        ]

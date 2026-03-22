@@ -1,0 +1,179 @@
+
+
+        [
+	{
+		"codigoTipoComprobante": "FAC",
+		"numeroComprobante": "B0000700000002",
+		"codigoTalonario": "15",
+		"codigoCliente": "92074",
+		"codigoCondicionDeVenta": 1,
+		"numeroDeProyecto": "",
+		"codigoOperacionRG3685": "00001",
+		"codigoClasificacion": "",
+		"fechaComprobante": "2026-03-18 00:00:00.000",
+		"fechaCierreTesoreria": "2026-03-18 00:00:00.000",
+		"codigoListaPrecio": 1,
+		"cotizacionVentas": null,
+		"codigoContracuenta": "20",
+		"codigoDeposito": "1",
+		"codigoVendedor": "888",
+		"idMotivo": "3",
+		"codigoAsiento": "1",
+		"leyenda1": "",
+		"leyenda2": "",
+		"leyenda3": "",
+		"leyenda4": "",
+		"leyenda5": "",
+		"esMonedaExtranjera": false,
+		"total" : 56669.95,
+		"totalExento": 0.00,
+		"totalIva": 9835.28,
+		"subtotal": 56669.95,
+		"totalSinImpuestos": 46834.67,
+		"subtotalSinImpuestos": 46834.67,
+		"descuentoPorcentaje": 0,
+		"descuentoMonto": 0,
+		"descuentoMontoSinIva": 0,
+		"recargoPorcentaje": 0,
+		"recargoMonto": 0,
+		"recargoMontoSinIva": 0,
+		"recargoFletePorcentaje": 0,
+		"recargoFleteMonto": 0,
+		"recargoFleteMontoSinIva": 0,
+		"interesesPorcentaje": 0.00,
+		"interesesMontoSinIva": 0.00,
+		"observaciones": "",
+		"rg3668TipoIdentificacionFirmante": null,
+		"rg3668CaracterDelFirmante": null,
+		"rg3668CodigoIdentificacionFirmante": "",
+		"rg3668MotivoDeExcepcion": null,
+		"rg3668CodigoWeb": "666",
+		"items": [
+                {
+				                        "codigo": "100642",
+				                        "descripcion": "PROTECT CALCIO Y COLOR 27 ROSA1/100642-9",
+                                        "descripcionAdicional": "1/100642-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 937.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5399.99,
+                                        "importe": 5399.99,
+                                         "importeSinImpuestos": 4462.80
+                        	}
+                     ,{
+				                        "codigo": "100823",
+				                        "descripcion": "JABON LIQUIDO ROSAS PARA MANOS1/100823-0",
+                                        "descripcionAdicional": "1/100823-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1180.16,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6799.99,
+                                        "importe": 6799.99,
+                                         "importeSinImpuestos": 5619.83
+                        	}
+                     ,{
+				                        "codigo": "101097",
+				                        "descripcion": "MAQ.CORRECTOR LIQUIDO SK LL 1 1/101097-9",
+                                        "descripcionAdicional": "1/101097-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1499.50,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 8639.99,
+                                        "importe": 8639.99,
+                                         "importeSinImpuestos": 7140.49
+                        	}
+                     ,{
+				                        "codigo": "101188",
+				                        "descripcion": "JABON LIQUIDO JAZMIN PARA MANO1/101188-5",
+                                        "descripcionAdicional": "1/101188-5",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1180.16,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 6799.99,
+                                        "importe": 6799.99,
+                                         "importeSinImpuestos": 5619.83
+                        	}
+                     ,{
+				                        "codigo": "101401",
+				                        "descripcion": "MAQ.BRONZER COMPACTO SK LL 01 1/101401-1",
+                                        "descripcionAdicional": "1/101401-1",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 2478.35,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 14279.99,
+                                        "importe": 14279.99,
+                                         "importeSinImpuestos": 11801.64
+                        	}
+                     ,{
+				                        "codigo": "21361",
+				                        "descripcion": "PROTECT CALCIO Y COLOR 13 ROSA1/21361-9",
+                                        "descripcionAdicional": "1/21361-9",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 937.19,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 5399.99,
+                                        "importe": 5399.99,
+                                         "importeSinImpuestos": 4462.80
+                        	}
+                     ,{
+				                        "codigo": "403048",
+				                        "descripcion": "ESPATULASILICOREPOSTSTARCUISIN5/403048-2",
+                                        "descripcionAdicional": "5/403048-2",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 1622.73,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 9349.99,
+                                        "importe": 9349.99,
+                                         "importeSinImpuestos": 7727.26
+                        	}
+                     ,{
+				                        "codigo": "800056",
+				                        "descripcion": "NECESER+AMPOLLETAS4/800056-0",
+                                        "descripcionAdicional": "4/800056-0",
+				                        "descargaStock" : false,
+				                        "cantidad": 1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,{
+				                        "codigo": "9",
+				                        "descripcion": "GASTOS DE ENVIO0/9-0",
+                                        "descripcionAdicional": "0/9-0",
+				                        "descargaStock" : false,
+				                        "cantidad": -1,
+                                        "importeIva": 0.00,
+				                        "codigoDeposito": "1",
+				                        "codigoUM": "UNI",
+				                        "precio": 0.01,
+                                        "importe": 0.01,
+                                         "importeSinImpuestos": 0.01
+                        	}
+                     ,
+		],
+		"cuotasCuentaCorriente" :
+		[
+			{
+				"fechaVencimiento": "2026-03-18 00:00:00.000",
+				"importe" : 56669.95
+			}
+                        ]
+            }
+        ]
