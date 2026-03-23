@@ -78,6 +78,11 @@
 
   <div class="rxn-help-sidebar">
     <div class="sidebar-title">Doc. Operativa</div>
+    <div style="padding: 10px; border-bottom: 1px solid var(--rxn-border); background-color: var(--rxn-card-bg);">
+        <input type="text" id="inputBuscadorAyuda" placeholder="Buscar en ayudas..." 
+               style="width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid var(--rxn-border); border-radius: 4px; font-family: inherit; font-size: 13px; background-color: var(--rxn-bg); color: var(--rxn-text-main); outline: none;">
+        <div id="resultadosBuscador" style="max-height: 250px; overflow-y: auto; background-color: var(--rxn-card-bg); margin-top: 5px;"></div>
+    </div>
     <a href="MenuPrincipal.html?ayuda=ProcesarDatoss.html">Procesar Lotes CSV</a>
     <a href="MenuPrincipal.html?ayuda=Reprocesar rechazados.html">Reprocesar Rechazos</a>
     <a href="MenuPrincipal.html?ayuda=LimpiarArchivos.html">Purgar Archivos</a>
@@ -100,6 +105,7 @@
     </div>
   </div>
 
+  <script src="js/buscador.js"></script>
   <script>
     function cargarAyuda(archivo) {
       document.getElementById('contenidoAyuda').innerHTML = '<span style="color: var(--rxn-text-muted);">Cargando módulo...</span>';
