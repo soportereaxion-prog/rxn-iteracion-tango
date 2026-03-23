@@ -1011,16 +1011,22 @@ class modelo extends vista
                             $raw_msg = is_array($this->mensaje_api) ? ($this->mensaje_api['message'] ?? '') : '';
                             $raw_exc = is_array($this->mensaje_api) ? ($this->mensaje_api['exceptionInfo'] ?? '') : '';
                             
-                            // Sanitización: Evitar Array to string conversion si la API devuelve arrays anidados
-                            $msg = is_array($raw_msg) ? json_encode($raw_msg, JSON_UNESCAPED_UNICODE) : (string)$raw_msg;
-                            $exc = is_array($raw_exc) ? json_encode($raw_exc, JSON_UNESCAPED_UNICODE) : (string)$raw_exc;
+                            // Helper para limpiar la basura JSON de la Exception
+                            $exc_limpia = '';
+                            if (is_array($raw_exc) && isset($raw_exc['messages']) && is_array($raw_exc['messages'])) {
+                                $exc_limpia = implode(' | ', $raw_exc['messages']);
+                            } else {
+                                $exc_limpia = is_array($raw_exc) ? json_encode($raw_exc, JSON_UNESCAPED_UNICODE) : (string)$raw_exc;
+                            }
+                            
+                            $msg_limpio = is_array($raw_msg) ? json_encode($raw_msg, JSON_UNESCAPED_UNICODE) : (string)$raw_msg;
 
-                            if ($msg !== '' && $exc !== '') {
-                                $mensaje_log = "ERROR API | message={$msg} | exception={$exc}";
-                            } elseif ($msg !== '') {
-                                $mensaje_log = "ERROR API | message={$msg}";
-                            } elseif ($exc !== '') {
-                                $mensaje_log = "ERROR API | exception={$exc}";
+                            if ($msg_limpio !== '' && $exc_limpia !== '') {
+                                $mensaje_log = "ERROR API | {$msg_limpio} | {$exc_limpia}";
+                            } elseif ($msg_limpio !== '') {
+                                $mensaje_log = "ERROR API | {$msg_limpio}";
+                            } elseif ($exc_limpia !== '') {
+                                $mensaje_log = "ERROR API | {$exc_limpia}";
                             } else {
                                 $mensaje_log = "ERROR | Respuesta inválida API";
                             }
