@@ -788,11 +788,12 @@ class modelo extends vista
         }
     }
 
-    public function evaluarYActualizarClienteAPI($cod_cliente, $importe_gatillo) {
+    public function evaluarYActualizarClienteSQL($cod_cliente, $importe_gatillo, $n_comp = '', $nombre_archivo = '') {
         $cod_cliente_safe = is_scalar($cod_cliente) ? htmlspecialchars((string)$cod_cliente) : 'N/A';
         $importe_gatillo_safe = is_numeric($importe_gatillo) ? number_format((float)$importe_gatillo, 2) : '0.00';
         
         echo "<div style='color: #0d6efd; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] 🔍 Detectado importe/impuesto gatillo (\${$importe_gatillo_safe}) superior a $250 para cliente {$cod_cliente_safe}. Leyendo CSV Maestro...</div>";
+
         
         // Sanitización: Validar instancia de matriz en memoria
         if (!isset($this->cli_csv) || !is_array($this->cli_csv) || empty($this->cli_csv)) {
@@ -900,6 +901,8 @@ class modelo extends vista
         $total_afectadas = $afectadas_gva14 + $afectadas_entrega;
         
         if ($total_afectadas > 0) {
+            $mensaje_log = "Tributos Actualizados | CAT_IVA = {$new_cat_iva} | ALI_IB = {$new_ali_fij} | NO_CAT = {$new_gva41_no_cat}";
+            $this->ingresoMensajesApi($n_comp, 'CLIENTES', $mensaje_log, 1, $tango_cod_client, $nombre_archivo, 0, 'SQL Dual directo exitoso', '', '');
             echo "<div style='color: #20c997; font-family: monospace; font-size: 15px; font-weight: bold; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ✅ UPDATE SQL EXITOSO (Filas afectadas: {$total_afectadas}) -> Quedó Guardado: ID_CATEGORIA_IVA = {$new_cat_iva} | ID_ALI_FIJ_IB = {$new_ali_fij} | ID_GVA41_NO_CAT = {$new_gva41_no_cat}</div>";
         } else {
             echo "<div style='color: #ffc107; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ⚠ UPDATE SQL ejecutado, pero 0 filas impactaron. Los datos ya eran idénticos. Guardado actual: ID_CATEGORIA_IVA = {$new_cat_iva} | ID_ALI_FIJ_IB = {$new_ali_fij}</div>";
@@ -975,7 +978,7 @@ class modelo extends vista
 
                     // Se comprueba si el ticket es superior a $250 en la línea de impuestos
                     if ($importe_gatillo > 250) {
-                        $this->evaluarYActualizarClienteAPI($pedi_enc['COD_CLIENT'], $importe_gatillo);
+                        $this->evaluarYActualizarClienteSQL($pedi_enc['COD_CLIENT'], $importe_gatillo, $pedi_enc['N_COMP'], $pedi_enc['NOMBRE_ARCHIVO']);
                     }
                     // -----------------------------------------------------------
 

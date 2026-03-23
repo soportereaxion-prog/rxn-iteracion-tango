@@ -28,6 +28,15 @@
                 <li><strong style="color: #dc3545;">Secuencia Vacía:</strong> Retorna aviso de "No hay archivos" si el directorio carece de CSV válidos o ya se encuentran marcados con <code>ESTADO='P'</code>.</li>
             </ul>
 
+            <h4 style="margin-top:25px; border-bottom: 1px solid var(--rxn-border); padding-bottom: 5px; color: var(--rxn-input-focus);">Actualización Tributaria Automática</h4>
+            <ul style="padding-left: 20px; line-height: 1.6;">
+                <li><strong>Disparador:</strong> Se activa únicamente durante el ingreso de Pedidos cuando la sumatoria de la línea impositiva del ticket supera el umbral de <strong>$250</strong>.</li>
+                <li><strong>Mapeo del Cliente:</strong> El motor extrae el <code>codcliente</code> del archivo general y rastrea su equivalencia en Tango cruzándolo contra el campo <code>TELEFONO_1</code>.</li>
+                <li><strong>Tributos Afectados:</strong> Toma del CSV maestro la Categoría (<code>cat_iva</code>) y la percepción (<code>alic_perc</code>), e impacta los campos físicos <code>ID_CATEGORIA_IVA</code>, <code>ID_GVA41_NO_CAT</code> y <code>ID_ALI_FIJ_IB</code>.</li>
+                <li><strong>Transaccionalidad:</strong> La mutación de registros se efectúa velozmente por inyección <strong>SQL Directa</strong> (evadiendo las restricciones masivas de la API de Nexo).</li>
+                <li><strong>Visibilidad Live:</strong> Si la operación tiene éxito, un mensaje verde confirmará las filas y los ID afectados, logueando a su vez el evento de trazabilidad en la tabla de control (RXN_API_CTRL) del operador.</li>
+            </ul>
+
             <div style="background-color: var(--rxn-table-odd); border-left: 4px solid #0d6efd; padding: 15px; margin-top: 25px; border-radius: 4px;">
                 <strong>Acción Post-Sincronización:</strong><br>
                 Una vez visualizado el listado final y el estado <code>Ok</code> de la pasarela, se requiere purgar físicamente los archivos del directorio de origen —o utilizar el purgador provisto— para abortar re-lecturas fantasmas en la siguiente iteración de ciclo.
