@@ -849,6 +849,10 @@ class modelo extends vista
                             } else {
                                 $mensaje_log = "Pedido grabado con éxito | {$affected} filas afectadas";
                             }
+
+                            // --- FIX: Cierre del ciclo de reprocesamiento en Pedidos ---
+                            // Actualizar en cascada a 1 todos los intentos fallidos anteriores
+                            $this->actualizoReproceso($pedi_enc['N_COMP'], $pedi_enc['COD_CLIENT'], $pedi_enc['NOMBRE_ARCHIVO']);
                         } else {
                             $grabo = 0;
                             $msg = is_array($this->mensaje_api) ? ($this->mensaje_api['message'] ?? '') : '';

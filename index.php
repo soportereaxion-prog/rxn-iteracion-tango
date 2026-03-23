@@ -109,6 +109,34 @@ require_once __DIR__ . '/auth/guard.php';
             </div>
         </div>
         
+        <!-- 6. Módulo Reprocesos -->
+        <div class="rxn-card">
+            <div class="rxn-card-body rxn-text-center">
+                <i class="bi bi-arrow-clockwise rxn-card-icon"></i>
+                <h3 class="rxn-card-title">Reprocesar</h3>
+                <p class="rxn-card-text">Reintento de ingreso para comprobantes retenidos o con error de pre-validación.</p>
+            </div>
+            <div class="rxn-card-footer">
+                <a href="csv/index_reprocesos.php" class="rxn-btn rxn-btn-secondary rxn-btn-block">
+                    Ir a Reprocesos <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- 7. Módulo Rechazar Pendientes -->
+        <div class="rxn-card">
+            <div class="rxn-card-body rxn-text-center">
+                <i class="bi bi-x-circle rxn-card-icon"></i>
+                <h3 class="rxn-card-title">Descartar Pendientes</h3>
+                <p class="rxn-card-text">Cambio de estado masivo a "Rechazado" en Tango para liberar trabas tributarias.</p>
+            </div>
+            <div class="rxn-card-footer">
+                <a href="csv/index_rechazar_pendientes.php" class="rxn-btn rxn-btn-secondary rxn-btn-block" style="border-color: #dc3545; color: #dc3545;">
+                    Ir a Descartar <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        
     </div>
 
     <div class="rxn-text-center rxn-text-muted" style="margin-top: 50px; margin-bottom: 20px; font-size: 14px;">
