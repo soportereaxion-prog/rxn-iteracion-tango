@@ -807,30 +807,50 @@ class modelo extends vista
         }
 
         $cliente_encontrado = null;
+        $codigo_fila = null;
         foreach ($this->cli_csv as $valor_csv) {
             // Sanitización: Evitar offsets falopas donde cada fila sea un string o boolean
             if (is_array($valor_csv)) {
-                $codigo_fila = $valor_csv[0] ?? null;
-                if ($codigo_fila !== null && trim((string)$codigo_fila) === trim((string)$cod_cliente)) {
+                $codigo_fila_csv = $valor_csv[0] ?? null;
+                if ($codigo_fila_csv !== null && trim((string)$codigo_fila_csv) === trim((string)$cod_cliente)) {
                     $cliente_encontrado = $valor_csv;
+                    $codigo_fila = trim((string)$codigo_fila_csv);
                     break;
                 }
             }
         }
 
-        if (!is_array($cliente_encontrado)) {
+        if (!is_array($cliente_encontrado) || empty($codigo_fila)) {
             echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚠ Advertencia: Cliente {$cod_cliente_safe} no hallado en el CSV Maestro. Se omite actualización.</div>";
             return;
         }
 
-        // Sanitización de nulls o truncamientos en CSV
+        // --- NUEVA LÓGICA FASE 2: Búsqueda del cliente real en Tango por TELEFONO_1 ---
+        $codigo_fila_safe = htmlspecialchars($codigo_fila);
+        echo "<div style='color: #0dcaf0; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] 🔍 Buscando cliente definitivo en Tango con TELEFONO_1 = '{$codigo_fila_safe}'...</div>";
+        
+        $this->busco_cliente($codigo_fila);
+        
+        // Sanitización: la respuesta de la DB podría ser false si no lo halla
+        if (!is_array($this->tabla_cliente_cod_cliente) || empty($this->tabla_cliente_cod_cliente['COD_CLIENT'])) {
+            echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✘ Error: No existe ningún cliente en Tango asociado al TELEFONO_1 '{$codigo_fila_safe}'. Abortando PUT.</div>";
+            return;
+        }
+
+        $tango_cod_client = htmlspecialchars((string)$this->tabla_cliente_cod_cliente['COD_CLIENT']);
+        $tango_id_gva14 = htmlspecialchars((string)($this->tabla_cliente_cod_cliente['ID_GVA14'] ?? 'Desc.'));
+
+        echo "<div style='color: #198754; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✔ Cliente de Tango Confirmado -> COD_CLIENT: {$tango_cod_client} | ID_GVA14: {$tango_id_gva14}</div>";
+        // ---------------------------------------------------------------------------------
+
+        // Sanitización de nulls o truncamientos en CSV Tributario
         $alic_perc_csv = $cliente_encontrado[24] ?? ''; 
         $cat_iva_csv = $cliente_encontrado[17] ?? '';
 
         $alic_safe = is_scalar($alic_perc_csv) ? htmlspecialchars((string)$alic_perc_csv) : 'N/A';
         $cat_safe = is_scalar($cat_iva_csv) ? htmlspecialchars((string)$cat_iva_csv) : 'N/A';
 
-        echo "<div style='color: #198754; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✔ Cliente {$cod_cliente_safe} hallado. Valores leídos -> alic_perc (Y): {$alic_safe} | cat_iva (R): {$cat_safe}</div>";
+        echo "<div style='color: #198754; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✔ Valores tributarios leídos -> alic_perc (Y): {$alic_safe} | cat_iva (R): {$cat_safe}</div>";
 
         // Mapeo real auditado de FASE 5
         $this->busco_alicuota($alic_perc_csv);
@@ -840,6 +860,7 @@ class modelo extends vista
         $id_gva41_no_cat = (trim((string)$cat_iva_csv) === '10') ? 1 : null;
         
         $payload_resumido = [
+            "COD_CLIENT" => $tango_cod_client,
             "ID_CATEGORIA_IVA" => $cat_iva_csv,
             "ID_GVA41_NO_CAT" => $id_gva41_no_cat,
             "ID_ALI_FIJ_IB" => $id_ali_fij_ib
@@ -847,7 +868,7 @@ class modelo extends vista
         
         // Serialización
         $payload_json = json_encode($payload_resumido, JSON_UNESCAPED_UNICODE);
-        echo "<div style='color: #0dcaf0; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚙ Mapeo aplicado -> Payload API: {$payload_json}</div>";
+        echo "<div style='color: #0dcaf0; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚙ Reemplazo tributario listo -> Payload API: {$payload_json}</div>";
 
         if ($DEBUG_CLIENTE_UPDATE) {
             echo "<div style='color: #6c757d; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] 🛑 PUT manual inhibido por bandera DEBUG_CLIENTE_UPDATE = true. Fin de subrutina controlada.</div>";
