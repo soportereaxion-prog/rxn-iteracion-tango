@@ -46,7 +46,10 @@ $modelo->procesoCsvClientes();
 /* Proceso archivo de artículos */
 $modelo->procesoCsvArticulos();
 
-if (isset($_POST['fecha']) && $_POST['fecha'] !== '') {
+if (isset($_POST['fecha']) && trim($_POST['fecha']) !== '') {
+    /* Instancio la fecha al modelo para evitar defaults o nulos en normalización */
+    $modelo->fechaFac($_POST['fecha']);
+    
     /* Proceso pedidos */
     $modelo->procesoPedidos('PROCESAR');
 } else {
