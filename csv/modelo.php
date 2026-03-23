@@ -1019,6 +1019,9 @@ class modelo extends vista
                                 $exc_limpia = is_array($raw_exc) ? json_encode($raw_exc, JSON_UNESCAPED_UNICODE) : (string)$raw_exc;
                             }
                             
+                            // Transformar término técnico de BD
+                            $exc_limpia = str_replace('ID_STA11', 'COD_ARTICU', $exc_limpia);
+                            
                             $msg_limpio = is_array($raw_msg) ? json_encode($raw_msg, JSON_UNESCAPED_UNICODE) : (string)$raw_msg;
 
                             if ($msg_limpio !== '' && $exc_limpia !== '') {
