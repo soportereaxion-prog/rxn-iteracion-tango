@@ -791,42 +791,53 @@ class modelo extends vista
     public function evaluarYActualizarClienteAPI($cod_cliente, $importe_gatillo) {
         $DEBUG_CLIENTE_UPDATE = true; // Safety flag
         
-        echo "<div style='color: #0d6efd; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] 🔍 Detectado importe/impuesto gatillo (\${$importe_gatillo}) superior a $250 para cliente {$cod_cliente}. Leyendo CSV Maestro...</div>";
+        $cod_cliente_safe = is_scalar($cod_cliente) ? htmlspecialchars((string)$cod_cliente) : 'N/A';
+        $importe_gatillo_safe = is_numeric($importe_gatillo) ? number_format((float)$importe_gatillo, 2) : '0.00';
         
-        // Reutilizar cli_csv si ya está en memoria
-        if (!isset($this->cli_csv) || empty($this->cli_csv)) {
+        echo "<div style='color: #0d6efd; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] 🔍 Detectado importe/impuesto gatillo (\${$importe_gatillo_safe}) superior a $250 para cliente {$cod_cliente_safe}. Leyendo CSV Maestro...</div>";
+        
+        // Sanitización: Validar instancia de matriz en memoria
+        if (!isset($this->cli_csv) || !is_array($this->cli_csv) || empty($this->cli_csv)) {
             $this->clientesCsv();
         }
         
-        if (!isset($this->cli_csv) || empty($this->cli_csv)) {
-            echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✘ Error: No se pudo cargar el archivo CSV maestro de clientes.</div>";
-            return;
+        if (!isset($this->cli_csv) || !is_array($this->cli_csv) || empty($this->cli_csv)) {
+            echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✘ Error: No se pudo cargar el archivo CSV maestro de clientes o su formato es corrupto.</div>";
+            return; // Fallback seguro
         }
 
         $cliente_encontrado = null;
         foreach ($this->cli_csv as $valor_csv) {
-            // El COD_CLIENT está en el índice 0 del CSV de clientes
-            if (($valor_csv[0] ?? '') == $cod_cliente) {
-                $cliente_encontrado = $valor_csv;
-                break;
+            // Sanitización: Evitar offsets falopas donde cada fila sea un string o boolean
+            if (is_array($valor_csv)) {
+                $codigo_fila = $valor_csv[0] ?? null;
+                if ($codigo_fila !== null && trim((string)$codigo_fila) === trim((string)$cod_cliente)) {
+                    $cliente_encontrado = $valor_csv;
+                    break;
+                }
             }
         }
 
-        if (!$cliente_encontrado) {
-            echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚠ Advertencia: Cliente {$cod_cliente} no hallado en el CSV Maestro. Se omite actualización.</div>";
+        if (!is_array($cliente_encontrado)) {
+            echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚠ Advertencia: Cliente {$cod_cliente_safe} no hallado en el CSV Maestro. Se omite actualización.</div>";
             return;
         }
 
+        // Sanitización de nulls o truncamientos en CSV
         $alic_perc_csv = $cliente_encontrado[24] ?? ''; 
         $cat_iva_csv = $cliente_encontrado[17] ?? '';
 
-        echo "<div style='color: #198754; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✔ Cliente {$cod_cliente} hallado. Valores leídos -> alic_perc (Y): {$alic_perc_csv} | cat_iva (R): {$cat_iva_csv}</div>";
+        $alic_safe = is_scalar($alic_perc_csv) ? htmlspecialchars((string)$alic_perc_csv) : 'N/A';
+        $cat_safe = is_scalar($cat_iva_csv) ? htmlspecialchars((string)$cat_iva_csv) : 'N/A';
+
+        echo "<div style='color: #198754; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✔ Cliente {$cod_cliente_safe} hallado. Valores leídos -> alic_perc (Y): {$alic_safe} | cat_iva (R): {$cat_safe}</div>";
 
         // Mapeo real auditado de FASE 5
         $this->busco_alicuota($alic_perc_csv);
-        $id_ali_fij_ib = $this->tabla_alicuo['ID_GVA41'] ?? null;
+        // Sanitización: Validar Helper DB return array
+        $id_ali_fij_ib = is_array($this->tabla_alicuo) ? ($this->tabla_alicuo['ID_GVA41'] ?? null) : null;
         
-        $id_gva41_no_cat = ($cat_iva_csv == 10) ? 1 : null;
+        $id_gva41_no_cat = (trim((string)$cat_iva_csv) === '10') ? 1 : null;
         
         $payload_resumido = [
             "ID_CATEGORIA_IVA" => $cat_iva_csv,
@@ -834,7 +845,9 @@ class modelo extends vista
             "ID_ALI_FIJ_IB" => $id_ali_fij_ib
         ];
         
-        echo "<div style='color: #0dcaf0; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚙ Mapeo aplicado -> Payload API: " . json_encode($payload_resumido) . "</div>";
+        // Serialización
+        $payload_json = json_encode($payload_resumido, JSON_UNESCAPED_UNICODE);
+        echo "<div style='color: #0dcaf0; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚙ Mapeo aplicado -> Payload API: {$payload_json}</div>";
 
         if ($DEBUG_CLIENTE_UPDATE) {
             echo "<div style='color: #6c757d; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] 🛑 PUT manual inhibido por bandera DEBUG_CLIENTE_UPDATE = true. Fin de subrutina controlada.</div>";
@@ -944,8 +957,12 @@ class modelo extends vista
                             $this->actualizoReproceso($pedi_enc['N_COMP'], $pedi_enc['COD_CLIENT'], $pedi_enc['NOMBRE_ARCHIVO']);
                         } else {
                             $grabo = 0;
-                            $msg = is_array($this->mensaje_api) ? ($this->mensaje_api['message'] ?? '') : '';
-                            $exc = is_array($this->mensaje_api) ? ($this->mensaje_api['exceptionInfo'] ?? '') : '';
+                            $raw_msg = is_array($this->mensaje_api) ? ($this->mensaje_api['message'] ?? '') : '';
+                            $raw_exc = is_array($this->mensaje_api) ? ($this->mensaje_api['exceptionInfo'] ?? '') : '';
+                            
+                            // Sanitización: Evitar Array to string conversion si la API devuelve arrays anidados
+                            $msg = is_array($raw_msg) ? json_encode($raw_msg, JSON_UNESCAPED_UNICODE) : (string)$raw_msg;
+                            $exc = is_array($raw_exc) ? json_encode($raw_exc, JSON_UNESCAPED_UNICODE) : (string)$raw_exc;
 
                             if ($msg !== '' && $exc !== '') {
                                 $mensaje_log = "ERROR API | message={$msg} | exception={$exc}";
@@ -1208,7 +1225,8 @@ class modelo extends vista
                 $nro_pedido = $articu['N_COMP'];
                 if ($contar > 0) {
 
-                    if ($this->ctrl_articu['COD_ARTICU'] == '') {
+                    // Sanitización: Validar que el resultado de BD sea un array antes de buscar un offset
+                    if (!is_array($this->ctrl_articu) || empty($this->ctrl_articu['COD_ARTICU'])) {
                         $descripcio = 'NO EXISTE EL ARTICULO EN LA BASE';
                     } else {
                         /* Controlo si el comprobante es expo para agregar el revend */
