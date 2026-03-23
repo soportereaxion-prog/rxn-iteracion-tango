@@ -788,6 +788,63 @@ class modelo extends vista
         }
     }
 
+    public function evaluarYActualizarClienteAPI($cod_cliente, $importe_gatillo) {
+        $DEBUG_CLIENTE_UPDATE = true; // Safety flag
+        
+        echo "<div style='color: #0d6efd; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] 🔍 Detectado importe/impuesto gatillo (\${$importe_gatillo}) superior a $250 para cliente {$cod_cliente}. Leyendo CSV Maestro...</div>";
+        
+        // Reutilizar cli_csv si ya está en memoria
+        if (!isset($this->cli_csv) || empty($this->cli_csv)) {
+            $this->clientesCsv();
+        }
+        
+        if (!isset($this->cli_csv) || empty($this->cli_csv)) {
+            echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✘ Error: No se pudo cargar el archivo CSV maestro de clientes.</div>";
+            return;
+        }
+
+        $cliente_encontrado = null;
+        foreach ($this->cli_csv as $valor_csv) {
+            // El COD_CLIENT está en el índice 0 del CSV de clientes
+            if (($valor_csv[0] ?? '') == $cod_cliente) {
+                $cliente_encontrado = $valor_csv;
+                break;
+            }
+        }
+
+        if (!$cliente_encontrado) {
+            echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚠ Advertencia: Cliente {$cod_cliente} no hallado en el CSV Maestro. Se omite actualización.</div>";
+            return;
+        }
+
+        $alic_perc_csv = $cliente_encontrado[24] ?? ''; 
+        $cat_iva_csv = $cliente_encontrado[17] ?? '';
+
+        echo "<div style='color: #198754; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✔ Cliente {$cod_cliente} hallado. Valores leídos -> alic_perc (Y): {$alic_perc_csv} | cat_iva (R): {$cat_iva_csv}</div>";
+
+        // Mapeo real auditado de FASE 5
+        $this->busco_alicuota($alic_perc_csv);
+        $id_ali_fij_ib = $this->tabla_alicuo['ID_GVA41'] ?? null;
+        
+        $id_gva41_no_cat = ($cat_iva_csv == 10) ? 1 : null;
+        
+        $payload_resumido = [
+            "ID_CATEGORIA_IVA" => $cat_iva_csv,
+            "ID_GVA41_NO_CAT" => $id_gva41_no_cat,
+            "ID_ALI_FIJ_IB" => $id_ali_fij_ib
+        ];
+        
+        echo "<div style='color: #0dcaf0; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚙ Mapeo aplicado -> Payload API: " . json_encode($payload_resumido) . "</div>";
+
+        if ($DEBUG_CLIENTE_UPDATE) {
+            echo "<div style='color: #6c757d; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] 🛑 PUT manual inhibido por bandera DEBUG_CLIENTE_UPDATE = true. Fin de subrutina controlada.</div>";
+            return;
+        }
+
+        // Lógica de PUT real de actualización
+        // (Será liberada en producción cuando la patronal lo ordene)
+    }
+
     public $dato_pedi_cue;
 
     public function procesoPedidos($menu)
@@ -829,6 +886,38 @@ class modelo extends vista
 
                 /* Si no existe en la tabla de control entonces se ingresa */
                 if (($this->ctrlPediRxnApiCtrl['COD_COMP'] ?? '') == '') {
+
+                    // --- NUEVA LÓGICA FASE 3: EVALUACIÓN UMBRAL TRIBUTARIO ---
+                    $importes_a_controlar = [
+                        $pedi_enc['IMPORTE'],
+                        $pedi_enc['BONIFCOSME'],
+                        $pedi_enc['PRACTICOSAS'],
+                        $pedi_enc['GASTADMIN'],
+                        $pedi_enc['IMPORTE_GRAVADO'],
+                        $pedi_enc['IMP_IVA'],
+                        $pedi_enc['BONIF_ADIC']
+                    ];
+
+                    $importe_gatillo = 0;
+                    foreach ($importes_a_controlar as $imp_val) {
+                        // Sanitización robusta ante strings sucios
+                        $clean_val = trim($imp_val ?? '');
+                        if ($clean_val === '') continue;
+                        $clean_val = str_replace(',', '.', $clean_val);
+                        // Parseo tolerante a miles
+                        $float_val = floatval($clean_val);
+                        if ($float_val > 250) {
+                            $importe_gatillo = $float_val;
+                            break;
+                        }
+                    }
+
+                    // Se comprueba si el ticket es superior a $250 en la línea de impuestos
+                    if ($importe_gatillo > 250) {
+                        $this->evaluarYActualizarClienteAPI($pedi_enc['COD_CLIENT'], $importe_gatillo);
+                    }
+                    // -----------------------------------------------------------
+
 
 
                     // --- BIFURCACIÓN TARDÍA DE FLUJOS ---
