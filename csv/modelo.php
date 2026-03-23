@@ -789,12 +789,10 @@ class modelo extends vista
     }
 
     public function evaluarYActualizarClienteAPI($cod_cliente, $importe_gatillo) {
-        $DEBUG_CLIENTE_UPDATE = true; // Safety flag
-        
         $cod_cliente_safe = is_scalar($cod_cliente) ? htmlspecialchars((string)$cod_cliente) : 'N/A';
         $importe_gatillo_safe = is_numeric($importe_gatillo) ? number_format((float)$importe_gatillo, 2) : '0.00';
         
-        echo "<div style='color: #0d6efd; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] 🔍 Detectado importe/impuesto gatillo (\${$importe_gatillo_safe}) superior a $250 para cliente {$cod_cliente_safe}. Leyendo CSV Maestro...</div>";
+        echo "<div style='color: #0d6efd; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] 🔍 Detectado importe/impuesto gatillo (\${$importe_gatillo_safe}) superior a $250 para cliente {$cod_cliente_safe}. Leyendo CSV Maestro...</div>";
         
         // Sanitización: Validar instancia de matriz en memoria
         if (!isset($this->cli_csv) || !is_array($this->cli_csv) || empty($this->cli_csv)) {
@@ -802,7 +800,7 @@ class modelo extends vista
         }
         
         if (!isset($this->cli_csv) || !is_array($this->cli_csv) || empty($this->cli_csv)) {
-            echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✘ Error: No se pudo cargar el archivo CSV maestro de clientes o su formato es corrupto.</div>";
+            echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ✘ Error: No se pudo cargar el archivo CSV maestro de clientes o su formato es corrupto.</div>";
             return; // Fallback seguro
         }
 
@@ -821,28 +819,27 @@ class modelo extends vista
         }
 
         if (!is_array($cliente_encontrado) || empty($codigo_fila)) {
-            echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚠ Advertencia: Cliente {$cod_cliente_safe} no hallado en el CSV Maestro. Se omite actualización.</div>";
+            echo "<div style='color: #ff9800; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ⚠ Advertencia: Cliente {$cod_cliente_safe} no hallado en el CSV Maestro. Se omite actualización.</div>";
             return;
         }
 
-        // --- NUEVA LÓGICA FASE 2: Búsqueda del cliente real en Tango por TELEFONO_1 ---
+        // --- Búsqueda del cliente real en Tango por TELEFONO_1 ---
         $codigo_fila_safe = htmlspecialchars($codigo_fila);
-        echo "<div style='color: #0dcaf0; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] 🔍 Buscando cliente definitivo en Tango con TELEFONO_1 = '{$codigo_fila_safe}'...</div>";
+        echo "<div style='color: #0dcaf0; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] 🔍 Buscando cliente definitivo en SQL Tango con TELEFONO_1 = '{$codigo_fila_safe}'...</div>";
         
         $this->busco_cliente($codigo_fila);
         
         // Sanitización: la respuesta de la DB podría ser false si no lo halla
         if (!is_array($this->tabla_cliente_cod_cliente) || empty($this->tabla_cliente_cod_cliente['COD_CLIENT'])) {
-            echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✘ Error: No existe ningún cliente en Tango asociado al TELEFONO_1 '{$codigo_fila_safe}'. Abortando PUT.</div>";
+            echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ✘ Error: No existe ningún cliente en Tango asociado al TELEFONO_1 '{$codigo_fila_safe}'. Abortando UPDATE.</div>";
             return;
         }
 
-        $tango_cod_client = htmlspecialchars((string)$this->tabla_cliente_cod_cliente['COD_CLIENT']);
+        $tango_cod_client = trim((string)$this->tabla_cliente_cod_cliente['COD_CLIENT']);
         $tango_id_gva14 = htmlspecialchars((string)($this->tabla_cliente_cod_cliente['ID_GVA14'] ?? 'Desc.'));
 
-        echo "<div style='color: #198754; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✔ Cliente de Tango Confirmado -> COD_CLIENT: {$tango_cod_client} | ID_GVA14: {$tango_id_gva14}</div>";
-        // ---------------------------------------------------------------------------------
-
+        echo "<div style='color: #198754; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ✔ Cliente de Tango Confirmado -> COD_CLIENT: " . htmlspecialchars($tango_cod_client) . " | ID_GVA14: {$tango_id_gva14}</div>";
+        
         // Sanitización de nulls o truncamientos en CSV Tributario
         $alic_perc_csv = $cliente_encontrado[24] ?? ''; 
         $cat_iva_csv = $cliente_encontrado[17] ?? '';
@@ -850,33 +847,63 @@ class modelo extends vista
         $alic_safe = is_scalar($alic_perc_csv) ? htmlspecialchars((string)$alic_perc_csv) : 'N/A';
         $cat_safe = is_scalar($cat_iva_csv) ? htmlspecialchars((string)$cat_iva_csv) : 'N/A';
 
-        echo "<div style='color: #198754; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ✔ Valores tributarios leídos -> alic_perc (Y): {$alic_safe} | cat_iva (R): {$cat_safe}</div>";
+        echo "<div style='color: #198754; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ✔ Valores tributarios leídos -> alic_perc (Y): {$alic_safe} | cat_iva (R): {$cat_safe}</div>";
 
-        // Mapeo real auditado de FASE 5
-        $this->busco_alicuota($alic_perc_csv);
+        // Mapeo real
+        $alic_perc_clean = is_numeric($alic_perc_csv) ? (float)$alic_perc_csv : $alic_perc_csv;
+        $this->busco_alicuota($alic_perc_clean);
         // Sanitización: Validar Helper DB return array
         $id_ali_fij_ib = is_array($this->tabla_alicuo) ? ($this->tabla_alicuo['ID_GVA41'] ?? null) : null;
         
-        $id_gva41_no_cat = (trim((string)$cat_iva_csv) === '10') ? 1 : null;
-        
-        $payload_resumido = [
-            "COD_CLIENT" => $tango_cod_client,
-            "ID_CATEGORIA_IVA" => $cat_iva_csv,
-            "ID_GVA41_NO_CAT" => $id_gva41_no_cat,
-            "ID_ALI_FIJ_IB" => $id_ali_fij_ib
-        ];
-        
-        // Serialización
-        $payload_json = json_encode($payload_resumido, JSON_UNESCAPED_UNICODE);
-        echo "<div style='color: #0dcaf0; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] ⚙ Reemplazo tributario listo -> Payload API: {$payload_json}</div>";
-
-        if ($DEBUG_CLIENTE_UPDATE) {
-            echo "<div style='color: #6c757d; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-API] 🛑 PUT manual inhibido por bandera DEBUG_CLIENTE_UPDATE = true. Fin de subrutina controlada.</div>";
+        // Chequeos duros requeridos por SQL
+        if (!is_numeric($cat_iva_csv) || !is_numeric($id_ali_fij_ib)) {
+            echo "<div style='color: #dc3545; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ✘ Error: Valores numéricos tributarios inválidos. Abortando UPDATE SQL.</div>";
             return;
         }
 
-        // Lógica de PUT real de actualización
-        // (Será liberada en producción cuando la patronal lo ordene)
+        $id_gva41_no_cat = (trim((string)$cat_iva_csv) === '10') ? 1 : 'NULL';
+        
+        // Construcción de UPDATE a GVA14 (Cuerpo principal IVA)
+        $sql_update_gva14 = "UPDATE GVA14 SET ID_CATEGORIA_IVA = {$cat_iva_csv}";
+        if ($id_gva41_no_cat !== 'NULL') {
+            $sql_update_gva14 .= ", ID_GVA41_NO_CAT = {$id_gva41_no_cat}";
+        } else {
+            $sql_update_gva14 .= ", ID_GVA41_NO_CAT = NULL";
+        }
+        $sql_update_gva14 .= " WHERE COD_CLIENT = '{$tango_cod_client}'";
+
+        // Construcción de UPDATE a DIRECCION_ENTREGA (Cuerpo Ingresos Brutos)
+        $sql_update_entrega = "UPDATE DIRECCION_ENTREGA SET ID_ALI_FIJ_IB = {$id_ali_fij_ib} WHERE COD_CLIENTE = '{$tango_cod_client}'";
+
+        echo "<div style='color: #0dcaf0; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ⚙ Ejecutando Query GVA14 y DIRECCION_ENTREGA...</div>";
+
+        try {
+            $consulta1 = $this->db_sql->query($sql_update_gva14);
+            $afectadas_gva14 = $consulta1 ? $consulta1->rowCount() : 0;
+            
+            $consulta2 = $this->db_sql->query($sql_update_entrega);
+            $afectadas_entrega = $consulta2 ? $consulta2->rowCount() : 0;
+        } catch (PDOException $e) {
+            echo "\nPDO EXCEPTION: " . $e->getMessage() . "\n";
+            die();
+        }
+
+        // Verificación POST-UPDATE integral
+        $check_gva14 = $this->db_sql->query("SELECT TOP 1 ID_CATEGORIA_IVA, ID_GVA41_NO_CAT FROM GVA14 WHERE COD_CLIENT = '{$tango_cod_client}'")->fetch(PDO::FETCH_ASSOC);
+        $new_cat_iva = htmlspecialchars((string)($check_gva14['ID_CATEGORIA_IVA'] ?? 'N/A'));
+        $new_gva41_no_cat = htmlspecialchars((string)($check_gva14['ID_GVA41_NO_CAT'] ?? 'N/A'));
+        
+        // Fetch manual para DIRECCION_ENTREGA
+        $check_ib = $this->db_sql->query("SELECT TOP 1 ID_ALI_FIJ_IB FROM DIRECCION_ENTREGA WHERE COD_CLIENTE = '{$tango_cod_client}'")->fetch(PDO::FETCH_ASSOC);
+        $new_ali_fij = htmlspecialchars((string)($check_ib['ID_ALI_FIJ_IB'] ?? 'N/A'));
+        
+        $total_afectadas = $afectadas_gva14 + $afectadas_entrega;
+        
+        if ($total_afectadas > 0) {
+            echo "<div style='color: #20c997; font-family: monospace; font-size: 15px; font-weight: bold; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ✅ UPDATE SQL EXITOSO (Filas afectadas: {$total_afectadas}) -> Quedó Guardado: ID_CATEGORIA_IVA = {$new_cat_iva} | ID_ALI_FIJ_IB = {$new_ali_fij} | ID_GVA41_NO_CAT = {$new_gva41_no_cat}</div>";
+        } else {
+            echo "<div style='color: #ffc107; font-family: monospace; font-size: 14px; padding: 6px; border-bottom: 1px solid #444; margin-bottom: 2px;'>[CLIENTE-TRIBUTARIO] ⚠ UPDATE SQL ejecutado, pero 0 filas impactaron. Los datos ya eran idénticos. Guardado actual: ID_CATEGORIA_IVA = {$new_cat_iva} | ID_ALI_FIJ_IB = {$new_ali_fij}</div>";
+        }
     }
 
     public $dato_pedi_cue;
